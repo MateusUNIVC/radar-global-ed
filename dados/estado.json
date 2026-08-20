@@ -1,0 +1,11 @@
+{
+  "execucao": 1,
+  "execucoes": [
+    {
+      "numero": 1,
+      "quando": "2026-08-20T12:54:30",
+      "novos": 35,
+      "total": 35
+    }
+  ]
+}

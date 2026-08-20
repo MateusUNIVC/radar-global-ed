@@ -1,0 +1,2249 @@
+{
+  "https://fapes.es.gov.br/Media/fapes/Editais/Publicação%20CONFAP-12.pdf": {
+    "titulo": "CHAMADA HORIZON EUROPE",
+    "url": "https://fapes.es.gov.br/Media/fapes/Editais/Publicação%20CONFAP-12.pdf",
+    "data_texto": "",
+    "arquivo": "PDF",
+    "anexos": [
+      {
+        "url": "https://fapes.es.gov.br/Media/fapes/Editais/Diretrizes%20Fapes%20Horizon%20Europe%202021-2027-1.pdf",
+        "rotulo": "DIRETRIZES FAPES PARA HORIZON EUROPE 2021-2027",
+        "arquivo": "PDF"
+      },
+      {
+        "url": "https://fapes.es.gov.br/Media/fapes/Editais/Diretrizes_Fapes_Horizon_Europe_2021-2027-DITEC_-_16-09-25.pdf",
+        "rotulo": "DIRETRIZES FAPES PARA HORIZON EUROPE 2021-2027 (1ª ALTERAÇÃO)",
+        "arquivo": "PDF"
+      },
+      {
+        "url": "https://fapes.es.gov.br/Media/fapes/Editais/Ficha%20Informativa%20%20Horizon%20Europe%20(Em%20inglês)-1.pdf",
+        "rotulo": "FICHA INFORMATIVA HORIZON EUROPE",
+        "arquivo": "PDF"
+      },
+      {
+        "url": "https://fapes.es.gov.br/Media/fapes/Editais/AA_EC_BRAZIL_PT-1.pdf",
+        "rotulo": "ARRANJO ADMINISTRATIVO",
+        "arquivo": "PDF"
+      }
+    ],
+    "fonte": "FAPES — Oportunidades abertas",
+    "regiao": "es",
+    "temas": [
+      "internacional",
+      "pesquisa",
+      "inovacao"
+    ],
+    "status": "aberto",
+    "pontos": 59,
+    "prioridade": 65.2,
+    "restricoes": [
+      {
+        "programa": "Chamadas transnacionais (Biodiversa+, Water, Economia Azul, ERA)",
+        "exige": "consórcio com parceiros europeus e grupo de pesquisa consolidado",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "Chamadas CONFAP via FAPES (Itália, Bélgica, RAMP)",
+        "exige": "verificar as diretrizes específicas da FAPES, que definem quem pode concorrer no ES",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "Horizon Europe via FAPES",
+        "exige": "consulta previa de elegibilidade a FAPES e participacao em consorcio internacional conforme a chamada Horizon Europe aplicavel",
+        "impacto": "atencao"
+      }
+    ],
+    "situacao_elegibilidade": "verificar",
+    "prazo_final": "2027-12-31",
+    "prazo_texto": "31/12/2027",
+    "dias_restantes": 498,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 31/12/2027",
+    "aderencia": 59,
+    "eixos": [
+      "cooperacao_pesquisa",
+      "internacionalizacao_institucional"
+    ],
+    "eixos_rotulos": [
+      "Cooperacao internacional em pesquisa",
+      "Parceria / internacionalizacao institucional"
+    ],
+    "publico_alvo": [
+      "docente_pesquisador"
+    ],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Cooperacao internacional em pesquisa / Parceria / internacionalizacao institucional | componente internacional | prazo 31/12/2027",
+    "detalhe_lido": true,
+    "detalhe_tipo": "pdf",
+    "ano_edicao": null,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "https://fapes.es.gov.br/Media/fapes/Editais/Chamada%20CONFAP%20-%20WBI%202026.pdf": {
+    "titulo": "CHAMADA CONFAP & WBI - BÉLGICA 2026",
+    "url": "https://fapes.es.gov.br/Media/fapes/Editais/Chamada%20CONFAP%20-%20WBI%202026.pdf",
+    "data_texto": "",
+    "arquivo": "PDF",
+    "anexos": [
+      {
+        "url": "https://fapes.es.gov.br/Media/fapes/Editais/Diretrizes%20Fapes%20WBI%20-2026.pdf",
+        "rotulo": "DIRETRIZES FAPES WBI - BÉLGICA 2026",
+        "arquivo": "PDF"
+      },
+      {
+        "url": "https://fapes.es.gov.br/Media/fapes/Editais/CONFAP%20—%20Conselho%20Nacional%20das%20Fundações%20Estaduais%20de%20Amparo%20à%20PesquisaLançada%20a%20Chamada%20CONFAP%20%20WBI%202026%20para%20apoio%20a%20projetos%20conjuntos%20de%20pesquisa%20e%20inovação%20entre%20Brasil%20e%20Bélgica.pdf",
+        "rotulo": "PUBLICAÇÃO CONFAP - CHAMADA CONFAP WBI - BÉLGICA 2026",
+        "arquivo": "PDF"
+      },
+      {
+        "url": "https://fapes.es.gov.br/Media/fapes/Editais/CONFAP-WBI%202026%20Anexo%20I%20-%20Formulário%20de%20Submissão.doc",
+        "rotulo": "CONFAP-WBI 2026 - Anexo I - Formulário de Submissão",
+        "arquivo": "DOC"
+      },
+      {
+        "url": "https://fapes.es.gov.br/Media/fapes/Editais/CONFAP-WBI%202026%20-%20Termo%20de%20Adesão.pdf",
+        "rotulo": "CONFAP-WBI 2026 - Termo de Adesão",
+        "arquivo": "PDF"
+      }
+    ],
+    "fonte": "FAPES — Oportunidades abertas",
+    "regiao": "es",
+    "temas": [
+      "internacional",
+      "mobilidade",
+      "pesquisa",
+      "bolsas",
+      "inovacao",
+      "pos_graduacao"
+    ],
+    "status": "aberto",
+    "pontos": 64,
+    "prioridade": 70.7,
+    "restricoes": [
+      {
+        "programa": "Chamadas CONFAP via FAPES (Itália, Bélgica, RAMP)",
+        "exige": "verificar as diretrizes específicas da FAPES, que definem quem pode concorrer no ES",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "CONFAP/WBI Belgica 2026",
+        "exige": "projeto conjunto Brasil-Belgica e atendimento das diretrizes da FAPES para proponentes do ES",
+        "impacto": "atencao"
+      }
+    ],
+    "situacao_elegibilidade": "verificar",
+    "prazo_final": "2026-11-30",
+    "prazo_texto": "30/11/2026",
+    "dias_restantes": 102,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 30/11/2026",
+    "aderencia": 64,
+    "eixos": [
+      "cooperacao_pesquisa"
+    ],
+    "eixos_rotulos": [
+      "Cooperacao internacional em pesquisa"
+    ],
+    "publico_alvo": [
+      "docente_pesquisador"
+    ],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Cooperacao internacional em pesquisa | componente internacional | financiamento/bolsa | prazo 30/11/2026",
+    "detalhe_lido": true,
+    "detalhe_tipo": "pdf",
+    "ano_edicao": 2026,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "https://fapes.es.gov.br/Media/fapes/Editais/Edital_Fapes_02-2026-Participação_Evento_Técnico_Científico.pdf": {
+    "titulo": "EDITAL FAPES Nº 02/2026 - PARTICIPAÇÃO EM EVENTOS TÉCNICO-CIENTÍFICOS",
+    "url": "https://fapes.es.gov.br/Media/fapes/Editais/Edital_Fapes_02-2026-Participação_Evento_Técnico_Científico.pdf",
+    "data_texto": "",
+    "arquivo": "PDF",
+    "anexos": [],
+    "fonte": "FAPES — Difusão internacional",
+    "regiao": "es",
+    "temas": [
+      "internacional",
+      "mobilidade",
+      "pesquisa",
+      "bolsas",
+      "eventos_e_visitas",
+      "extensao",
+      "inovacao",
+      "pos_graduacao"
+    ],
+    "status": "aberto",
+    "pontos": 59,
+    "prioridade": 97.5,
+    "restricoes": [
+      {
+        "programa": "Editais FAPES de eventos, visitas e estágios",
+        "exige": "vínculo com instituição sediada no Espírito Santo; verificar credenciamento como ICT junto à FAPES",
+        "impacto": "favoravel"
+      }
+    ],
+    "situacao_elegibilidade": "via_individual",
+    "prazo_final": "2027-04-30",
+    "prazo_texto": "30/04/2027",
+    "dias_restantes": 253,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 30/04/2027",
+    "aderencia": 59,
+    "eixos": [
+      "mobilidade_estudantil",
+      "missoes_eventos_visitas"
+    ],
+    "eixos_rotulos": [
+      "Mobilidade estudantil internacional",
+      "Missoes, eventos e visitas tecnicas"
+    ],
+    "publico_alvo": [
+      "docente_pesquisador"
+    ],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Mobilidade estudantil internacional / Missoes, eventos e visitas tecnicas | componente internacional | financiamento/bolsa | prazo 30/04/2027",
+    "detalhe_lido": true,
+    "detalhe_tipo": "pdf",
+    "ano_edicao": 2026,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "https://fapes.es.gov.br/Media/fapes/Editais/Edital_Fapes_04_2026_-_Estágio_Técnico_Cientifico.pdf": {
+    "titulo": "EDITAL FAPES Nº 04/2026 - ESTÁGIO TÉCNICO-CIENTÍFICO",
+    "url": "https://fapes.es.gov.br/Media/fapes/Editais/Edital_Fapes_04_2026_-_Estágio_Técnico_Cientifico.pdf",
+    "data_texto": "",
+    "arquivo": "PDF",
+    "anexos": [],
+    "fonte": "FAPES — Difusão internacional",
+    "regiao": "es",
+    "temas": [
+      "internacional",
+      "mobilidade",
+      "pesquisa",
+      "bolsas",
+      "eventos_e_visitas",
+      "extensao",
+      "inovacao",
+      "pos_graduacao"
+    ],
+    "status": "aberto",
+    "pontos": 57,
+    "prioridade": 94.2,
+    "restricoes": [
+      {
+        "programa": "Editais FAPES de eventos, visitas e estágios",
+        "exige": "vínculo com instituição sediada no Espírito Santo; verificar credenciamento como ICT junto à FAPES",
+        "impacto": "favoravel"
+      }
+    ],
+    "situacao_elegibilidade": "via_individual",
+    "prazo_final": "2027-04-30",
+    "prazo_texto": "30/04/2027",
+    "dias_restantes": 253,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 30/04/2027",
+    "aderencia": 57,
+    "eixos": [
+      "mobilidade_estudantil",
+      "missoes_eventos_visitas"
+    ],
+    "eixos_rotulos": [
+      "Mobilidade estudantil internacional",
+      "Missoes, eventos e visitas tecnicas"
+    ],
+    "publico_alvo": [
+      "docente_pesquisador"
+    ],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Mobilidade estudantil internacional / Missoes, eventos e visitas tecnicas | componente internacional | financiamento/bolsa | prazo 30/04/2027",
+    "detalhe_lido": true,
+    "detalhe_tipo": "pdf",
+    "ano_edicao": 2026,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "https://fapes.es.gov.br/Media/fapes/Editais/Edital%20Fapes%2005_2026%20-%20Visita%20Técnico%20Cientifica%20(1).pdf": {
+    "titulo": "EDITAL FAPES Nº 05/2026 - VISITA TÉCNICO-CIENTÍFICA",
+    "url": "https://fapes.es.gov.br/Media/fapes/Editais/Edital%20Fapes%2005_2026%20-%20Visita%20Técnico%20Cientifica%20(1).pdf",
+    "data_texto": "",
+    "arquivo": "PDF",
+    "anexos": [],
+    "fonte": "FAPES — Difusão internacional",
+    "regiao": "es",
+    "temas": [
+      "internacional",
+      "mobilidade",
+      "pesquisa",
+      "bolsas",
+      "eventos_e_visitas",
+      "extensao",
+      "inovacao",
+      "pos_graduacao"
+    ],
+    "status": "aberto",
+    "pontos": 57,
+    "prioridade": 94.2,
+    "restricoes": [
+      {
+        "programa": "Editais FAPES de eventos, visitas e estágios",
+        "exige": "vínculo com instituição sediada no Espírito Santo; verificar credenciamento como ICT junto à FAPES",
+        "impacto": "favoravel"
+      }
+    ],
+    "situacao_elegibilidade": "via_individual",
+    "prazo_final": "2027-04-30",
+    "prazo_texto": "30/04/2027",
+    "dias_restantes": 253,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 30/04/2027",
+    "aderencia": 57,
+    "eixos": [
+      "mobilidade_estudantil",
+      "missoes_eventos_visitas"
+    ],
+    "eixos_rotulos": [
+      "Mobilidade estudantil internacional",
+      "Missoes, eventos e visitas tecnicas"
+    ],
+    "publico_alvo": [
+      "docente_pesquisador"
+    ],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Mobilidade estudantil internacional / Missoes, eventos e visitas tecnicas | componente internacional | financiamento/bolsa | prazo 30/04/2027",
+    "detalhe_lido": true,
+    "detalhe_tipo": "pdf",
+    "ano_edicao": 2026,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "https://fapes.es.gov.br/Media/fapes/Editais/Edital_Fapes_03_2026_Organização_Eventos_Técnico-Científicos.pdf": {
+    "titulo": "EDITAL FAPES Nº 03/2026 - ORGANIZAÇÃO DE EVENTOS TÉCNICO-CIENTÍFICOS",
+    "url": "https://fapes.es.gov.br/Media/fapes/Editais/Edital_Fapes_03_2026_Organização_Eventos_Técnico-Científicos.pdf",
+    "data_texto": "",
+    "arquivo": "PDF",
+    "anexos": [
+      {
+        "url": "https://fapes.es.gov.br/Media/fapes/Editais/Tabela%201%20-%20Planejamento%20estratégico.pdf",
+        "rotulo": "TABELA 1 - PLANEJAMENTO ESTRATÉGICO 2023-2026",
+        "arquivo": "PDF"
+      }
+    ],
+    "fonte": "FAPES — Difusão internacional",
+    "regiao": "es",
+    "temas": [
+      "internacional",
+      "mobilidade",
+      "pesquisa",
+      "bolsas",
+      "eventos_e_visitas",
+      "extensao",
+      "inovacao",
+      "pos_graduacao"
+    ],
+    "status": "aberto",
+    "pontos": 57,
+    "prioridade": 94.2,
+    "restricoes": [
+      {
+        "programa": "Editais FAPES de eventos, visitas e estágios",
+        "exige": "vínculo com instituição sediada no Espírito Santo; verificar credenciamento como ICT junto à FAPES",
+        "impacto": "favoravel"
+      }
+    ],
+    "situacao_elegibilidade": "via_individual",
+    "prazo_final": "2027-04-30",
+    "prazo_texto": "30/04/2027",
+    "dias_restantes": 253,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 30/04/2027",
+    "aderencia": 57,
+    "eixos": [
+      "mobilidade_estudantil",
+      "missoes_eventos_visitas"
+    ],
+    "eixos_rotulos": [
+      "Mobilidade estudantil internacional",
+      "Missoes, eventos e visitas tecnicas"
+    ],
+    "publico_alvo": [
+      "instituicao",
+      "docente_pesquisador",
+      "estudante"
+    ],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Mobilidade estudantil internacional / Missoes, eventos e visitas tecnicas | componente internacional | financiamento/bolsa | prazo 30/04/2027",
+    "detalhe_lido": true,
+    "detalhe_tipo": "pdf",
+    "ano_edicao": 2026,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "https://confap.org.br/pt/editais/110/chamada-mci-mobility-confap-italy-2026": {
+    "titulo": "Chamada MCI – MOBILITY CONFAP ITALY 2026",
+    "url": "https://confap.org.br/pt/editais/110/chamada-mci-mobility-confap-italy-2026",
+    "data_texto": "",
+    "arquivo": "",
+    "anexos": [],
+    "fonte": "CONFAP — Em andamento",
+    "regiao": "nacional",
+    "temas": [
+      "internacional",
+      "mobilidade",
+      "pesquisa",
+      "bolsas",
+      "inovacao",
+      "pos_graduacao"
+    ],
+    "status": "aberto",
+    "pontos": 72,
+    "prioridade": 74.7,
+    "restricoes": [
+      {
+        "programa": "Chamadas CONFAP via FAPES (Itália, Bélgica, RAMP)",
+        "exige": "verificar as diretrizes específicas da FAPES, que definem quem pode concorrer no ES",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "Mobility CONFAP Italy",
+        "exige": "vinculo com universidade/instituicao de pesquisa em estado cuja FAP aderiu; a FAPES participa da edicao de 2026",
+        "impacto": "atencao"
+      }
+    ],
+    "situacao_elegibilidade": "verificar",
+    "prazo_final": "2026-09-04",
+    "prazo_texto": "04/09/2026",
+    "dias_restantes": 15,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 04/09/2026",
+    "aderencia": 72,
+    "eixos": [
+      "cooperacao_pesquisa",
+      "internacionalizacao_institucional",
+      "mobilidade_pesquisador_docente",
+      "mobilidade_estudantil"
+    ],
+    "eixos_rotulos": [
+      "Cooperacao internacional em pesquisa",
+      "Parceria / internacionalizacao institucional",
+      "Mobilidade de docente/pesquisador",
+      "Mobilidade estudantil internacional"
+    ],
+    "publico_alvo": [
+      "instituicao",
+      "docente_pesquisador"
+    ],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Cooperacao internacional em pesquisa / Parceria / internacionalizacao institucional | componente internacional | financiamento/bolsa | prazo 04/09/2026",
+    "detalhe_lido": true,
+    "detalhe_tipo": "html",
+    "ano_edicao": 2026,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "https://confap.org.br/pt/editais/114/chamada-confap-cdti-2026-2027": {
+    "titulo": "Chamada CONFAP & CDTI 2026-2027",
+    "url": "https://confap.org.br/pt/editais/114/chamada-confap-cdti-2026-2027",
+    "data_texto": "",
+    "arquivo": "",
+    "anexos": [],
+    "fonte": "CONFAP — Em andamento",
+    "regiao": "nacional",
+    "temas": [
+      "internacional",
+      "mobilidade",
+      "pesquisa",
+      "bolsas",
+      "inovacao"
+    ],
+    "status": "aberto",
+    "pontos": 67,
+    "prioridade": 69.5,
+    "restricoes": [
+      {
+        "programa": "DAAD — auxílio a doutorandos com bolsa nacional",
+        "exige": "ser doutorando com bolsa nacional vigente",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "Marie Skłodowska-Curie",
+        "exige": "consórcio internacional; admite instituições variadas",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "Chamadas CONFAP via FAPES (Itália, Bélgica, RAMP)",
+        "exige": "verificar as diretrizes específicas da FAPES, que definem quem pode concorrer no ES",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "CONFAP/CDTI 2026-2027",
+        "exige": "parceria com empresa espanhola e observancia das diretrizes da FAP participante; a FAPES aderiu a chamada de 2026",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "CONFAP/WBI Belgica 2026",
+        "exige": "projeto conjunto Brasil-Belgica e atendimento das diretrizes da FAPES para proponentes do ES",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "Mobility CONFAP Italy",
+        "exige": "vinculo com universidade/instituicao de pesquisa em estado cuja FAP aderiu; a FAPES participa da edicao de 2026",
+        "impacto": "atencao"
+      }
+    ],
+    "situacao_elegibilidade": "verificar",
+    "prazo_final": "2026-10-08",
+    "prazo_texto": "08/10/2026",
+    "dias_restantes": 49,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 08/10/2026",
+    "aderencia": 67,
+    "eixos": [
+      "cooperacao_pesquisa",
+      "mobilidade_estudantil"
+    ],
+    "eixos_rotulos": [
+      "Cooperacao internacional em pesquisa",
+      "Mobilidade estudantil internacional"
+    ],
+    "publico_alvo": [
+      "instituicao",
+      "docente_pesquisador",
+      "pos_graduando"
+    ],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Cooperacao internacional em pesquisa / Mobilidade estudantil internacional | componente internacional | financiamento/bolsa | prazo 08/10/2026",
+    "detalhe_lido": true,
+    "detalhe_tipo": "html",
+    "ano_edicao": 2027,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "https://confap.org.br/pt/editais/111/chamada-confap-wbi-belgica-2026": {
+    "titulo": "Chamada CONFAP & WBI – Bélgica 2026",
+    "url": "https://confap.org.br/pt/editais/111/chamada-confap-wbi-belgica-2026",
+    "data_texto": "",
+    "arquivo": "",
+    "anexos": [],
+    "fonte": "CONFAP — Em andamento",
+    "regiao": "nacional",
+    "temas": [
+      "internacional",
+      "bolsas",
+      "pesquisa",
+      "inovacao"
+    ],
+    "status": "aberto",
+    "pontos": 69,
+    "prioridade": 71.6,
+    "restricoes": [
+      {
+        "programa": "CAPES/Purdue e similares",
+        "exige": "programa de pós-graduação stricto sensu proponente",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "Chamadas CONFAP via FAPES (Itália, Bélgica, RAMP)",
+        "exige": "verificar as diretrizes específicas da FAPES, que definem quem pode concorrer no ES",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "CONFAP/WBI Belgica 2026",
+        "exige": "projeto conjunto Brasil-Belgica e atendimento das diretrizes da FAPES para proponentes do ES",
+        "impacto": "atencao"
+      }
+    ],
+    "situacao_elegibilidade": "verificar",
+    "prazo_final": "2026-09-30",
+    "prazo_texto": "30/09/2026",
+    "dias_restantes": 41,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 30/09/2026",
+    "aderencia": 69,
+    "eixos": [
+      "cooperacao_pesquisa",
+      "internacionalizacao_institucional"
+    ],
+    "eixos_rotulos": [
+      "Cooperacao internacional em pesquisa",
+      "Parceria / internacionalizacao institucional"
+    ],
+    "publico_alvo": [
+      "docente_pesquisador"
+    ],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Cooperacao internacional em pesquisa / Parceria / internacionalizacao institucional | componente internacional | financiamento/bolsa | prazo 30/09/2026",
+    "detalhe_lido": true,
+    "detalhe_tipo": "html",
+    "ano_edicao": 2026,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "https://confap.org.br/pt/editais/113/daad-programa-de-auxilio-para-doutorandos-com-bolsa-nacional-2026": {
+    "titulo": "DAAD - Programa de Auxílio para Doutorandos com Bolsa Nacional 2026",
+    "url": "https://confap.org.br/pt/editais/113/daad-programa-de-auxilio-para-doutorandos-com-bolsa-nacional-2026",
+    "data_texto": "",
+    "arquivo": "",
+    "anexos": [],
+    "fonte": "CONFAP — Em andamento",
+    "regiao": "nacional",
+    "temas": [
+      "internacional",
+      "mobilidade",
+      "pesquisa",
+      "bolsas",
+      "pos_graduacao"
+    ],
+    "status": "aberto",
+    "pontos": 54,
+    "prioridade": 56.0,
+    "restricoes": [
+      {
+        "programa": "DAAD — auxílio a doutorandos com bolsa nacional",
+        "exige": "ser doutorando com bolsa nacional vigente",
+        "impacto": "atencao"
+      }
+    ],
+    "situacao_elegibilidade": "verificar",
+    "prazo_final": "2026-09-03",
+    "prazo_texto": "03/09/2026",
+    "dias_restantes": 14,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 03/09/2026",
+    "aderencia": 54,
+    "eixos": [
+      "mobilidade_estudantil"
+    ],
+    "eixos_rotulos": [
+      "Mobilidade estudantil internacional"
+    ],
+    "publico_alvo": [
+      "instituicao",
+      "docente_pesquisador",
+      "pos_graduando",
+      "estudante"
+    ],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Mobilidade estudantil internacional | componente internacional | financiamento/bolsa | prazo 03/09/2026",
+    "detalhe_lido": true,
+    "detalhe_tipo": "html",
+    "ano_edicao": 2026,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "https://confap.org.br/pt/editais/112/1-chamada-da-parceria-de-materias-primas-para-a-transicao-verde-e-digital-ramp-": {
+    "titulo": "1ª chamada da Parceria de Matérias-Primas para a Transição Verde e Digital (RAMP)",
+    "url": "https://confap.org.br/pt/editais/112/1-chamada-da-parceria-de-materias-primas-para-a-transicao-verde-e-digital-ramp-",
+    "data_texto": "",
+    "arquivo": "",
+    "anexos": [],
+    "fonte": "CONFAP — Em andamento",
+    "regiao": "nacional",
+    "temas": [
+      "internacional",
+      "bolsas",
+      "pesquisa",
+      "inovacao"
+    ],
+    "status": "aberto",
+    "pontos": 62,
+    "prioridade": 64.3,
+    "restricoes": [
+      {
+        "programa": "Chamadas transnacionais (Biodiversa+, Water, Economia Azul, ERA)",
+        "exige": "consórcio com parceiros europeus e grupo de pesquisa consolidado",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "Chamadas CONFAP via FAPES (Itália, Bélgica, RAMP)",
+        "exige": "verificar as diretrizes específicas da FAPES, que definem quem pode concorrer no ES",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "Horizon Europe via FAPES",
+        "exige": "consulta previa de elegibilidade a FAPES e participacao em consorcio internacional conforme a chamada Horizon Europe aplicavel",
+        "impacto": "atencao"
+      }
+    ],
+    "situacao_elegibilidade": "verificar",
+    "prazo_final": "2026-09-22",
+    "prazo_texto": "22/09/2026",
+    "dias_restantes": 33,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 22/09/2026",
+    "aderencia": 62,
+    "eixos": [
+      "cooperacao_pesquisa"
+    ],
+    "eixos_rotulos": [
+      "Cooperacao internacional em pesquisa"
+    ],
+    "publico_alvo": [
+      "instituicao"
+    ],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Cooperacao internacional em pesquisa | componente internacional | financiamento/bolsa | prazo 22/09/2026",
+    "detalhe_lido": true,
+    "detalhe_tipo": "html",
+    "ano_edicao": null,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-15-2026/chamada-publica-cnpq-N-15-2026": {
+    "titulo": "Chamada Pública CNPq/MCTI nº 15/2026 - Programa de Cooperação Afro-Brasileira em Ciência e Tecnologia - PROAFR",
+    "url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-15-2026/chamada-publica-cnpq-N-15-2026",
+    "data_texto": "",
+    "arquivo": "",
+    "anexos": [],
+    "fonte": "CNPq — Chamadas abertas",
+    "regiao": "nacional",
+    "temas": [
+      "internacional",
+      "pesquisa",
+      "inovacao"
+    ],
+    "status": "aberto",
+    "pontos": 54,
+    "prioridade": 59.4,
+    "restricoes": [],
+    "situacao_elegibilidade": "sem_catalogo",
+    "prazo_final": "2026-08-31",
+    "prazo_texto": "31/08/2026",
+    "dias_restantes": 11,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 31/08/2026",
+    "aderencia": 54,
+    "eixos": [
+      "cooperacao_pesquisa"
+    ],
+    "eixos_rotulos": [
+      "Cooperacao internacional em pesquisa"
+    ],
+    "publico_alvo": [],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Cooperacao internacional em pesquisa | componente internacional | prazo 31/08/2026",
+    "detalhe_lido": true,
+    "detalhe_tipo": "html",
+    "ano_edicao": 2026,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "http://www.facebook.com/sharer.php?u=https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-15-2026/chamada-publica-cnpq-N-15-2026": {
+    "titulo": "Compartilhe por Facebook",
+    "url": "http://www.facebook.com/sharer.php?u=https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-15-2026/chamada-publica-cnpq-N-15-2026",
+    "data_texto": "",
+    "arquivo": "",
+    "anexos": [],
+    "fonte": "CNPq — Chamadas abertas",
+    "regiao": "nacional",
+    "temas": [
+      "internacional",
+      "pesquisa",
+      "inovacao"
+    ],
+    "status": "aberto",
+    "pontos": 54,
+    "prioridade": 59.4,
+    "restricoes": [],
+    "situacao_elegibilidade": "sem_catalogo",
+    "prazo_final": "2026-08-31",
+    "prazo_texto": "31/08/2026",
+    "dias_restantes": 11,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 31/08/2026",
+    "aderencia": 54,
+    "eixos": [
+      "cooperacao_pesquisa"
+    ],
+    "eixos_rotulos": [
+      "Cooperacao internacional em pesquisa"
+    ],
+    "publico_alvo": [],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Cooperacao internacional em pesquisa | componente internacional | prazo 31/08/2026",
+    "detalhe_lido": false,
+    "detalhe_tipo": "HTTPError",
+    "ano_edicao": null,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "https://twitter.com/share?text=Chamada%20P%C3%BAblica%20CNPq/MCTI%20n%C2%BA%2015/2026%20-%20Programa%20de%20Coopera%C3%A7%C3%A3o%20Afro-Brasileira%20em%20Ci%C3%AAncia%20e%20Tecnologia%20-%20PROAFRICA&url=https://www.gov.br/cnpq/resolveuid/320ad8b64f4a4eedb9e0baa0c2c5fd4b": {
+    "titulo": "Compartilhe por Twitter",
+    "url": "https://twitter.com/share?text=Chamada%20P%C3%BAblica%20CNPq/MCTI%20n%C2%BA%2015/2026%20-%20Programa%20de%20Coopera%C3%A7%C3%A3o%20Afro-Brasileira%20em%20Ci%C3%AAncia%20e%20Tecnologia%20-%20PROAFRICA&url=https://www.gov.br/cnpq/resolveuid/320ad8b64f4a4eedb9e0baa0c2c5fd4b",
+    "data_texto": "",
+    "arquivo": "",
+    "anexos": [],
+    "fonte": "CNPq — Chamadas abertas",
+    "regiao": "nacional",
+    "temas": [
+      "internacional",
+      "pesquisa",
+      "extensao",
+      "inovacao"
+    ],
+    "status": "aberto",
+    "pontos": 54,
+    "prioridade": 59.4,
+    "restricoes": [],
+    "situacao_elegibilidade": "sem_catalogo",
+    "prazo_final": "2026-08-31",
+    "prazo_texto": "31/08/2026",
+    "dias_restantes": 11,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 31/08/2026",
+    "aderencia": 54,
+    "eixos": [
+      "cooperacao_pesquisa"
+    ],
+    "eixos_rotulos": [
+      "Cooperacao internacional em pesquisa"
+    ],
+    "publico_alvo": [],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Cooperacao internacional em pesquisa | componente internacional | prazo 31/08/2026",
+    "detalhe_lido": true,
+    "detalhe_tipo": "html",
+    "ano_edicao": null,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "https://www.linkedin.com/shareArticle?mini=true&url=https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-15-2026/chamada-publica-cnpq-N-15-2026&title=Chamada%20P%C3%BAblica%20CNPq/MCTI%20n%C2%BA%2015/2026%20-%20Programa%20de%20Coopera%C3%A7%C3%A3o%20Afro-Brasileira%20em%20Ci%C3%AAncia%20e%20Tecnologia%20-%20PROAFRICA": {
+    "titulo": "Compartilhe por LinkedIn",
+    "url": "https://www.linkedin.com/shareArticle?mini=true&url=https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-15-2026/chamada-publica-cnpq-N-15-2026&title=Chamada%20P%C3%BAblica%20CNPq/MCTI%20n%C2%BA%2015/2026%20-%20Programa%20de%20Coopera%C3%A7%C3%A3o%20Afro-Brasileira%20em%20Ci%C3%AAncia%20e%20Tecnologia%20-%20PROAFRICA",
+    "data_texto": "",
+    "arquivo": "",
+    "anexos": [],
+    "fonte": "CNPq — Chamadas abertas",
+    "regiao": "nacional",
+    "temas": [
+      "internacional",
+      "pesquisa",
+      "inovacao"
+    ],
+    "status": "aberto",
+    "pontos": 54,
+    "prioridade": 59.4,
+    "restricoes": [],
+    "situacao_elegibilidade": "sem_catalogo",
+    "prazo_final": "2026-08-31",
+    "prazo_texto": "31/08/2026",
+    "dias_restantes": 11,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 31/08/2026",
+    "aderencia": 54,
+    "eixos": [
+      "cooperacao_pesquisa"
+    ],
+    "eixos_rotulos": [
+      "Cooperacao internacional em pesquisa"
+    ],
+    "publico_alvo": [],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Cooperacao internacional em pesquisa | componente internacional | prazo 31/08/2026",
+    "detalhe_lido": true,
+    "detalhe_tipo": "html",
+    "ano_edicao": null,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "https://api.whatsapp.com/send?text=https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-15-2026/chamada-publica-cnpq-N-15-2026": {
+    "titulo": "Compartilhe por WhatsApp",
+    "url": "https://api.whatsapp.com/send?text=https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-15-2026/chamada-publica-cnpq-N-15-2026",
+    "data_texto": "",
+    "arquivo": "",
+    "anexos": [],
+    "fonte": "CNPq — Chamadas abertas",
+    "regiao": "nacional",
+    "temas": [
+      "internacional",
+      "pesquisa",
+      "inovacao"
+    ],
+    "status": "aberto",
+    "pontos": 54,
+    "prioridade": 59.4,
+    "restricoes": [],
+    "situacao_elegibilidade": "sem_catalogo",
+    "prazo_final": "2026-08-31",
+    "prazo_texto": "31/08/2026",
+    "dias_restantes": 11,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 31/08/2026",
+    "aderencia": 54,
+    "eixos": [
+      "cooperacao_pesquisa"
+    ],
+    "eixos_rotulos": [
+      "Cooperacao internacional em pesquisa"
+    ],
+    "publico_alvo": [],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Cooperacao internacional em pesquisa | componente internacional | prazo 31/08/2026",
+    "detalhe_lido": true,
+    "detalhe_tipo": "html",
+    "ano_edicao": null,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-15-2026/CHAMADA152026PROAFRICASEI2679821.pdf": {
+    "titulo": "Chamada Pública CNPq/MCTI nº 15/2026 - Programa de Cooperação Afro-Brasileira em Ciência e Tecnologia - PROAFR",
+    "url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-15-2026/CHAMADA152026PROAFRICASEI2679821.pdf",
+    "data_texto": "",
+    "arquivo": "PDF",
+    "anexos": [
+      {
+        "url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-15-2026/FAQPROAFRICACHAMADA152026SEI_CNPq2687944Anexo.pdf",
+        "rotulo": "FAQ",
+        "arquivo": "PDF"
+      }
+    ],
+    "fonte": "CNPq — Chamadas abertas",
+    "regiao": "nacional",
+    "temas": [
+      "internacional",
+      "mobilidade",
+      "pesquisa",
+      "bolsas",
+      "eventos_e_visitas",
+      "extensao",
+      "inovacao",
+      "idiomas",
+      "pos_graduacao"
+    ],
+    "status": "aberto",
+    "pontos": 74,
+    "prioridade": 81.4,
+    "restricoes": [],
+    "situacao_elegibilidade": "sem_catalogo",
+    "prazo_final": "2026-08-31",
+    "prazo_texto": "31/08/2026",
+    "dias_restantes": 11,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 31/08/2026",
+    "aderencia": 74,
+    "eixos": [
+      "cooperacao_pesquisa",
+      "mobilidade_pesquisador_docente",
+      "mobilidade_estudantil"
+    ],
+    "eixos_rotulos": [
+      "Cooperacao internacional em pesquisa",
+      "Mobilidade de docente/pesquisador",
+      "Mobilidade estudantil internacional"
+    ],
+    "publico_alvo": [
+      "instituicao",
+      "docente_pesquisador"
+    ],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Cooperacao internacional em pesquisa / Mobilidade de docente/pesquisador | componente internacional | financiamento/bolsa | prazo 31/08/2026",
+    "detalhe_lido": true,
+    "detalhe_tipo": "pdf",
+    "ano_edicao": 2026,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-21-2026/chamada-publica-cnpq-N-21-2026": {
+    "titulo": "Chamada Pública CNPq/ERC (Conselho Europeu de Pesquisa) Nº 21/2026",
+    "url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-21-2026/chamada-publica-cnpq-N-21-2026",
+    "data_texto": "",
+    "arquivo": "",
+    "anexos": [],
+    "fonte": "CNPq — Chamadas abertas",
+    "regiao": "nacional",
+    "temas": [
+      "internacional",
+      "pesquisa",
+      "inovacao"
+    ],
+    "status": "aberto",
+    "pontos": 54,
+    "prioridade": 50.5,
+    "restricoes": [
+      {
+        "programa": "CNPq/ERC",
+        "exige": "pesquisador brasileiro doutor em colaboracao cientifica com projeto apoiado pelo ERC; conferir requisitos da chamada vigente",
+        "impacto": "atencao"
+      }
+    ],
+    "situacao_elegibilidade": "verificar",
+    "prazo_final": "2026-09-30",
+    "prazo_texto": "30/09/2026",
+    "dias_restantes": 41,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 30/09/2026",
+    "aderencia": 54,
+    "eixos": [
+      "cooperacao_pesquisa"
+    ],
+    "eixos_rotulos": [
+      "Cooperacao internacional em pesquisa"
+    ],
+    "publico_alvo": [
+      "docente_pesquisador"
+    ],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Cooperacao internacional em pesquisa | componente internacional | prazo 30/09/2026",
+    "detalhe_lido": true,
+    "detalhe_tipo": "html",
+    "ano_edicao": 2026,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "http://www.facebook.com/sharer.php?u=https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-21-2026/chamada-publica-cnpq-N-21-2026": {
+    "titulo": "Compartilhe por Facebook",
+    "url": "http://www.facebook.com/sharer.php?u=https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-21-2026/chamada-publica-cnpq-N-21-2026",
+    "data_texto": "",
+    "arquivo": "",
+    "anexos": [],
+    "fonte": "CNPq — Chamadas abertas",
+    "regiao": "nacional",
+    "temas": [
+      "internacional",
+      "pesquisa",
+      "inovacao"
+    ],
+    "status": "aberto",
+    "pontos": 54,
+    "prioridade": 50.5,
+    "restricoes": [
+      {
+        "programa": "CNPq/ERC",
+        "exige": "pesquisador brasileiro doutor em colaboracao cientifica com projeto apoiado pelo ERC; conferir requisitos da chamada vigente",
+        "impacto": "atencao"
+      }
+    ],
+    "situacao_elegibilidade": "verificar",
+    "prazo_final": "2026-09-30",
+    "prazo_texto": "30/09/2026",
+    "dias_restantes": 41,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 30/09/2026",
+    "aderencia": 54,
+    "eixos": [
+      "cooperacao_pesquisa"
+    ],
+    "eixos_rotulos": [
+      "Cooperacao internacional em pesquisa"
+    ],
+    "publico_alvo": [
+      "docente_pesquisador"
+    ],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Cooperacao internacional em pesquisa | componente internacional | prazo 30/09/2026",
+    "detalhe_lido": false,
+    "detalhe_tipo": "HTTPError",
+    "ano_edicao": null,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "https://twitter.com/share?text=Chamada%20P%C3%BAblica%20CNPq/ERC%20%28Conselho%20Europeu%20de%20Pesquisa%29%20N%C2%BA%2021/2026&url=https://www.gov.br/cnpq/resolveuid/5472255ef00e49fa9b69cdd0370f9978": {
+    "titulo": "Compartilhe por Twitter",
+    "url": "https://twitter.com/share?text=Chamada%20P%C3%BAblica%20CNPq/ERC%20%28Conselho%20Europeu%20de%20Pesquisa%29%20N%C2%BA%2021/2026&url=https://www.gov.br/cnpq/resolveuid/5472255ef00e49fa9b69cdd0370f9978",
+    "data_texto": "",
+    "arquivo": "",
+    "anexos": [],
+    "fonte": "CNPq — Chamadas abertas",
+    "regiao": "nacional",
+    "temas": [
+      "internacional",
+      "pesquisa",
+      "extensao",
+      "inovacao"
+    ],
+    "status": "aberto",
+    "pontos": 54,
+    "prioridade": 50.5,
+    "restricoes": [
+      {
+        "programa": "CNPq/ERC",
+        "exige": "pesquisador brasileiro doutor em colaboracao cientifica com projeto apoiado pelo ERC; conferir requisitos da chamada vigente",
+        "impacto": "atencao"
+      }
+    ],
+    "situacao_elegibilidade": "verificar",
+    "prazo_final": "2026-09-30",
+    "prazo_texto": "30/09/2026",
+    "dias_restantes": 41,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 30/09/2026",
+    "aderencia": 54,
+    "eixos": [
+      "cooperacao_pesquisa"
+    ],
+    "eixos_rotulos": [
+      "Cooperacao internacional em pesquisa"
+    ],
+    "publico_alvo": [
+      "docente_pesquisador"
+    ],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Cooperacao internacional em pesquisa | componente internacional | prazo 30/09/2026",
+    "detalhe_lido": true,
+    "detalhe_tipo": "html",
+    "ano_edicao": null,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "https://www.linkedin.com/shareArticle?mini=true&url=https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-21-2026/chamada-publica-cnpq-N-21-2026&title=Chamada%20P%C3%BAblica%20CNPq/ERC%20%28Conselho%20Europeu%20de%20Pesquisa%29%20N%C2%BA%2021/2026": {
+    "titulo": "Compartilhe por LinkedIn",
+    "url": "https://www.linkedin.com/shareArticle?mini=true&url=https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-21-2026/chamada-publica-cnpq-N-21-2026&title=Chamada%20P%C3%BAblica%20CNPq/ERC%20%28Conselho%20Europeu%20de%20Pesquisa%29%20N%C2%BA%2021/2026",
+    "data_texto": "",
+    "arquivo": "",
+    "anexos": [],
+    "fonte": "CNPq — Chamadas abertas",
+    "regiao": "nacional",
+    "temas": [
+      "internacional",
+      "pesquisa",
+      "inovacao"
+    ],
+    "status": "aberto",
+    "pontos": 54,
+    "prioridade": 50.5,
+    "restricoes": [
+      {
+        "programa": "CNPq/ERC",
+        "exige": "pesquisador brasileiro doutor em colaboracao cientifica com projeto apoiado pelo ERC; conferir requisitos da chamada vigente",
+        "impacto": "atencao"
+      }
+    ],
+    "situacao_elegibilidade": "verificar",
+    "prazo_final": "2026-09-30",
+    "prazo_texto": "30/09/2026",
+    "dias_restantes": 41,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 30/09/2026",
+    "aderencia": 54,
+    "eixos": [
+      "cooperacao_pesquisa"
+    ],
+    "eixos_rotulos": [
+      "Cooperacao internacional em pesquisa"
+    ],
+    "publico_alvo": [
+      "docente_pesquisador"
+    ],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Cooperacao internacional em pesquisa | componente internacional | prazo 30/09/2026",
+    "detalhe_lido": true,
+    "detalhe_tipo": "html",
+    "ano_edicao": null,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "https://api.whatsapp.com/send?text=https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-21-2026/chamada-publica-cnpq-N-21-2026": {
+    "titulo": "Compartilhe por WhatsApp",
+    "url": "https://api.whatsapp.com/send?text=https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-21-2026/chamada-publica-cnpq-N-21-2026",
+    "data_texto": "",
+    "arquivo": "",
+    "anexos": [],
+    "fonte": "CNPq — Chamadas abertas",
+    "regiao": "nacional",
+    "temas": [
+      "internacional",
+      "pesquisa",
+      "inovacao"
+    ],
+    "status": "aberto",
+    "pontos": 54,
+    "prioridade": 50.5,
+    "restricoes": [
+      {
+        "programa": "CNPq/ERC",
+        "exige": "pesquisador brasileiro doutor em colaboracao cientifica com projeto apoiado pelo ERC; conferir requisitos da chamada vigente",
+        "impacto": "atencao"
+      }
+    ],
+    "situacao_elegibilidade": "verificar",
+    "prazo_final": "2026-09-30",
+    "prazo_texto": "30/09/2026",
+    "dias_restantes": 41,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 30/09/2026",
+    "aderencia": 54,
+    "eixos": [
+      "cooperacao_pesquisa"
+    ],
+    "eixos_rotulos": [
+      "Cooperacao internacional em pesquisa"
+    ],
+    "publico_alvo": [
+      "docente_pesquisador"
+    ],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Cooperacao internacional em pesquisa | componente internacional | prazo 30/09/2026",
+    "detalhe_lido": true,
+    "detalhe_tipo": "html",
+    "ano_edicao": null,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-21-2026/ChamadaPblicaERC_21_2026_2717210.pdf": {
+    "titulo": "Chamada Pública CNPq/ERC (Conselho Europeu de Pesquisa) Nº 21/2026",
+    "url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-21-2026/ChamadaPblicaERC_21_2026_2717210.pdf",
+    "data_texto": "",
+    "arquivo": "PDF",
+    "anexos": [],
+    "fonte": "CNPq — Chamadas abertas",
+    "regiao": "nacional",
+    "temas": [
+      "internacional",
+      "mobilidade",
+      "pesquisa",
+      "bolsas",
+      "eventos_e_visitas",
+      "extensao",
+      "inovacao",
+      "idiomas"
+    ],
+    "status": "aberto",
+    "pontos": 69,
+    "prioridade": 64.5,
+    "restricoes": [
+      {
+        "programa": "CNPq/ERC",
+        "exige": "pesquisador brasileiro doutor em colaboracao cientifica com projeto apoiado pelo ERC; conferir requisitos da chamada vigente",
+        "impacto": "atencao"
+      }
+    ],
+    "situacao_elegibilidade": "verificar",
+    "prazo_final": "2027-12-31",
+    "prazo_texto": "31/12/2027",
+    "dias_restantes": 498,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 31/12/2027",
+    "aderencia": 69,
+    "eixos": [
+      "cooperacao_pesquisa",
+      "mobilidade_estudantil"
+    ],
+    "eixos_rotulos": [
+      "Cooperacao internacional em pesquisa",
+      "Mobilidade estudantil internacional"
+    ],
+    "publico_alvo": [
+      "docente_pesquisador"
+    ],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Cooperacao internacional em pesquisa / Mobilidade estudantil internacional | componente internacional | financiamento/bolsa | prazo 31/12/2027",
+    "detalhe_lido": true,
+    "detalhe_tipo": "pdf",
+    "ano_edicao": 2026,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada_publica_20_2026_atlanticas_2714776.pdf": {
+    "titulo": "Chamada Pública MCTI/CNPq/MIR/MMulheres/MPI Nº 20/2026 Atlânticas - Programa Beatriz Nascimento de Mulheres na",
+    "url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada_publica_20_2026_atlanticas_2714776.pdf",
+    "data_texto": "",
+    "arquivo": "PDF",
+    "anexos": [],
+    "fonte": "CNPq — Chamadas abertas",
+    "regiao": "nacional",
+    "temas": [
+      "internacional",
+      "mobilidade",
+      "pesquisa",
+      "bolsas",
+      "eventos_e_visitas",
+      "extensao",
+      "inovacao",
+      "idiomas",
+      "pos_graduacao"
+    ],
+    "status": "aberto",
+    "pontos": 68,
+    "prioridade": 63.6,
+    "restricoes": [
+      {
+        "programa": "PDSE — Doutorado-sanduíche CAPES",
+        "exige": "matrícula em programa de doutorado brasileiro avaliado pela CAPES, normalmente nota 4 ou superior",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "Doutorado-sanduíche (geral)",
+        "exige": "matrícula ativa em doutorado no Brasil",
+        "impacto": "atencao"
+      }
+    ],
+    "situacao_elegibilidade": "verificar",
+    "prazo_final": "2026-09-30",
+    "prazo_texto": "30/09/2026",
+    "dias_restantes": 41,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 30/09/2026",
+    "aderencia": 68,
+    "eixos": [
+      "internacionalizacao_institucional",
+      "mobilidade_estudantil"
+    ],
+    "eixos_rotulos": [
+      "Parceria / internacionalizacao institucional",
+      "Mobilidade estudantil internacional"
+    ],
+    "publico_alvo": [
+      "instituicao",
+      "docente_pesquisador"
+    ],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Parceria / internacionalizacao institucional / Mobilidade estudantil internacional | componente internacional | financiamento/bolsa | prazo 30/09/2026",
+    "detalhe_lido": true,
+    "detalhe_tipo": "pdf",
+    "ano_edicao": 2026,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-24-2026/Chamada_24_2026.pdf": {
+    "titulo": "Chamada CNPq/CT-Biotec/FNDCT/MCTI Nº 24/2026 - Apoio à Pesquisa, Desenvolvimento e Inovação em Biotecnologia",
+    "url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-24-2026/Chamada_24_2026.pdf",
+    "data_texto": "",
+    "arquivo": "PDF",
+    "anexos": [],
+    "fonte": "CNPq — Chamadas abertas",
+    "regiao": "nacional",
+    "temas": [
+      "internacional",
+      "mobilidade",
+      "pesquisa",
+      "bolsas",
+      "extensao",
+      "inovacao",
+      "idiomas"
+    ],
+    "status": "aberto",
+    "pontos": 54,
+    "prioridade": 59.4,
+    "restricoes": [],
+    "situacao_elegibilidade": "sem_catalogo",
+    "prazo_final": "2026-09-18",
+    "prazo_texto": "18/09/2026",
+    "dias_restantes": 29,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 18/09/2026",
+    "aderencia": 54,
+    "eixos": [
+      "mobilidade_estudantil"
+    ],
+    "eixos_rotulos": [
+      "Mobilidade estudantil internacional"
+    ],
+    "publico_alvo": [
+      "docente_pesquisador"
+    ],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Mobilidade estudantil internacional | componente internacional | financiamento/bolsa | prazo 18/09/2026",
+    "detalhe_lido": true,
+    "detalhe_tipo": "pdf",
+    "ano_edicao": 2026,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/programa-catedra-jorge-amado": {
+    "titulo": "Programa Cátedra Jorge Amado",
+    "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/programa-catedra-jorge-amado",
+    "data_texto": "",
+    "arquivo": "",
+    "anexos": [],
+    "fonte": "CAPES — Editais e cooperacao",
+    "regiao": "nacional",
+    "temas": [
+      "internacional",
+      "mobilidade",
+      "pesquisa",
+      "bolsas",
+      "eventos_e_visitas",
+      "inovacao",
+      "idiomas",
+      "pos_graduacao"
+    ],
+    "status": "aberto",
+    "pontos": 74,
+    "prioridade": 15.5,
+    "restricoes": [
+      {
+        "programa": "PDSE — Doutorado-sanduíche CAPES",
+        "exige": "matrícula em programa de doutorado brasileiro avaliado pela CAPES, normalmente nota 4 ou superior",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "Doutorado-sanduíche (geral)",
+        "exige": "matrícula ativa em doutorado no Brasil",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "CAPES/Cofecub",
+        "exige": "cooperação entre programas de pós-graduação stricto sensu consolidados",
+        "impacto": "bloqueia"
+      },
+      {
+        "programa": "CAPES/Humboldt",
+        "exige": "perfil de pesquisa consolidado, normalmente com vínculo a PPG",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "CAPES/Purdue e similares",
+        "exige": "programa de pós-graduação stricto sensu proponente",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "Brafitec / Brafagri",
+        "exige": "instituição previamente selecionada no programa, cursos de engenharia ou agrárias",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "Cátedras e professor visitante Fulbright",
+        "exige": "candidatura individual do docente, sem exigir que a instituição seja pública",
+        "impacto": "favoravel"
+      },
+      {
+        "programa": "Fulbright FLTA / PDPI / Humphrey",
+        "exige": "candidatura individual; perfil profissional ou docente, sem exigência de stricto sensu",
+        "impacto": "favoravel"
+      }
+    ],
+    "situacao_elegibilidade": "restricao_conhecida",
+    "prazo_final": "2026-12-28",
+    "prazo_texto": "28/12/2026",
+    "dias_restantes": 130,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 28/12/2026",
+    "aderencia": 74,
+    "eixos": [
+      "cooperacao_pesquisa",
+      "internacionalizacao_institucional",
+      "mobilidade_pesquisador_docente",
+      "mobilidade_estudantil",
+      "global_talks_convidados"
+    ],
+    "eixos_rotulos": [
+      "Cooperacao internacional em pesquisa",
+      "Parceria / internacionalizacao institucional",
+      "Mobilidade de docente/pesquisador",
+      "Mobilidade estudantil internacional",
+      "Convidados e conexoes academicas internacionais"
+    ],
+    "publico_alvo": [
+      "docente_pesquisador"
+    ],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Cooperacao internacional em pesquisa / Parceria / internacionalizacao institucional | componente internacional | financiamento/bolsa | prazo 28/12/2026",
+    "detalhe_lido": true,
+    "detalhe_tipo": "html",
+    "ano_edicao": null,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/educacao-basica/pe-de-meia-licenciaturas": {
+    "titulo": "Pé-de-meia Licenciaturas",
+    "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/educacao-basica/pe-de-meia-licenciaturas",
+    "data_texto": "",
+    "arquivo": "",
+    "anexos": [],
+    "fonte": "CAPES — Editais e cooperacao",
+    "regiao": "nacional",
+    "temas": [
+      "internacional",
+      "mobilidade",
+      "pesquisa",
+      "bolsas",
+      "eventos_e_visitas",
+      "idiomas",
+      "pos_graduacao"
+    ],
+    "status": "aberto",
+    "pontos": 72,
+    "prioridade": 15.1,
+    "restricoes": [
+      {
+        "programa": "PDSE — Doutorado-sanduíche CAPES",
+        "exige": "matrícula em programa de doutorado brasileiro avaliado pela CAPES, normalmente nota 4 ou superior",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "Doutorado-sanduíche (geral)",
+        "exige": "matrícula ativa em doutorado no Brasil",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "CAPES/Cofecub",
+        "exige": "cooperação entre programas de pós-graduação stricto sensu consolidados",
+        "impacto": "bloqueia"
+      },
+      {
+        "programa": "CAPES/Humboldt",
+        "exige": "perfil de pesquisa consolidado, normalmente com vínculo a PPG",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "CAPES/Purdue e similares",
+        "exige": "programa de pós-graduação stricto sensu proponente",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "Brafitec / Brafagri",
+        "exige": "instituição previamente selecionada no programa, cursos de engenharia ou agrárias",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "Cátedras e professor visitante Fulbright",
+        "exige": "candidatura individual do docente, sem exigir que a instituição seja pública",
+        "impacto": "favoravel"
+      },
+      {
+        "programa": "Fulbright FLTA / PDPI / Humphrey",
+        "exige": "candidatura individual; perfil profissional ou docente, sem exigência de stricto sensu",
+        "impacto": "favoravel"
+      }
+    ],
+    "situacao_elegibilidade": "restricao_conhecida",
+    "prazo_final": "2026-12-19",
+    "prazo_texto": "19/12/2026",
+    "dias_restantes": 121,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 19/12/2026",
+    "aderencia": 72,
+    "eixos": [
+      "cooperacao_pesquisa",
+      "mobilidade_pesquisador_docente",
+      "mobilidade_estudantil",
+      "global_talks_convidados"
+    ],
+    "eixos_rotulos": [
+      "Cooperacao internacional em pesquisa",
+      "Mobilidade de docente/pesquisador",
+      "Mobilidade estudantil internacional",
+      "Convidados e conexoes academicas internacionais"
+    ],
+    "publico_alvo": [
+      "docente_pesquisador",
+      "estudante"
+    ],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Cooperacao internacional em pesquisa / Mobilidade de docente/pesquisador | componente internacional | financiamento/bolsa | prazo 19/12/2026",
+    "detalhe_lido": true,
+    "detalhe_tipo": "html",
+    "ano_edicao": null,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/alemanha/programa-bolsas-para-pesquisa-capeshumboldt": {
+    "titulo": "Programa Bolsas para Pesquisa CAPES/Humboldt",
+    "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/alemanha/programa-bolsas-para-pesquisa-capeshumboldt",
+    "data_texto": "",
+    "arquivo": "",
+    "anexos": [],
+    "fonte": "CAPES — Editais e cooperacao",
+    "regiao": "nacional",
+    "temas": [
+      "internacional",
+      "mobilidade",
+      "pesquisa",
+      "bolsas",
+      "eventos_e_visitas",
+      "idiomas",
+      "pos_graduacao"
+    ],
+    "status": "aberto",
+    "pontos": 74,
+    "prioridade": 15.5,
+    "restricoes": [
+      {
+        "programa": "PDSE — Doutorado-sanduíche CAPES",
+        "exige": "matrícula em programa de doutorado brasileiro avaliado pela CAPES, normalmente nota 4 ou superior",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "Doutorado-sanduíche (geral)",
+        "exige": "matrícula ativa em doutorado no Brasil",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "CAPES/Cofecub",
+        "exige": "cooperação entre programas de pós-graduação stricto sensu consolidados",
+        "impacto": "bloqueia"
+      },
+      {
+        "programa": "CAPES/Humboldt",
+        "exige": "perfil de pesquisa consolidado, normalmente com vínculo a PPG",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "CAPES/Purdue e similares",
+        "exige": "programa de pós-graduação stricto sensu proponente",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "Brafitec / Brafagri",
+        "exige": "instituição previamente selecionada no programa, cursos de engenharia ou agrárias",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "Cátedras e professor visitante Fulbright",
+        "exige": "candidatura individual do docente, sem exigir que a instituição seja pública",
+        "impacto": "favoravel"
+      },
+      {
+        "programa": "Fulbright FLTA / PDPI / Humphrey",
+        "exige": "candidatura individual; perfil profissional ou docente, sem exigência de stricto sensu",
+        "impacto": "favoravel"
+      }
+    ],
+    "situacao_elegibilidade": "restricao_conhecida",
+    "prazo_final": "2026-11-19",
+    "prazo_texto": "19/11/2026",
+    "dias_restantes": 91,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 19/11/2026",
+    "aderencia": 74,
+    "eixos": [
+      "cooperacao_pesquisa",
+      "mobilidade_pesquisador_docente",
+      "mobilidade_estudantil",
+      "global_talks_convidados"
+    ],
+    "eixos_rotulos": [
+      "Cooperacao internacional em pesquisa",
+      "Mobilidade de docente/pesquisador",
+      "Mobilidade estudantil internacional",
+      "Convidados e conexoes academicas internacionais"
+    ],
+    "publico_alvo": [
+      "docente_pesquisador"
+    ],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Cooperacao internacional em pesquisa / Mobilidade de docente/pesquisador | componente internacional | financiamento/bolsa | prazo 19/11/2026",
+    "detalhe_lido": true,
+    "detalhe_tipo": "html",
+    "ano_edicao": null,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/multinacional/programa-capes-augm": {
+    "titulo": "Programa CAPES/AUGM",
+    "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/multinacional/programa-capes-augm",
+    "data_texto": "",
+    "arquivo": "",
+    "anexos": [],
+    "fonte": "CAPES — Editais e cooperacao",
+    "regiao": "nacional",
+    "temas": [
+      "internacional",
+      "mobilidade",
+      "pesquisa",
+      "bolsas",
+      "eventos_e_visitas",
+      "idiomas",
+      "pos_graduacao"
+    ],
+    "status": "aberto",
+    "pontos": 74,
+    "prioridade": 15.5,
+    "restricoes": [
+      {
+        "programa": "PDSE — Doutorado-sanduíche CAPES",
+        "exige": "matrícula em programa de doutorado brasileiro avaliado pela CAPES, normalmente nota 4 ou superior",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "CAPES-PrInt",
+        "exige": "programas de pós-graduação stricto sensu com nota mínima na CAPES",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "Doutorado-sanduíche (geral)",
+        "exige": "matrícula ativa em doutorado no Brasil",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "CAPES/Cofecub",
+        "exige": "cooperação entre programas de pós-graduação stricto sensu consolidados",
+        "impacto": "bloqueia"
+      },
+      {
+        "programa": "CAPES/Humboldt",
+        "exige": "perfil de pesquisa consolidado, normalmente com vínculo a PPG",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "CAPES/Purdue e similares",
+        "exige": "programa de pós-graduação stricto sensu proponente",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "Brafitec / Brafagri",
+        "exige": "instituição previamente selecionada no programa, cursos de engenharia ou agrárias",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "Cátedras e professor visitante Fulbright",
+        "exige": "candidatura individual do docente, sem exigir que a instituição seja pública",
+        "impacto": "favoravel"
+      },
+      {
+        "programa": "Fulbright FLTA / PDPI / Humphrey",
+        "exige": "candidatura individual; perfil profissional ou docente, sem exigência de stricto sensu",
+        "impacto": "favoravel"
+      }
+    ],
+    "situacao_elegibilidade": "restricao_conhecida",
+    "prazo_final": "2027-06-25",
+    "prazo_texto": "25/06/2027",
+    "dias_restantes": 309,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 25/06/2027",
+    "aderencia": 74,
+    "eixos": [
+      "cooperacao_pesquisa",
+      "internacionalizacao_institucional",
+      "mobilidade_pesquisador_docente",
+      "mobilidade_estudantil",
+      "global_talks_convidados"
+    ],
+    "eixos_rotulos": [
+      "Cooperacao internacional em pesquisa",
+      "Parceria / internacionalizacao institucional",
+      "Mobilidade de docente/pesquisador",
+      "Mobilidade estudantil internacional",
+      "Convidados e conexoes academicas internacionais"
+    ],
+    "publico_alvo": [
+      "instituicao",
+      "docente_pesquisador"
+    ],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Cooperacao internacional em pesquisa / Parceria / internacionalizacao institucional | componente internacional | financiamento/bolsa | prazo 25/06/2027",
+    "detalhe_lido": true,
+    "detalhe_tipo": "html",
+    "ano_edicao": null,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/multinacional/programa-de-doutorado-sanduiche-no-exterior-pdse": {
+    "titulo": "Programa de Doutorado-sanduíche no Exterior (PDSE)",
+    "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/multinacional/programa-de-doutorado-sanduiche-no-exterior-pdse",
+    "data_texto": "",
+    "arquivo": "",
+    "anexos": [],
+    "fonte": "CAPES — Editais e cooperacao",
+    "regiao": "nacional",
+    "temas": [
+      "internacional",
+      "mobilidade",
+      "pesquisa",
+      "bolsas",
+      "eventos_e_visitas",
+      "idiomas",
+      "pos_graduacao"
+    ],
+    "status": "aberto",
+    "pontos": 74,
+    "prioridade": 15.5,
+    "restricoes": [
+      {
+        "programa": "PDSE — Doutorado-sanduíche CAPES",
+        "exige": "matrícula em programa de doutorado brasileiro avaliado pela CAPES, normalmente nota 4 ou superior",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "Doutorado-sanduíche (geral)",
+        "exige": "matrícula ativa em doutorado no Brasil",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "CAPES/Cofecub",
+        "exige": "cooperação entre programas de pós-graduação stricto sensu consolidados",
+        "impacto": "bloqueia"
+      },
+      {
+        "programa": "CAPES/Humboldt",
+        "exige": "perfil de pesquisa consolidado, normalmente com vínculo a PPG",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "CAPES/Purdue e similares",
+        "exige": "programa de pós-graduação stricto sensu proponente",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "Brafitec / Brafagri",
+        "exige": "instituição previamente selecionada no programa, cursos de engenharia ou agrárias",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "Cátedras e professor visitante Fulbright",
+        "exige": "candidatura individual do docente, sem exigir que a instituição seja pública",
+        "impacto": "favoravel"
+      },
+      {
+        "programa": "Fulbright FLTA / PDPI / Humphrey",
+        "exige": "candidatura individual; perfil profissional ou docente, sem exigência de stricto sensu",
+        "impacto": "favoravel"
+      }
+    ],
+    "situacao_elegibilidade": "restricao_conhecida",
+    "prazo_final": "2026-09-30",
+    "prazo_texto": "30/09/2026",
+    "dias_restantes": 41,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 30/09/2026",
+    "aderencia": 74,
+    "eixos": [
+      "cooperacao_pesquisa",
+      "internacionalizacao_institucional",
+      "mobilidade_pesquisador_docente",
+      "mobilidade_estudantil",
+      "global_talks_convidados"
+    ],
+    "eixos_rotulos": [
+      "Cooperacao internacional em pesquisa",
+      "Parceria / internacionalizacao institucional",
+      "Mobilidade de docente/pesquisador",
+      "Mobilidade estudantil internacional",
+      "Convidados e conexoes academicas internacionais"
+    ],
+    "publico_alvo": [
+      "instituicao",
+      "docente_pesquisador",
+      "pos_graduando",
+      "estudante"
+    ],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Cooperacao internacional em pesquisa / Parceria / internacionalizacao institucional | componente internacional | financiamento/bolsa | prazo 30/09/2026",
+    "detalhe_lido": true,
+    "detalhe_tipo": "html",
+    "ano_edicao": null,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/programas-estrategicos/formacao-de-recursos-humanos-em-areas-estrategicas/capes-cnj-apoio-a-pesquisas-judiciarias-constitucionais": {
+    "titulo": "CAPES/CNJ - Apoio a Pesquisas Judiciárias Constitucionais",
+    "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/programas-estrategicos/formacao-de-recursos-humanos-em-areas-estrategicas/capes-cnj-apoio-a-pesquisas-judiciarias-constitucionais",
+    "data_texto": "",
+    "arquivo": "",
+    "anexos": [],
+    "fonte": "CAPES — Editais e cooperacao",
+    "regiao": "nacional",
+    "temas": [
+      "internacional",
+      "mobilidade",
+      "pesquisa",
+      "bolsas",
+      "eventos_e_visitas",
+      "inovacao",
+      "idiomas",
+      "pos_graduacao"
+    ],
+    "status": "aberto",
+    "pontos": 72,
+    "prioridade": 15.1,
+    "restricoes": [
+      {
+        "programa": "PDSE — Doutorado-sanduíche CAPES",
+        "exige": "matrícula em programa de doutorado brasileiro avaliado pela CAPES, normalmente nota 4 ou superior",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "Doutorado-sanduíche (geral)",
+        "exige": "matrícula ativa em doutorado no Brasil",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "CAPES/Cofecub",
+        "exige": "cooperação entre programas de pós-graduação stricto sensu consolidados",
+        "impacto": "bloqueia"
+      },
+      {
+        "programa": "CAPES/Humboldt",
+        "exige": "perfil de pesquisa consolidado, normalmente com vínculo a PPG",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "CAPES/Purdue e similares",
+        "exige": "programa de pós-graduação stricto sensu proponente",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "Brafitec / Brafagri",
+        "exige": "instituição previamente selecionada no programa, cursos de engenharia ou agrárias",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "Cátedras e professor visitante Fulbright",
+        "exige": "candidatura individual do docente, sem exigir que a instituição seja pública",
+        "impacto": "favoravel"
+      },
+      {
+        "programa": "Fulbright FLTA / PDPI / Humphrey",
+        "exige": "candidatura individual; perfil profissional ou docente, sem exigência de stricto sensu",
+        "impacto": "favoravel"
+      },
+      {
+        "programa": "Editais FAPES de eventos, visitas e estágios",
+        "exige": "vínculo com instituição sediada no Espírito Santo; verificar credenciamento como ICT junto à FAPES",
+        "impacto": "favoravel"
+      }
+    ],
+    "situacao_elegibilidade": "restricao_conhecida",
+    "prazo_final": "2026-10-02",
+    "prazo_texto": "02/10/2026",
+    "dias_restantes": 43,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 02/10/2026",
+    "aderencia": 72,
+    "eixos": [
+      "cooperacao_pesquisa",
+      "mobilidade_pesquisador_docente",
+      "mobilidade_estudantil",
+      "global_talks_convidados"
+    ],
+    "eixos_rotulos": [
+      "Cooperacao internacional em pesquisa",
+      "Mobilidade de docente/pesquisador",
+      "Mobilidade estudantil internacional",
+      "Convidados e conexoes academicas internacionais"
+    ],
+    "publico_alvo": [
+      "docente_pesquisador"
+    ],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Cooperacao internacional em pesquisa / Mobilidade de docente/pesquisador | componente internacional | financiamento/bolsa | prazo 02/10/2026",
+    "detalhe_lido": true,
+    "detalhe_tipo": "html",
+    "ano_edicao": null,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/estados-unidos/programa-capes-universidade-em-buffalo-capes-ub-professor-visitante": {
+    "titulo": "Programa CAPES/Universidade em Buffalo (CAPES/UB) - Professor Visitante",
+    "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/estados-unidos/programa-capes-universidade-em-buffalo-capes-ub-professor-visitante",
+    "data_texto": "",
+    "arquivo": "",
+    "anexos": [],
+    "fonte": "CAPES — Editais e cooperacao",
+    "regiao": "nacional",
+    "temas": [
+      "internacional",
+      "mobilidade",
+      "pesquisa",
+      "bolsas",
+      "eventos_e_visitas",
+      "inovacao",
+      "pos_graduacao"
+    ],
+    "status": "aberto",
+    "pontos": 74,
+    "prioridade": 66.0,
+    "restricoes": [
+      {
+        "programa": "CAPES/Purdue e similares",
+        "exige": "programa de pós-graduação stricto sensu proponente",
+        "impacto": "atencao"
+      }
+    ],
+    "situacao_elegibilidade": "verificar",
+    "prazo_final": "2026-08-26",
+    "prazo_texto": "26/08/2026",
+    "dias_restantes": 6,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 26/08/2026",
+    "aderencia": 74,
+    "eixos": [
+      "cooperacao_pesquisa",
+      "internacionalizacao_institucional",
+      "mobilidade_pesquisador_docente",
+      "mobilidade_estudantil",
+      "global_talks_convidados"
+    ],
+    "eixos_rotulos": [
+      "Cooperacao internacional em pesquisa",
+      "Parceria / internacionalizacao institucional",
+      "Mobilidade de docente/pesquisador",
+      "Mobilidade estudantil internacional",
+      "Convidados e conexoes academicas internacionais"
+    ],
+    "publico_alvo": [
+      "instituicao",
+      "docente_pesquisador"
+    ],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Cooperacao internacional em pesquisa / Parceria / internacionalizacao institucional | componente internacional | financiamento/bolsa | prazo 26/08/2026",
+    "detalhe_lido": true,
+    "detalhe_tipo": "html",
+    "ano_edicao": null,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/multinacional/politica-de-novacao-para-bolsistas-e-ex-bolsistas-no-exterior": {
+    "titulo": "Política de Novação para Bolsistas e Ex-bolsistas no Exterior",
+    "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/multinacional/politica-de-novacao-para-bolsistas-e-ex-bolsistas-no-exterior",
+    "data_texto": "",
+    "arquivo": "",
+    "anexos": [],
+    "fonte": "CAPES — Editais e cooperacao",
+    "regiao": "nacional",
+    "temas": [
+      "internacional",
+      "mobilidade",
+      "pesquisa",
+      "bolsas",
+      "inovacao"
+    ],
+    "status": "aberto",
+    "pontos": 52,
+    "prioridade": 54.6,
+    "restricoes": [],
+    "situacao_elegibilidade": "sem_catalogo",
+    "prazo_final": "2026-10-14",
+    "prazo_texto": "14/10/2026",
+    "dias_restantes": 55,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 14/10/2026",
+    "aderencia": 52,
+    "eixos": [
+      "mobilidade_estudantil"
+    ],
+    "eixos_rotulos": [
+      "Mobilidade estudantil internacional"
+    ],
+    "publico_alvo": [
+      "instituicao",
+      "docente_pesquisador"
+    ],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Mobilidade estudantil internacional | componente internacional | financiamento/bolsa | prazo 14/10/2026",
+    "detalhe_lido": true,
+    "detalhe_tipo": "html",
+    "ano_edicao": null,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/programas-estrategicos/desenvolvimento-regional/redes-de-pesquisa-e-desenvolvimento/programa-rede-de-pesquisa-e-desenvolvimento-da-amazonia-legal": {
+    "titulo": "Programa Rede de Pesquisa e Desenvolvimento da Amazônia Legal",
+    "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/programas-estrategicos/desenvolvimento-regional/redes-de-pesquisa-e-desenvolvimento/programa-rede-de-pesquisa-e-desenvolvimento-da-amazonia-legal",
+    "data_texto": "",
+    "arquivo": "",
+    "anexos": [],
+    "fonte": "CAPES — Editais e cooperacao",
+    "regiao": "nacional",
+    "temas": [
+      "internacional",
+      "mobilidade",
+      "pesquisa",
+      "bolsas",
+      "eventos_e_visitas",
+      "extensao",
+      "inovacao",
+      "pos_graduacao"
+    ],
+    "status": "aberto",
+    "pontos": 73,
+    "prioridade": 65.2,
+    "restricoes": [
+      {
+        "programa": "Doutorado-sanduíche (geral)",
+        "exige": "matrícula ativa em doutorado no Brasil",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "Chamadas transnacionais (Biodiversa+, Water, Economia Azul, ERA)",
+        "exige": "consórcio com parceiros europeus e grupo de pesquisa consolidado",
+        "impacto": "atencao"
+      }
+    ],
+    "situacao_elegibilidade": "verificar",
+    "prazo_final": "2026-11-06",
+    "prazo_texto": "06/11/2026",
+    "dias_restantes": 78,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 06/11/2026",
+    "aderencia": 73,
+    "eixos": [
+      "internacionalizacao_institucional",
+      "mobilidade_pesquisador_docente",
+      "mobilidade_estudantil",
+      "global_talks_convidados"
+    ],
+    "eixos_rotulos": [
+      "Parceria / internacionalizacao institucional",
+      "Mobilidade de docente/pesquisador",
+      "Mobilidade estudantil internacional",
+      "Convidados e conexoes academicas internacionais"
+    ],
+    "publico_alvo": [
+      "instituicao",
+      "docente_pesquisador"
+    ],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Parceria / internacionalizacao institucional / Mobilidade de docente/pesquisador | componente internacional | financiamento/bolsa | prazo 06/11/2026",
+    "detalhe_lido": true,
+    "detalhe_tipo": "html",
+    "ano_edicao": null,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  },
+  "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/programas-estrategicos/desenvolvimento-regional/redes-de-pesquisa-e-desenvolvimento/programa-rede-de-pesquisa-e-desenvolvimento-da-regiao-nordeste": {
+    "titulo": "Programa Rede de Pesquisa e Desenvolvimento da Região Nordeste",
+    "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/programas-estrategicos/desenvolvimento-regional/redes-de-pesquisa-e-desenvolvimento/programa-rede-de-pesquisa-e-desenvolvimento-da-regiao-nordeste",
+    "data_texto": "",
+    "arquivo": "",
+    "anexos": [],
+    "fonte": "CAPES — Editais e cooperacao",
+    "regiao": "nacional",
+    "temas": [
+      "internacional",
+      "mobilidade",
+      "pesquisa",
+      "bolsas",
+      "eventos_e_visitas",
+      "extensao",
+      "inovacao",
+      "pos_graduacao"
+    ],
+    "status": "aberto",
+    "pontos": 73,
+    "prioridade": 65.2,
+    "restricoes": [
+      {
+        "programa": "Doutorado-sanduíche (geral)",
+        "exige": "matrícula ativa em doutorado no Brasil",
+        "impacto": "atencao"
+      }
+    ],
+    "situacao_elegibilidade": "verificar",
+    "prazo_final": "2026-11-30",
+    "prazo_texto": "30/11/2026",
+    "dias_restantes": 102,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 30/11/2026",
+    "aderencia": 73,
+    "eixos": [
+      "internacionalizacao_institucional",
+      "mobilidade_pesquisador_docente",
+      "mobilidade_estudantil",
+      "global_talks_convidados"
+    ],
+    "eixos_rotulos": [
+      "Parceria / internacionalizacao institucional",
+      "Mobilidade de docente/pesquisador",
+      "Mobilidade estudantil internacional",
+      "Convidados e conexoes academicas internacionais"
+    ],
+    "publico_alvo": [
+      "instituicao",
+      "docente_pesquisador"
+    ],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Parceria / internacionalizacao institucional / Mobilidade de docente/pesquisador | componente internacional | financiamento/bolsa | prazo 30/11/2026",
+    "detalhe_lido": true,
+    "detalhe_tipo": "html",
+    "ano_edicao": null,
+    "visto_primeiro": "2026-08-20T12:54:30",
+    "visto_por_ultimo": "2026-08-20T12:54:30",
+    "execucao_primeira": 1,
+    "execucao_ultima": 1,
+    "novidade": "inicial"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "execucao": "2026-08-20T12:54:30",
+  "numero": 1,
+  "fontes": [
+    {
+      "fonte": "FAPES — Oportunidades abertas",
+      "regiao": "es",
+      "situacao": "ok",
+      "url_usada": "https://fapes.es.gov.br/chamadas-internacionais",
+      "relevantes": 2,
+      "novos": 2,
+      "atualizados": 0,
+      "segundos": 23.6,
+      "tentativas": [
+        "https://fapes.es.gov.br/chamadas-internacionais -> OK, 7 links, 2 relevantes (seletor)"
+      ]
+    },
+    {
+      "fonte": "FAPES — Difusão internacional",
+      "regiao": "es",
+      "situacao": "ok",
+      "url_usada": "https://fapes.es.gov.br/difusao-do-conhecimento",
+      "relevantes": 4,
+      "novos": 4,
+      "atualizados": 0,
+      "segundos": 19.9,
+      "tentativas": [
+        "https://fapes.es.gov.br/difusao-do-conhecimento -> OK, 7 links, 4 relevantes (seletor)"
+      ]
+    },
+    {
+      "fonte": "CONFAP — Em andamento",
+      "regiao": "nacional",
+      "situacao": "ok",
+      "url_usada": "https://confap.org.br/pt/editais/?status=em-andamento",
+      "relevantes": 5,
+      "novos": 5,
+      "atualizados": 0,
+      "segundos": 14.5,
+      "tentativas": [
+        "https://confap.org.br/pt/editais/?status=em-andamento -> OK, 5 relevantes em 2 página(s) (varredura)"
+      ]
+    },
+    {
+      "fonte": "CNPq — Chamadas abertas",
+      "regiao": "nacional",
+      "situacao": "ok",
+      "url_usada": "https://www.gov.br/cnpq/pt-br/chamadas/abertas-para-submissao",
+      "relevantes": 14,
+      "novos": 14,
+      "atualizados": 0,
+      "segundos": 26.9,
+      "tentativas": [
+        "https://www.gov.br/cnpq/pt-br/chamadas/abertas-para-submissao -> OK, 14 relevantes em 2 página(s) (seletor)"
+      ]
+    },
+    {
+      "fonte": "CAPES — Editais e cooperacao",
+      "regiao": "nacional",
+      "situacao": "ok",
+      "url_usada": "https://www.gov.br/capes/pt-br/assuntos/editais-e-resultados-capes/",
+      "relevantes": 10,
+      "novos": 10,
+      "atualizados": 0,
+      "segundos": 16.8,
+      "tentativas": [
+        "https://www.gov.br/capes/pt-br/assuntos/editais-e-resultados-capes/ -> OK, 10 relevantes em 1 página(s) (varredura)"
+      ]
+    },
+    {
+      "fonte": "DAAD Brasil",
+      "regiao": "internacional",
+      "situacao": "falhou",
+      "url_usada": "",
+      "relevantes": 0,
+      "novos": 0,
+      "atualizados": 0,
+      "segundos": 0.6,
+      "tentativas": [
+        "https://www.daad-brasil.org/pt/bolsas/busca/?type=a&origin=48&target=48&status=4&intention=0&subject=0&onlydaad=1&q=&pg=1 -> HTTP 403"
+      ]
+    },
+    {
+      "fonte": "Fulbright Brasil",
+      "regiao": "internacional",
+      "situacao": "ok",
+      "url_usada": "https://fulbright.org.br/bolsas-para-brasileiros/",
+      "relevantes": 0,
+      "novos": 0,
+      "atualizados": 0,
+      "segundos": 6.2,
+      "tentativas": [
+        "https://fulbright.org.br/bolsas-para-brasileiros/ -> OK, 27 links, 0 relevantes (varredura)",
+        "https://fulbright.org.br/bolsas-para-brasileiros/ -> OK, 0 relevantes em 2 página(s) (varredura)"
+      ]
+    },
+    {
+      "fonte": "British Council — Ensino Superior",
+      "regiao": "internacional",
+      "situacao": "falhou",
+      "url_usada": "",
+      "relevantes": 0,
+      "novos": 0,
+      "atualizados": 0,
+      "segundos": 51.9,
+      "tentativas": [
+        "https://www.britishcouncil.org.br/en/programmes/education -> leitura excedeu 25s"
+      ]
+    }
+  ]
+}
