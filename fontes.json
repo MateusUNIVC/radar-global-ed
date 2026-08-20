@@ -1,0 +1,335 @@
+{
+  "_leia": "Fontes revisadas em 20/08/2026 em modo quality-first. Ativas por padrao: paginas oficiais com alta aderencia ao Global Ed. Uma oportunidade so aparece como aberta quando o detalhe/card/PDF permite confirmar prazo final vigente.",
+  "_campos": {
+    "nome": "rótulo exibido no painel",
+    "regiao": "es | nacional | internacional — alimenta o filtro geográfico do painel",
+    "dominio_raiz": "usado pelo descobrir_urls.py como ponto de partida do rastreamento",
+    "urls_candidatos": "lista ordenada de URLs a tentar",
+    "seletor": "CSS de cada item da lista (se falhar, cai no modo palavra-chave automaticamente)",
+    "seletor_titulo/link/data": "relativos ao item; null usa o próprio item",
+    "sempre_internacional": "true força a tag 'internacional' em tudo dessa fonte (ex: DAAD, Fulbright)",
+    "paginacao": "OPCIONAL. Sem esse campo le so a primeira pagina. tipo='auto' segue o link de proxima pagina (rel=next, numero seguinte, ou texto 'proxima'/'next'/'>>') — funciona sem saber o parametro do site. tipo='query' troca um parametro (?pg=1 -> ?pg=2), exige 'parametro'. tipo='template' substitui {pagina} na URL. 'max_paginas' e teto de seguranca; a parada real acontece quando uma pagina nao traz nada novo.",
+    "ler_todas_urls": "OPCIONAL. Se true, o scraper le TODAS as urls_candidatos e acumula os resultados — use quando os candidatos sao SECOES DIFERENTES da mesma fonte (ex: FAPES tem paginas separadas para internacionais, pesquisa, extensao, inovacao). Se false ou ausente (padrao), os candidatos sao ALTERNATIVAS: para na primeira que responder.",
+    "agrupar_anexos": "OPCIONAL, padrao true. Quando um bloco/dropdown tem varios links de download, junta tudo numa entrada so: o documento principal vira o edital e os demais viram 'anexos' dentro dele. Coloque false para listar cada arquivo separadamente.",
+    "fonte_curada_oportunidades": "true quando a pagina e uma lista de chamadas/bolsas, usado apenas no pre-filtro",
+    "fonte_curada_internacional": "true quando toda a fonte e internacional; ainda assim e exigido um eixo estrategico do Global Ed",
+    "status_lista_confiavel": "use \"aberto\" somente em paginas oficiais filtradas para abertas/em andamento; o detalhe ainda pode derrubar um prazo vencido",
+    "max_detalhes": "limite de paginas/PDFs de detalhe lidos por fonte em cada execucao"
+  },
+  "fontes": [
+    {
+      "seletor": "details, .accordion-item, .panel, .card",
+      "seletor_titulo": "h2, h3, h4, a, summary, .accordion-header, .accordion-button, .card-header, .panel-heading",
+      "seletor_link": "a",
+      "seletor_data": "time, .date, .data",
+      "agrupar_anexos": true,
+      "nome": "FAPES — Oportunidades abertas",
+      "regiao": "es",
+      "dominio_raiz": "https://fapes.es.gov.br",
+      "urls_candidatos": [
+        "https://fapes.es.gov.br/chamadas-internacionais"
+      ],
+      "sempre_internacional": false,
+      "fonte_curada_oportunidades": true,
+      "status_lista_confiavel": "aberto",
+      "max_detalhes": 45,
+      "_nota": "Fonte principal: pagina oficial de Editais Abertos - Chamadas Internacionais da FAPES. Prioridade maxima porque as diretrizes estaduais definem a elegibilidade no ES. Cada chamada precisa ter prazo final confirmado.",
+      "exigir_prazo_confirmado": true
+    },
+    {
+      "seletor": "details, .accordion-item, .panel, .card",
+      "seletor_titulo": "h2, h3, h4, a, summary, .accordion-header, .accordion-button, .card-header, .panel-heading",
+      "seletor_link": "a",
+      "seletor_data": "time, .date, .data",
+      "agrupar_anexos": true,
+      "nome": "FAPES — Difusão internacional",
+      "regiao": "es",
+      "dominio_raiz": "https://fapes.es.gov.br",
+      "urls_candidatos": [
+        "https://fapes.es.gov.br/difusao-do-conhecimento"
+      ],
+      "sempre_internacional": false,
+      "fonte_curada_oportunidades": true,
+      "max_detalhes": 20,
+      "exigir_prazo_confirmado": true,
+      "_nota": "Fonte complementar para apoio a eventos, visitas e difusao. O filtro exige componente internacional explicito e prazo final confirmado, evitando editais locais genericos."
+    },
+    {
+      "seletor": "article, .post, .item, .entry, .views-row, .tileItem, .card, .result, .listagem-item, details, .accordion-item, .panel",
+      "seletor_titulo": "h2, h3, h4, a, summary, .accordion-header, .accordion-button, .card-header, .panel-heading",
+      "seletor_link": "a",
+      "seletor_data": "time, .date, .data",
+      "agrupar_anexos": true,
+      "nome": "CONFAP — Em andamento",
+      "regiao": "nacional",
+      "dominio_raiz": "https://confap.org.br",
+      "urls_candidatos": [
+        "https://confap.org.br/pt/editais/?status=em-andamento"
+      ],
+      "sempre_internacional": false,
+      "fonte_curada_oportunidades": true,
+      "max_detalhes": 40,
+      "paginacao": {
+        "tipo": "auto",
+        "inicio": 1,
+        "max_paginas": 4
+      },
+      "_nota": "Usa o recorte Em andamento, mas NAO confia no rotulo do site: so entra se a data final extraida da chamada ainda estiver vigente.",
+      "exigir_prazo_confirmado": true
+    },
+    {
+      "seletor": "article, .post, .item, .entry, .views-row, .tileItem, .card, .result, .listagem-item, details, .accordion-item, .panel",
+      "seletor_titulo": "h2, h3, h4, a, summary, .accordion-header, .accordion-button, .card-header, .panel-heading",
+      "seletor_link": "a",
+      "seletor_data": "time, .date, .data",
+      "agrupar_anexos": true,
+      "nome": "CNPq — Chamadas abertas",
+      "regiao": "nacional",
+      "dominio_raiz": "https://www.gov.br/cnpq",
+      "urls_candidatos": [
+        "https://www.gov.br/cnpq/pt-br/chamadas/abertas-para-submissao",
+        "https://www.gov.br/cnpq/pt-br/chamadas/Busca_abertas"
+      ],
+      "sempre_internacional": false,
+      "fonte_curada_oportunidades": true,
+      "status_lista_confiavel": "aberto",
+      "max_detalhes": 45,
+      "paginacao": {
+        "tipo": "auto",
+        "inicio": 1,
+        "max_paginas": 4
+      },
+      "_nota": "Substitui o dominio memoria2.cnpq.br e remove completamente o candidato de chamadas encerradas. So oportunidades com componente internacional passam no filtro Global Ed.",
+      "exigir_prazo_confirmado": true
+    },
+    {
+      "seletor": "article, .post, .item, .entry, .views-row, .tileItem, .card, .result, .listagem-item, details, .accordion-item, .panel",
+      "seletor_titulo": "h2, h3, h4, a, summary, .accordion-header, .accordion-button, .card-header, .panel-heading",
+      "seletor_link": "a",
+      "seletor_data": "time, .date, .data",
+      "agrupar_anexos": true,
+      "nome": "CAPES — Editais e cooperacao",
+      "regiao": "nacional",
+      "dominio_raiz": "https://www.gov.br/capes",
+      "urls_candidatos": [
+        "https://www.gov.br/capes/pt-br/assuntos/editais-e-resultados-capes/"
+      ],
+      "sempre_internacional": false,
+      "fonte_curada_oportunidades": true,
+      "max_detalhes": 45,
+      "paginacao": {
+        "tipo": "auto",
+        "inicio": 1,
+        "max_paginas": 5
+      },
+      "_nota": "Fonte ampla, mas o novo filtro exige aderencia internacional e prazo confirmado no detalhe.",
+      "exigir_prazo_confirmado": true
+    },
+    {
+      "seletor": "article, .post, .item, .entry, .views-row, .tileItem, .card, .result, .listagem-item, details, .accordion-item, .panel",
+      "seletor_titulo": "h2, h3, h4, a, summary, .accordion-header, .accordion-button, .card-header, .panel-heading",
+      "seletor_link": "a",
+      "seletor_data": "time, .date, .data",
+      "agrupar_anexos": true,
+      "nome": "DAAD Brasil",
+      "regiao": "internacional",
+      "dominio_raiz": "https://www.daad-brasil.org",
+      "urls_candidatos": [
+        "https://www.daad-brasil.org/pt/bolsas/busca/?type=a&origin=48&target=48&status=4&intention=0&subject=0&onlydaad=1&q="
+      ],
+      "sempre_internacional": true,
+      "fonte_curada_oportunidades": true,
+      "fonte_curada_internacional": true,
+      "status_lista_confiavel": "aberto",
+      "max_detalhes": 35,
+      "paginacao": {
+        "tipo": "query",
+        "parametro": "pg",
+        "inicio": 1,
+        "max_paginas": 6
+      },
+      "_nota": "Busca filtrada para status atual e ofertas DAAD. Cotutela, mobilidade de pesquisadores e estadias de pesquisa recebem maior aderencia; cursos/bolsas genericas sem conexao aos projetos sao descartados.",
+      "exigir_prazo_confirmado": true
+    },
+    {
+      "seletor": "article, .post, .item, .entry, .views-row, .tileItem, .card, .result, .listagem-item, details, .accordion-item, .panel",
+      "seletor_titulo": "h2, h3, h4, a, summary, .accordion-header, .accordion-button, .card-header, .panel-heading",
+      "seletor_link": "a",
+      "seletor_data": "time, .date, .data",
+      "agrupar_anexos": true,
+      "nome": "Fulbright Brasil",
+      "regiao": "internacional",
+      "dominio_raiz": "https://fulbright.org.br",
+      "urls_candidatos": [
+        "https://fulbright.org.br/bolsas-para-brasileiros/"
+      ],
+      "sempre_internacional": true,
+      "fonte_curada_oportunidades": true,
+      "fonte_curada_internacional": true,
+      "max_detalhes": 30,
+      "paginacao": {
+        "tipo": "auto",
+        "inicio": 1,
+        "max_paginas": 2
+      },
+      "_nota": "Nao confia no rotulo da listagem: cada programa e aberto e o prazo do detalhe e validado. Isso remove automaticamente paginas que ainda dizem inscricoes abertas mas cujo prazo ja terminou.",
+      "exigir_prazo_confirmado": true
+    },
+    {
+      "seletor": "article, .post, .item, .entry, .views-row, .tileItem, .card, .result, .listagem-item, details, .accordion-item, .panel",
+      "seletor_titulo": "h2, h3, h4, a, summary, .accordion-header, .accordion-button, .card-header, .panel-heading",
+      "seletor_link": "a",
+      "seletor_data": "time, .date, .data",
+      "agrupar_anexos": true,
+      "nome": "British Council — Ensino Superior",
+      "regiao": "internacional",
+      "dominio_raiz": "https://www.britishcouncil.org.br",
+      "urls_candidatos": [
+        "https://www.britishcouncil.org.br/en/programmes/education"
+      ],
+      "sempre_internacional": true,
+      "fonte_curada_oportunidades": true,
+      "fonte_curada_internacional": true,
+      "max_detalhes": 35,
+      "paginacao": {
+        "tipo": "auto",
+        "inicio": 1,
+        "max_paginas": 2
+      },
+      "_nota": "Fonte adicionada por forte aderencia a parcerias institucionais e pesquisa Brasil-Reino Unido. O detalhe decide se a chamada ainda esta aberta.",
+      "exigir_prazo_confirmado": true
+    },
+    {
+      "seletor": "article, .post, .item, .entry, .views-row, .tileItem, .card, .result, .listagem-item, li, details, .accordion-item, .accordion, .panel, .collapse",
+      "seletor_titulo": "h2, h3, h4, a, summary, .accordion-header, .accordion-button, .card-header, .panel-heading",
+      "seletor_link": "a",
+      "seletor_data": "time, .date, .data",
+      "agrupar_anexos": true,
+      "nome": "GCUB — Grupo Coimbra",
+      "regiao": "internacional",
+      "dominio_raiz": "https://www.gcub.org.br",
+      "urls_candidatos": [
+        "https://www.gcub.org.br/category/programas/ativos/"
+      ],
+      "sempre_internacional": true,
+      "fonte_curada_oportunidades": false,
+      "fonte_curada_internacional": true,
+      "paginacao": {
+        "tipo": "auto",
+        "inicio": 1,
+        "max_paginas": 4
+      },
+      "desativada": true,
+      "_nota": "Desativada por padrao: a categoria mistura programas antigos, resultados, cursos e mobilidade inbound para o Brasil. Reative apenas para inteligencia."
+    },
+    {
+      "seletor": "article, .post, .item, .entry, .views-row, .tileItem, .card, .result, .listagem-item, li, details, .accordion-item, .accordion, .panel, .collapse",
+      "seletor_titulo": "h2, h3, h4, a, summary, .accordion-header, .accordion-button, .card-header, .panel-heading",
+      "seletor_link": "a",
+      "seletor_data": "time, .date, .data",
+      "agrupar_anexos": true,
+      "nome": "SECTIDES-ES",
+      "regiao": "es",
+      "dominio_raiz": "https://secti.es.gov.br",
+      "urls_candidatos": [
+        "https://secti.es.gov.br/editais-abertos"
+      ],
+      "sempre_internacional": false,
+      "paginacao": {
+        "tipo": "auto",
+        "inicio": 1,
+        "max_paginas": 4
+      },
+      "desativada": true,
+      "_nota": "Desativada por padrao: fonte estadual ampla, com baixa densidade de internacionalizacao."
+    },
+    {
+      "seletor": "article, .post, .item, .entry, .views-row, .tileItem, .card, .result, .listagem-item, li, details, .accordion-item, .accordion, .panel, .collapse",
+      "seletor_titulo": "h2, h3, h4, a, summary, .accordion-header, .accordion-button, .card-header, .panel-heading",
+      "seletor_link": "a",
+      "seletor_data": "time, .date, .data",
+      "agrupar_anexos": true,
+      "nome": "FINEP",
+      "regiao": "nacional",
+      "dominio_raiz": "https://www.finep.gov.br",
+      "urls_candidatos": [
+        "https://www.finep.gov.br/oportunidades"
+      ],
+      "sempre_internacional": false,
+      "paginacao": {
+        "tipo": "auto",
+        "inicio": 1,
+        "max_paginas": 4
+      },
+      "desativada": true,
+      "_nota": "Desativada por padrao: a URL vinha gerando produtos financeiros, nao chamadas internacionais concretas."
+    },
+    {
+      "seletor": "article, .post, .item, .entry, .views-row, .tileItem, .card, .result, .listagem-item, li, details, .accordion-item, .accordion, .panel, .collapse",
+      "seletor_titulo": "h2, h3, h4, a, summary, .accordion-header, .accordion-button, .card-header, .panel-heading",
+      "seletor_link": "a",
+      "seletor_data": "time, .date, .data",
+      "agrupar_anexos": true,
+      "nome": "Chevening",
+      "regiao": "internacional",
+      "dominio_raiz": "https://www.chevening.org",
+      "urls_candidatos": [
+        "https://www.chevening.org/apply/?country=brazil&award_type="
+      ],
+      "sempre_internacional": true,
+      "fonte_curada_internacional": true,
+      "paginacao": {
+        "tipo": "auto",
+        "inicio": 1,
+        "max_paginas": 2
+      },
+      "tempo_max_segundos": 45,
+      "desativada": true,
+      "_nota": "Desativada por padrao: bolsa individual de mestrado e pouco aderente aos projetos institucionais atuais; alem disso foi fonte lenta na rede."
+    },
+    {
+      "seletor": "article, .post, .item, .entry, .views-row, .tileItem, .card, .result, .listagem-item, li, details, .accordion-item, .accordion, .panel, .collapse",
+      "seletor_titulo": "h2, h3, h4, a, summary, .accordion-header, .accordion-button, .card-header, .panel-heading",
+      "seletor_link": "a",
+      "seletor_data": "time, .date, .data",
+      "agrupar_anexos": true,
+      "nome": "Santander Universidades",
+      "regiao": "internacional",
+      "dominio_raiz": "https://app.santanderopenacademy.com",
+      "urls_candidatos": [
+        "https://app.santanderopenacademy.com/en/program/search?resourceType=SOA_GRANT&category=FINANCIAL_ASSISTANCE&category=ACADEMIC_MOBILITY&category=INTERNSHIP&category=RESEARCH&countries=BR"
+      ],
+      "sempre_internacional": true,
+      "fonte_curada_internacional": true,
+      "paginacao": {
+        "tipo": "auto",
+        "inicio": 1,
+        "max_paginas": 2
+      },
+      "desativada": true,
+      "_nota": "Desativada por padrao: SPA/JavaScript e baixa previsibilidade via requests."
+    },
+    {
+      "seletor": "article, .post, .item, .entry, .views-row, .tileItem, .card, .result, .listagem-item, li, details, .accordion-item, .accordion, .panel, .collapse",
+      "seletor_titulo": "h2, h3, h4, a, summary, .accordion-header, .accordion-button, .card-header, .panel-heading",
+      "seletor_link": "a",
+      "seletor_data": "time, .date, .data",
+      "agrupar_anexos": true,
+      "nome": "UFES — Relacoes Internacionais",
+      "regiao": "es",
+      "dominio_raiz": "https://internacional.ufes.br",
+      "urls_candidatos": [
+        "https://internacional.ufes.br/pt-br/editais-e-chamadas-sri-2026"
+      ],
+      "sempre_internacional": true,
+      "fonte_curada_internacional": true,
+      "paginacao": {
+        "tipo": "auto",
+        "inicio": 1,
+        "max_paginas": 3
+      },
+      "desativada": true,
+      "_nota": "Desativada: editais internos da UFES nao sao oportunidades concorriveis pelo UNIVC; use apenas como mapa de parceiros."
+    }
+  ]
+}

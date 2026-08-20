@@ -1,0 +1,82 @@
+name: Atualizar e publicar Radar Global Ed
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+  schedule:
+    # Todos os dias às 06:17 no horário de Brasília.
+    # Minuto 17 evita o pico de execuções do GitHub no início de cada hora.
+    - cron: "17 6 * * *"
+      timezone: "America/Sao_Paulo"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "global-ed-pages"
+  cancel-in-progress: false
+
+env:
+  TZ: America/Sao_Paulo
+
+jobs:
+  atualizar-publicar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v6
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Instalar dependências
+        run: python -m pip install -r requirements.txt
+
+      - name: Rodar testes de qualidade
+        run: python testes_qualidade.py
+
+      - name: Verificar bolsas e gerar painel
+        run: python editais_scraper.py
+
+      - name: Preparar site estático
+        run: |
+          rm -rf site
+          mkdir -p site
+          cp painel.html site/index.html
+          touch site/.nojekyll
+
+      # O histórico precisa sobreviver entre execuções do runner. Por isso os
+      # JSONs de estado voltam para a branch principal após cada coleta.
+      - name: Salvar histórico da coleta
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dados/
+          if git diff --cached --quiet; then
+            echo "Nenhuma mudança de estado para salvar."
+          else
+            git commit -m "chore: atualizar radar automático"
+            git push origin HEAD:main
+          fi
+
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Enviar site para Pages
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+      - name: Publicar GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

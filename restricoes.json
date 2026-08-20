@@ -1,0 +1,162 @@
+{
+  "_leia": "Substitui o julgamento de elegibilidade que antes era feito pela API do Claude. NAO e deteccao automatica: e conhecimento explicito e revisavel sobre programas especificos. Testei regex generico contra os 420 registros reais e as restricoes de elegibilidade praticamente NAO aparecem no titulo — so 2 casos em 420. Por isso a abordagem aqui e uma lista curada: quando o titulo casa com um programa catalogado, a restricao conhecida dele e exibida. Fora da lista, o painel nao afirma nada sobre elegibilidade, porque nao ha como saber pelo titulo.",
+  "_como_editar": "As regras sao alertas de triagem, nao conclusoes sobre a elegibilidade do UNIVC. Use bloqueia apenas quando o proprio detalhe da chamada trouxer restricao inequivoca; nos demais casos, atencao significa ler o edital.",
+  "_aviso": "NENHUMA entrada aqui substitui ler o edital. As notas foram inferidas de conhecimento geral sobre os programas em agosto de 2026 e podem estar erradas ou desatualizadas.",
+  "restricoes": [
+    {
+      "programa": "PDSE — Doutorado-sanduíche CAPES",
+      "padrao": "pdse|doutorado[\\s-]?sanduiche no exterior",
+      "exige": "matrícula em programa de doutorado brasileiro avaliado pela CAPES, normalmente nota 4 ou superior",
+      "impacto": "atencao",
+      "_nota": "Sem doutorado próprio, a instituição não pode indicar candidatos."
+    },
+    {
+      "programa": "CAPES-PrInt",
+      "padrao": "print|internacionalizacao da pos-?graduacao",
+      "exige": "programas de pós-graduação stricto sensu com nota mínima na CAPES",
+      "impacto": "atencao"
+    },
+    {
+      "programa": "Doutorado-sanduíche (geral)",
+      "padrao": "sanduiche|swe\\b",
+      "exige": "matrícula ativa em doutorado no Brasil",
+      "impacto": "atencao"
+    },
+    {
+      "programa": "DAAD — auxílio a doutorandos com bolsa nacional",
+      "padrao": "doutorandos? com bolsa nacional",
+      "exige": "ser doutorando com bolsa nacional vigente",
+      "impacto": "atencao"
+    },
+    {
+      "programa": "CAPES/Cofecub",
+      "padrao": "cofecub",
+      "exige": "cooperação entre programas de pós-graduação stricto sensu consolidados",
+      "impacto": "bloqueia"
+    },
+    {
+      "programa": "CAPES/Humboldt",
+      "padrao": "humboldt",
+      "exige": "perfil de pesquisa consolidado, normalmente com vínculo a PPG",
+      "impacto": "atencao"
+    },
+    {
+      "programa": "CAPES/Purdue e similares",
+      "padrao": "capes/purdue|projetos conjuntos de pesquisa",
+      "exige": "programa de pós-graduação stricto sensu proponente",
+      "impacto": "atencao"
+    },
+    {
+      "programa": "Brafitec / Brafagri",
+      "padrao": "brafitec|brafagri",
+      "exige": "instituição previamente selecionada no programa, cursos de engenharia ou agrárias",
+      "impacto": "atencao"
+    },
+    {
+      "programa": "Editais internos de IES",
+      "padrao": "pmai|marca\\b|/sri\\b|ifa (?:ingles|espanhol)|bolsistas professores",
+      "exige": "vínculo com a instituição que publicou o edital",
+      "impacto": "bloqueia",
+      "_nota": "Editais da UFES e de outras IES para a própria comunidade."
+    },
+    {
+      "programa": "Chamadas transnacionais (Biodiversa+, Water, Economia Azul, ERA)",
+      "padrao": "transnacional|biodiversa|biodivtransform|biodivnbs|eraper|water for|economia azul|horizon",
+      "exige": "consórcio com parceiros europeus e grupo de pesquisa consolidado",
+      "impacto": "atencao",
+      "_nota": "Não proíbe IES privada, mas a barreira prática de entrada é alta."
+    },
+    {
+      "programa": "Marie Skłodowska-Curie",
+      "padrao": "marie sk|sklodowska|curie",
+      "exige": "consórcio internacional; admite instituições variadas",
+      "impacto": "atencao"
+    },
+    {
+      "programa": "Newton / Royal Society / UK Academies",
+      "padrao": "newton|royal society|uk academies",
+      "exige": "vínculo com instituição de pesquisa e parceiro proponente no Reino Unido",
+      "impacto": "atencao"
+    },
+    {
+      "programa": "Cátedras e professor visitante Fulbright",
+      "padrao": "catedra|professor e pesquisador visitante|visiting (?:professor|scholar)",
+      "exige": "candidatura individual do docente, sem exigir que a instituição seja pública",
+      "impacto": "favoravel",
+      "_nota": "Caminho mais acessível para IES privada: quem concorre é a pessoa."
+    },
+    {
+      "programa": "Fulbright FLTA / PDPI / Humphrey",
+      "padrao": "flta|pdpi|humphrey|professores de ingles|ensino de portugues",
+      "exige": "candidatura individual; perfil profissional ou docente, sem exigência de stricto sensu",
+      "impacto": "favoravel"
+    },
+    {
+      "programa": "Editais FAPES de eventos, visitas e estágios",
+      "padrao": "participacao em eventos|organizacao de eventos|visita tecnic|estagio tecnic|publicacao de artigos",
+      "exige": "vínculo com instituição sediada no Espírito Santo; verificar credenciamento como ICT junto à FAPES",
+      "impacto": "favoravel",
+      "_nota": "Barreira de entrada baixa e agência do próprio estado."
+    },
+    {
+      "programa": "Chamadas CONFAP via FAPES (Itália, Bélgica, RAMP)",
+      "padrao": "mobility confap|confap (?:&|e|wbi)|ramp\\b|italy|belgica",
+      "exige": "verificar as diretrizes específicas da FAPES, que definem quem pode concorrer no ES",
+      "impacto": "atencao",
+      "_nota": "Existe documento de diretrizes estaduais próprio; é o que resolve a dúvida."
+    },
+    {
+      "programa": "CONFAP/CDTI 2026-2027",
+      "padrao": "confap.{0,10}cdti|cdti 2026",
+      "exige": "parceria com empresa espanhola e observancia das diretrizes da FAP participante; a FAPES aderiu a chamada de 2026",
+      "impacto": "atencao"
+    },
+    {
+      "programa": "CONFAP/WBI Belgica 2026",
+      "padrao": "confap.{0,10}wbi|wbi.{0,15}belgica",
+      "exige": "projeto conjunto Brasil-Belgica e atendimento das diretrizes da FAPES para proponentes do ES",
+      "impacto": "atencao"
+    },
+    {
+      "programa": "Mobility CONFAP Italy",
+      "padrao": "mobility confap italy|mci.{0,10}mobility",
+      "exige": "vinculo com universidade/instituicao de pesquisa em estado cuja FAP aderiu; a FAPES participa da edicao de 2026",
+      "impacto": "atencao"
+    },
+    {
+      "programa": "CNPq/ERC",
+      "padrao": "cnpq.{0,10}erc|european research council",
+      "exige": "pesquisador brasileiro doutor em colaboracao cientifica com projeto apoiado pelo ERC; conferir requisitos da chamada vigente",
+      "impacto": "atencao"
+    },
+    {
+      "programa": "British Council — Researcher Challenges",
+      "padrao": "researcher challenges",
+      "exige": "parceria internacional com instituicao do Reino Unido; conferir papel do lider e regras da edicao vigente",
+      "impacto": "atencao"
+    },
+    {
+      "programa": "Horizon Europe via FAPES",
+      "padrao": "horizon europe|horizonte europa",
+      "exige": "consulta previa de elegibilidade a FAPES e participacao em consorcio internacional conforme a chamada Horizon Europe aplicavel",
+      "impacto": "atencao"
+    }
+  ],
+  "peso_por_fonte": {
+    "_leia": "Multiplicador leve. Aderencia ao Global Ed e prazo confirmado pesam mais que a origem da fonte.",
+    "FAPES — Oportunidades abertas": 1.3,
+    "CONFAP — Em andamento": 1.22,
+    "CNPq — Chamadas abertas": 1.1,
+    "CAPES — Editais e cooperacao": 1.05,
+    "DAAD Brasil": 1.2,
+    "Fulbright Brasil": 1.12,
+    "British Council — Ensino Superior": 1.25,
+    "GCUB — Grupo Coimbra": 0.95,
+    "SECTIDES-ES": 0.9,
+    "FINEP": 0.85,
+    "Chevening": 0.85,
+    "Santander Universidades": 0.85,
+    "UFES — Relacoes Internacionais": 0.7,
+    "FAPES — Difusão internacional": 1.18
+  }
+}
