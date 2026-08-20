@@ -77,9 +77,9 @@
     "detalhe_tipo": "pdf",
     "ano_edicao": null,
     "visto_primeiro": "2026-08-20T12:54:30",
-    "visto_por_ultimo": "2026-08-20T16:20:44",
+    "visto_por_ultimo": "2026-08-20T16:26:21",
     "execucao_primeira": 1,
-    "execucao_ultima": 2,
+    "execucao_ultima": 3,
     "novidade": "inicial"
   },
   "https://fapes.es.gov.br/Media/fapes/Editais/Chamada%20CONFAP%20-%20WBI%202026.pdf": {
@@ -114,10 +114,10 @@
     "temas": [
       "internacional",
       "mobilidade",
-      "bolsas",
       "pesquisa",
-      "inovacao",
-      "pos_graduacao"
+      "bolsas",
+      "pos_graduacao",
+      "inovacao"
     ],
     "status": "aberto",
     "pontos": 64,
@@ -156,9 +156,9 @@
     "detalhe_tipo": "pdf",
     "ano_edicao": 2026,
     "visto_primeiro": "2026-08-20T12:54:30",
-    "visto_por_ultimo": "2026-08-20T16:20:44",
+    "visto_por_ultimo": "2026-08-20T16:26:21",
     "execucao_primeira": 1,
-    "execucao_ultima": 2,
+    "execucao_ultima": 3,
     "novidade": "inicial"
   },
   "https://fapes.es.gov.br/Media/fapes/Editais/Edital_Fapes_02-2026-Participação_Evento_Técnico_Científico.pdf": {
@@ -172,12 +172,12 @@
     "temas": [
       "internacional",
       "mobilidade",
+      "pesquisa",
       "eventos_e_visitas",
       "bolsas",
-      "pesquisa",
-      "inovacao",
+      "pos_graduacao",
       "extensao",
-      "pos_graduacao"
+      "inovacao"
     ],
     "status": "aberto",
     "pontos": 52,
@@ -211,9 +211,9 @@
     "detalhe_tipo": "pdf",
     "ano_edicao": 2026,
     "visto_primeiro": "2026-08-20T12:54:30",
-    "visto_por_ultimo": "2026-08-20T16:20:44",
+    "visto_por_ultimo": "2026-08-20T16:26:21",
     "execucao_primeira": 1,
-    "execucao_ultima": 2,
+    "execucao_ultima": 3,
     "novidade": "inicial"
   },
   "https://fapes.es.gov.br/Media/fapes/Editais/Edital_Fapes_04_2026_-_Estágio_Técnico_Cientifico.pdf": {
@@ -227,12 +227,12 @@
     "temas": [
       "internacional",
       "mobilidade",
+      "pesquisa",
       "eventos_e_visitas",
       "bolsas",
-      "pesquisa",
-      "inovacao",
+      "pos_graduacao",
       "extensao",
-      "pos_graduacao"
+      "inovacao"
     ],
     "status": "aberto",
     "pontos": 50,
@@ -266,9 +266,9 @@
     "detalhe_tipo": "pdf",
     "ano_edicao": 2026,
     "visto_primeiro": "2026-08-20T12:54:30",
-    "visto_por_ultimo": "2026-08-20T16:20:44",
+    "visto_por_ultimo": "2026-08-20T16:26:21",
     "execucao_primeira": 1,
-    "execucao_ultima": 2,
+    "execucao_ultima": 3,
     "novidade": "inicial"
   },
   "https://fapes.es.gov.br/Media/fapes/Editais/Edital%20Fapes%2005_2026%20-%20Visita%20Técnico%20Cientifica%20(1).pdf": {
@@ -282,12 +282,12 @@
     "temas": [
       "internacional",
       "mobilidade",
+      "pesquisa",
       "eventos_e_visitas",
       "bolsas",
-      "pesquisa",
-      "inovacao",
+      "pos_graduacao",
       "extensao",
-      "pos_graduacao"
+      "inovacao"
     ],
     "status": "aberto",
     "pontos": 50,
@@ -321,9 +321,9 @@
     "detalhe_tipo": "pdf",
     "ano_edicao": 2026,
     "visto_primeiro": "2026-08-20T12:54:30",
-    "visto_por_ultimo": "2026-08-20T16:20:44",
+    "visto_por_ultimo": "2026-08-20T16:26:21",
     "execucao_primeira": 1,
-    "execucao_ultima": 2,
+    "execucao_ultima": 3,
     "novidade": "inicial"
   },
   "https://fapes.es.gov.br/Media/fapes/Editais/Edital_Fapes_03_2026_Organização_Eventos_Técnico-Científicos.pdf": {
@@ -343,12 +343,12 @@
     "temas": [
       "internacional",
       "mobilidade",
+      "pesquisa",
       "eventos_e_visitas",
       "bolsas",
-      "pesquisa",
-      "inovacao",
+      "pos_graduacao",
       "extensao",
-      "pos_graduacao"
+      "inovacao"
     ],
     "status": "aberto",
     "pontos": 57,
@@ -386,9 +386,9 @@
     "detalhe_tipo": "pdf",
     "ano_edicao": 2026,
     "visto_primeiro": "2026-08-20T12:54:30",
-    "visto_por_ultimo": "2026-08-20T16:20:44",
+    "visto_por_ultimo": "2026-08-20T16:26:21",
     "execucao_primeira": 1,
-    "execucao_ultima": 2,
+    "execucao_ultima": 3,
     "novidade": "inicial"
   },
   "https://confap.org.br/pt/editais/110/chamada-mci-mobility-confap-italy-2026": {
@@ -402,10 +402,10 @@
     "temas": [
       "internacional",
       "mobilidade",
-      "bolsas",
       "pesquisa",
-      "inovacao",
-      "pos_graduacao"
+      "bolsas",
+      "pos_graduacao",
+      "inovacao"
     ],
     "status": "aberto",
     "pontos": 72,
@@ -449,9 +449,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": 2026,
     "visto_primeiro": "2026-08-20T12:54:30",
-    "visto_por_ultimo": "2026-08-20T16:20:44",
+    "visto_por_ultimo": "2026-08-20T16:26:21",
     "execucao_primeira": 1,
-    "execucao_ultima": 2,
+    "execucao_ultima": 3,
     "novidade": "inicial"
   },
   "https://confap.org.br/pt/editais/114/chamada-confap-cdti-2026-2027": {
@@ -464,8 +464,8 @@
     "regiao": "nacional",
     "temas": [
       "internacional",
-      "bolsas",
       "pesquisa",
+      "bolsas",
       "inovacao"
     ],
     "status": "aberto",
@@ -527,9 +527,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": 2027,
     "visto_primeiro": "2026-08-20T12:54:30",
-    "visto_por_ultimo": "2026-08-20T16:20:44",
+    "visto_por_ultimo": "2026-08-20T16:26:21",
     "execucao_primeira": 1,
-    "execucao_ultima": 2,
+    "execucao_ultima": 3,
     "novidade": "inicial"
   },
   "https://confap.org.br/pt/editais/111/chamada-confap-wbi-belgica-2026": {
@@ -542,8 +542,8 @@
     "regiao": "nacional",
     "temas": [
       "internacional",
-      "bolsas",
       "pesquisa",
+      "bolsas",
       "inovacao"
     ],
     "status": "aberto",
@@ -590,9 +590,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": 2026,
     "visto_primeiro": "2026-08-20T12:54:30",
-    "visto_por_ultimo": "2026-08-20T16:20:44",
+    "visto_por_ultimo": "2026-08-20T16:26:21",
     "execucao_primeira": 1,
-    "execucao_ultima": 2,
+    "execucao_ultima": 3,
     "novidade": "inicial"
   },
   "https://confap.org.br/pt/editais/113/daad-programa-de-auxilio-para-doutorandos-com-bolsa-nacional-2026": {
@@ -606,8 +606,8 @@
     "temas": [
       "internacional",
       "mobilidade",
-      "bolsas",
       "pesquisa",
+      "bolsas",
       "pos_graduacao"
     ],
     "status": "aberto",
@@ -645,9 +645,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": 2026,
     "visto_primeiro": "2026-08-20T12:54:30",
-    "visto_por_ultimo": "2026-08-20T16:20:44",
+    "visto_por_ultimo": "2026-08-20T16:26:21",
     "execucao_primeira": 1,
-    "execucao_ultima": 2,
+    "execucao_ultima": 3,
     "novidade": "inicial"
   },
   "https://confap.org.br/pt/editais/112/1-chamada-da-parceria-de-materias-primas-para-a-transicao-verde-e-digital-ramp-": {
@@ -660,8 +660,8 @@
     "regiao": "nacional",
     "temas": [
       "internacional",
-      "bolsas",
       "pesquisa",
+      "bolsas",
       "inovacao"
     ],
     "status": "aberto",
@@ -706,9 +706,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": null,
     "visto_primeiro": "2026-08-20T12:54:30",
-    "visto_por_ultimo": "2026-08-20T16:20:44",
+    "visto_por_ultimo": "2026-08-20T16:26:21",
     "execucao_primeira": 1,
-    "execucao_ultima": 2,
+    "execucao_ultima": 3,
     "novidade": "inicial"
   },
   "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-15-2026/chamada-publica-cnpq-N-15-2026": {
@@ -748,9 +748,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": 2026,
     "visto_primeiro": "2026-08-20T12:54:30",
-    "visto_por_ultimo": "2026-08-20T16:20:44",
+    "visto_por_ultimo": "2026-08-20T16:26:21",
     "execucao_primeira": 1,
-    "execucao_ultima": 2,
+    "execucao_ultima": 3,
     "novidade": "inicial"
   },
   "http://www.facebook.com/sharer.php?u=https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-15-2026/chamada-publica-cnpq-N-15-2026": {
@@ -795,7 +795,7 @@
     "visto_por_ultimo": "2026-08-20T12:54:30",
     "execucao_primeira": 1,
     "execucao_ultima": 1,
-    "novidade": "atualizado",
+    "novidade": "inicial",
     "alterado_na_execucao": 2,
     "mudancas": [
       "aberto -> verificar (nao localizado)"
@@ -844,7 +844,7 @@
     "visto_por_ultimo": "2026-08-20T12:54:30",
     "execucao_primeira": 1,
     "execucao_ultima": 1,
-    "novidade": "atualizado",
+    "novidade": "inicial",
     "alterado_na_execucao": 2,
     "mudancas": [
       "aberto -> verificar (nao localizado)"
@@ -892,7 +892,7 @@
     "visto_por_ultimo": "2026-08-20T12:54:30",
     "execucao_primeira": 1,
     "execucao_ultima": 1,
-    "novidade": "atualizado",
+    "novidade": "inicial",
     "alterado_na_execucao": 2,
     "mudancas": [
       "aberto -> verificar (nao localizado)"
@@ -940,7 +940,7 @@
     "visto_por_ultimo": "2026-08-20T12:54:30",
     "execucao_primeira": 1,
     "execucao_ultima": 1,
-    "novidade": "atualizado",
+    "novidade": "inicial",
     "alterado_na_execucao": 2,
     "mudancas": [
       "aberto -> verificar (nao localizado)"
@@ -963,13 +963,13 @@
     "temas": [
       "internacional",
       "mobilidade",
+      "pesquisa",
       "eventos_e_visitas",
       "bolsas",
-      "pesquisa",
-      "inovacao",
-      "extensao",
+      "idiomas",
       "pos_graduacao",
-      "idiomas"
+      "extensao",
+      "inovacao"
     ],
     "status": "aberto",
     "pontos": 69,
@@ -1000,9 +1000,9 @@
     "detalhe_tipo": "pdf",
     "ano_edicao": 2026,
     "visto_primeiro": "2026-08-20T12:54:30",
-    "visto_por_ultimo": "2026-08-20T16:20:44",
+    "visto_por_ultimo": "2026-08-20T16:26:21",
     "execucao_primeira": 1,
-    "execucao_ultima": 2,
+    "execucao_ultima": 3,
     "novidade": "inicial"
   },
   "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-21-2026/chamada-publica-cnpq-N-21-2026": {
@@ -1050,9 +1050,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": 2026,
     "visto_primeiro": "2026-08-20T12:54:30",
-    "visto_por_ultimo": "2026-08-20T16:20:44",
+    "visto_por_ultimo": "2026-08-20T16:26:21",
     "execucao_primeira": 1,
-    "execucao_ultima": 2,
+    "execucao_ultima": 3,
     "novidade": "inicial"
   },
   "http://www.facebook.com/sharer.php?u=https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-21-2026/chamada-publica-cnpq-N-21-2026": {
@@ -1105,7 +1105,7 @@
     "visto_por_ultimo": "2026-08-20T12:54:30",
     "execucao_primeira": 1,
     "execucao_ultima": 1,
-    "novidade": "atualizado",
+    "novidade": "inicial",
     "alterado_na_execucao": 2,
     "mudancas": [
       "aberto -> verificar (nao localizado)"
@@ -1162,7 +1162,7 @@
     "visto_por_ultimo": "2026-08-20T12:54:30",
     "execucao_primeira": 1,
     "execucao_ultima": 1,
-    "novidade": "atualizado",
+    "novidade": "inicial",
     "alterado_na_execucao": 2,
     "mudancas": [
       "aberto -> verificar (nao localizado)"
@@ -1218,7 +1218,7 @@
     "visto_por_ultimo": "2026-08-20T12:54:30",
     "execucao_primeira": 1,
     "execucao_ultima": 1,
-    "novidade": "atualizado",
+    "novidade": "inicial",
     "alterado_na_execucao": 2,
     "mudancas": [
       "aberto -> verificar (nao localizado)"
@@ -1274,7 +1274,7 @@
     "visto_por_ultimo": "2026-08-20T12:54:30",
     "execucao_primeira": 1,
     "execucao_ultima": 1,
-    "novidade": "atualizado",
+    "novidade": "inicial",
     "alterado_na_execucao": 2,
     "mudancas": [
       "aberto -> verificar (nao localizado)"
@@ -1290,12 +1290,12 @@
     "regiao": "nacional",
     "temas": [
       "internacional",
+      "pesquisa",
       "eventos_e_visitas",
       "bolsas",
-      "pesquisa",
+      "idiomas",
       "extensao",
-      "inovacao",
-      "idiomas"
+      "inovacao"
     ],
     "status": "aberto",
     "pontos": 64,
@@ -1329,9 +1329,9 @@
     "detalhe_tipo": "pdf",
     "ano_edicao": 2026,
     "visto_primeiro": "2026-08-20T12:54:30",
-    "visto_por_ultimo": "2026-08-20T16:20:44",
+    "visto_por_ultimo": "2026-08-20T16:26:21",
     "execucao_primeira": 1,
-    "execucao_ultima": 2,
+    "execucao_ultima": 3,
     "novidade": "inicial"
   },
   "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada_publica_20_2026_atlanticas_2714776.pdf": {
@@ -1345,13 +1345,13 @@
     "temas": [
       "internacional",
       "mobilidade",
+      "pesquisa",
       "eventos_e_visitas",
       "bolsas",
-      "pesquisa",
-      "inovacao",
-      "extensao",
+      "idiomas",
       "pos_graduacao",
-      "idiomas"
+      "extensao",
+      "inovacao"
     ],
     "status": "aberto",
     "pontos": 68,
@@ -1393,9 +1393,9 @@
     "detalhe_tipo": "pdf",
     "ano_edicao": 2026,
     "visto_primeiro": "2026-08-20T12:54:30",
-    "visto_por_ultimo": "2026-08-20T16:20:44",
+    "visto_por_ultimo": "2026-08-20T16:26:21",
     "execucao_primeira": 1,
-    "execucao_ultima": 2,
+    "execucao_ultima": 3,
     "novidade": "inicial"
   },
   "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-24-2026/Chamada_24_2026.pdf": {
@@ -1446,7 +1446,7 @@
     "visto_por_ultimo": "2026-08-20T12:54:30",
     "execucao_primeira": 1,
     "execucao_ultima": 1,
-    "novidade": "atualizado",
+    "novidade": "inicial",
     "alterado_na_execucao": 2,
     "mudancas": [
       "aberto -> verificar (nao localizado)"
@@ -1463,12 +1463,12 @@
     "temas": [
       "internacional",
       "mobilidade",
+      "pesquisa",
       "eventos_e_visitas",
       "bolsas",
-      "pesquisa",
-      "inovacao",
+      "idiomas",
       "pos_graduacao",
-      "idiomas"
+      "inovacao"
     ],
     "status": "aberto",
     "pontos": 74,
@@ -1545,9 +1545,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": null,
     "visto_primeiro": "2026-08-20T12:54:30",
-    "visto_por_ultimo": "2026-08-20T16:20:44",
+    "visto_por_ultimo": "2026-08-20T16:26:21",
     "execucao_primeira": 1,
-    "execucao_ultima": 2,
+    "execucao_ultima": 3,
     "novidade": "inicial"
   },
   "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/educacao-basica/pe-de-meia-licenciaturas": {
@@ -1561,11 +1561,11 @@
     "temas": [
       "internacional",
       "mobilidade",
+      "pesquisa",
       "eventos_e_visitas",
       "bolsas",
-      "pesquisa",
-      "pos_graduacao",
-      "idiomas"
+      "idiomas",
+      "pos_graduacao"
     ],
     "status": "aberto",
     "pontos": 72,
@@ -1641,9 +1641,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": null,
     "visto_primeiro": "2026-08-20T12:54:30",
-    "visto_por_ultimo": "2026-08-20T16:20:44",
+    "visto_por_ultimo": "2026-08-20T16:26:21",
     "execucao_primeira": 1,
-    "execucao_ultima": 2,
+    "execucao_ultima": 3,
     "novidade": "inicial"
   },
   "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/alemanha/programa-bolsas-para-pesquisa-capeshumboldt": {
@@ -1657,11 +1657,11 @@
     "temas": [
       "internacional",
       "mobilidade",
+      "pesquisa",
       "eventos_e_visitas",
       "bolsas",
-      "pesquisa",
-      "pos_graduacao",
-      "idiomas"
+      "idiomas",
+      "pos_graduacao"
     ],
     "status": "aberto",
     "pontos": 74,
@@ -1736,9 +1736,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": null,
     "visto_primeiro": "2026-08-20T12:54:30",
-    "visto_por_ultimo": "2026-08-20T16:20:44",
+    "visto_por_ultimo": "2026-08-20T16:26:21",
     "execucao_primeira": 1,
-    "execucao_ultima": 2,
+    "execucao_ultima": 3,
     "novidade": "inicial"
   },
   "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/multinacional/programa-capes-augm": {
@@ -1752,11 +1752,11 @@
     "temas": [
       "internacional",
       "mobilidade",
+      "pesquisa",
       "eventos_e_visitas",
       "bolsas",
-      "pesquisa",
-      "pos_graduacao",
-      "idiomas"
+      "idiomas",
+      "pos_graduacao"
     ],
     "status": "aberto",
     "pontos": 74,
@@ -1839,9 +1839,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": null,
     "visto_primeiro": "2026-08-20T12:54:30",
-    "visto_por_ultimo": "2026-08-20T16:20:44",
+    "visto_por_ultimo": "2026-08-20T16:26:21",
     "execucao_primeira": 1,
-    "execucao_ultima": 2,
+    "execucao_ultima": 3,
     "novidade": "inicial"
   },
   "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/multinacional/programa-de-doutorado-sanduiche-no-exterior-pdse": {
@@ -1855,11 +1855,11 @@
     "temas": [
       "internacional",
       "mobilidade",
+      "pesquisa",
       "eventos_e_visitas",
       "bolsas",
-      "pesquisa",
-      "pos_graduacao",
-      "idiomas"
+      "idiomas",
+      "pos_graduacao"
     ],
     "status": "aberto",
     "pontos": 74,
@@ -1939,9 +1939,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": null,
     "visto_primeiro": "2026-08-20T12:54:30",
-    "visto_por_ultimo": "2026-08-20T16:20:44",
+    "visto_por_ultimo": "2026-08-20T16:26:21",
     "execucao_primeira": 1,
-    "execucao_ultima": 2,
+    "execucao_ultima": 3,
     "novidade": "inicial"
   },
   "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/programas-estrategicos/formacao-de-recursos-humanos-em-areas-estrategicas/capes-cnj-apoio-a-pesquisas-judiciarias-constitucionais": {
@@ -1955,12 +1955,12 @@
     "temas": [
       "internacional",
       "mobilidade",
+      "pesquisa",
       "eventos_e_visitas",
       "bolsas",
-      "pesquisa",
-      "inovacao",
+      "idiomas",
       "pos_graduacao",
-      "idiomas"
+      "inovacao"
     ],
     "status": "aberto",
     "pontos": 72,
@@ -2040,9 +2040,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": null,
     "visto_primeiro": "2026-08-20T12:54:30",
-    "visto_por_ultimo": "2026-08-20T16:20:44",
+    "visto_por_ultimo": "2026-08-20T16:26:21",
     "execucao_primeira": 1,
-    "execucao_ultima": 2,
+    "execucao_ultima": 3,
     "novidade": "inicial"
   },
   "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/estados-unidos/programa-capes-universidade-em-buffalo-capes-ub-professor-visitante": {
@@ -2056,11 +2056,11 @@
     "temas": [
       "internacional",
       "mobilidade",
+      "pesquisa",
       "eventos_e_visitas",
       "bolsas",
-      "pesquisa",
-      "inovacao",
-      "pos_graduacao"
+      "pos_graduacao",
+      "inovacao"
     ],
     "status": "aberto",
     "pontos": 74,
@@ -2101,9 +2101,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": null,
     "visto_primeiro": "2026-08-20T12:54:30",
-    "visto_por_ultimo": "2026-08-20T16:20:44",
+    "visto_por_ultimo": "2026-08-20T16:26:21",
     "execucao_primeira": 1,
-    "execucao_ultima": 2,
+    "execucao_ultima": 3,
     "novidade": "inicial"
   },
   "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/multinacional/politica-de-novacao-para-bolsistas-e-ex-bolsistas-no-exterior": {
@@ -2117,8 +2117,8 @@
     "temas": [
       "internacional",
       "mobilidade",
-      "bolsas",
       "pesquisa",
+      "bolsas",
       "inovacao"
     ],
     "status": "aberto",
@@ -2148,9 +2148,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": null,
     "visto_primeiro": "2026-08-20T12:54:30",
-    "visto_por_ultimo": "2026-08-20T16:20:44",
+    "visto_por_ultimo": "2026-08-20T16:26:21",
     "execucao_primeira": 1,
-    "execucao_ultima": 2,
+    "execucao_ultima": 3,
     "novidade": "inicial"
   },
   "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/programas-estrategicos/desenvolvimento-regional/redes-de-pesquisa-e-desenvolvimento/programa-rede-de-pesquisa-e-desenvolvimento-da-amazonia-legal": {
@@ -2164,12 +2164,12 @@
     "temas": [
       "internacional",
       "mobilidade",
+      "pesquisa",
       "eventos_e_visitas",
       "bolsas",
-      "pesquisa",
-      "inovacao",
+      "pos_graduacao",
       "extensao",
-      "pos_graduacao"
+      "inovacao"
     ],
     "status": "aberto",
     "pontos": 73,
@@ -2215,9 +2215,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": null,
     "visto_primeiro": "2026-08-20T12:54:30",
-    "visto_por_ultimo": "2026-08-20T16:20:44",
+    "visto_por_ultimo": "2026-08-20T16:26:21",
     "execucao_primeira": 1,
-    "execucao_ultima": 2,
+    "execucao_ultima": 3,
     "novidade": "inicial"
   },
   "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/programas-estrategicos/desenvolvimento-regional/redes-de-pesquisa-e-desenvolvimento/programa-rede-de-pesquisa-e-desenvolvimento-da-regiao-nordeste": {
@@ -2231,12 +2231,12 @@
     "temas": [
       "internacional",
       "mobilidade",
+      "pesquisa",
       "eventos_e_visitas",
       "bolsas",
-      "pesquisa",
-      "inovacao",
+      "pos_graduacao",
       "extensao",
-      "pos_graduacao"
+      "inovacao"
     ],
     "status": "aberto",
     "pontos": 73,
@@ -2277,9 +2277,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": null,
     "visto_primeiro": "2026-08-20T12:54:30",
-    "visto_por_ultimo": "2026-08-20T16:20:44",
+    "visto_por_ultimo": "2026-08-20T16:26:21",
     "execucao_primeira": 1,
-    "execucao_ultima": 2,
+    "execucao_ultima": 3,
     "novidade": "inicial"
   },
   "https://euraxess.ec.europa.eu/worldwide/lac/news/cnpq-call-brazilian-researchers-collaborate-erc-principal-investigators": {
@@ -2293,10 +2293,10 @@
     "temas": [
       "internacional",
       "mobilidade",
-      "bolsas",
       "pesquisa",
-      "inovacao",
-      "pos_graduacao"
+      "bolsas",
+      "pos_graduacao",
+      "inovacao"
     ],
     "status": "aberto",
     "pontos": 72,
@@ -2351,10 +2351,10 @@
     "detalhe_tipo": "html",
     "ano_edicao": null,
     "visto_primeiro": "2026-08-20T16:20:44",
-    "visto_por_ultimo": "2026-08-20T16:20:44",
+    "visto_por_ultimo": "2026-08-20T16:26:21",
     "execucao_primeira": 2,
-    "execucao_ultima": 2,
-    "novidade": "novo"
+    "execucao_ultima": 3,
+    "novidade": "conhecido"
   },
   "https://euraxess.ec.europa.eu/worldwide/lac/spain-brazil-call-funding-collaborative-research-technological-innovation": {
     "titulo": "Spain (CDTI) - Brazil (CONFAP) 2026–2027 call for collaborative R&I projects",
@@ -2367,10 +2367,10 @@
     "temas": [
       "internacional",
       "mobilidade",
-      "bolsas",
       "pesquisa",
-      "inovacao",
-      "pos_graduacao"
+      "bolsas",
+      "pos_graduacao",
+      "inovacao"
     ],
     "status": "aberto",
     "pontos": 72,
@@ -2425,10 +2425,10 @@
     "detalhe_tipo": "html",
     "ano_edicao": 2027,
     "visto_primeiro": "2026-08-20T16:20:44",
-    "visto_por_ultimo": "2026-08-20T16:20:44",
+    "visto_por_ultimo": "2026-08-20T16:26:21",
     "execucao_primeira": 2,
-    "execucao_ultima": 2,
-    "novidade": "novo"
+    "execucao_ultima": 3,
+    "novidade": "conhecido"
   },
   "https://euraxess.ec.europa.eu/worldwide/lac/news/argentina-calls-bilateral-research-cooperation-italy-and-germany": {
     "titulo": "Argentina calls for bilateral research cooperation with Italy and with Germany",
@@ -2441,10 +2441,10 @@
     "temas": [
       "internacional",
       "mobilidade",
-      "bolsas",
       "pesquisa",
-      "inovacao",
-      "pos_graduacao"
+      "bolsas",
+      "pos_graduacao",
+      "inovacao"
     ],
     "status": "aberto",
     "pontos": 72,
@@ -2496,9 +2496,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": null,
     "visto_primeiro": "2026-08-20T16:20:44",
-    "visto_por_ultimo": "2026-08-20T16:20:44",
+    "visto_por_ultimo": "2026-08-20T16:26:21",
     "execucao_primeira": 2,
-    "execucao_ultima": 2,
-    "novidade": "novo"
+    "execucao_ultima": 3,
+    "novidade": "conhecido"
   }
 }
