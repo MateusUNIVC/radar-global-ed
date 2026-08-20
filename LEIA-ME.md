@@ -1,5 +1,37 @@
 # Radar de Oportunidades Internacionais — UNIVC / Global Ed
 
+## Atualização v4 — menos falso positivo, mais chamadas internacionais
+
+Esta versão endurece a definição de **internacional** e amplia a descoberta em fontes oficiais.
+
+### O que deixou de contar como internacional por si só
+
+- `intercâmbio`, `exchange`, `mobilidade` ou `intercâmbio de conhecimento`;
+- simples menções genéricas a cooperação ou compartilhamento de conhecimento;
+- links de redes sociais e botões de compartilhamento.
+
+Para uma fonte brasileira ampla, o item precisa ter **evidência internacional independente**: por exemplo `internacional`, `bilateral`, `no exterior`, `foreign institution`, `international partnership`, Horizon Europe/ERC, ou país/região estrangeira em contexto de chamada, pesquisa, parceria, bolsa ou mobilidade.
+
+### Links sociais são descartados antes da classificação
+
+O coletor ignora LinkedIn, Facebook, X/Twitter, Instagram, WhatsApp, YouTube e rotas típicas de `share`/`sharer`. Isso acontece antes de o link herdar o título do card, evitando entradas como **“Compartilhe no LinkedIn”**.
+
+### Novas fontes internacionais ativas
+
+- **EURAXESS LAC — chamadas com conexão Brasil**: lê notícias/chamadas recentes, mas exige menção explícita a Brasil/Brazil/FAPES/CONFAP/CNPq/CAPES, para não misturar editais exclusivos de Chile, Argentina etc.;
+- **MSCA — Marie Skłodowska-Curie Actions**: monitora a página oficial de funding para Postdoctoral Fellowships, Doctoral Networks e chamadas futuras. Cards `forthcoming` não são tratados como abertos antes da abertura.
+
+### Testes
+
+`python testes_qualidade.py` executa **22 verificações**, incluindo:
+
+- intercâmbio de conhecimento local não vira mobilidade internacional;
+- mobilidade acadêmica internacional real continua entrando;
+- `Compartilhe no LinkedIn`/Twitter são descartados;
+- chamada Chile-only em agregador LAC é rejeitada e Brasil-Noruega é aceita;
+- `forthcoming` não é confundido com `open`;
+- deadline em JSON-LD também é lido.
+
 Scraper local para identificar **oportunidades abertas e realmente aderentes aos projetos de internacionalização do UNIVC**, reduzindo dois problemas da versão anterior:
 
 1. bolsas/editais que tinham palavras parecidas, mas pouca relação com o Global Ed;

@@ -130,6 +130,8 @@ PADROES_NAVEGACAO = [
     r"^(?:apresenta[çc][ãa]o|hist[óo]rico|miss[ãa]o(?:\s+e\s+valores)?|quem\s+somos)$",
     r"^(?:in[íi]cio|home|p[áa]gina\s+inicial|portal)$",
     r"^(?:contato|fale\s+conosco|ouvidoria|imprensa|not[íi]cias)$",
+    r"^(?:compartilh(?:e|ar|amento)|share)(?:\s+(?:no|na|on|via)\s+.*)?$",
+    r"^(?:facebook|linkedin|twitter|instagram|whatsapp|youtube)$",
     r"^(?:transpar[êe]ncia|acesso\s+[àa]\s+informa[çc][ãa]o|carta\s+de\s+servi[çc]os)$",
     r"^(?:perguntas\s+frequentes|f\.?a\.?q\.?|d[úu]vidas)$",
     # estruturas de governança

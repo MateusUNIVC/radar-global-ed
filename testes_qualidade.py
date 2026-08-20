@@ -215,4 +215,105 @@ ok(len(g) == 1, g)
 ok(g[0]["titulo"] == "CHAMADA CONFAP CDTI 2026", g[0])
 ok(len(g[0].get("anexos", [])) == 2, g[0])
 
-print("OK - 13 quality checks passed")
+# 14. Bare "intercambio de conhecimento" is not student/research mobility and
+# does not prove internationality.
+t = """
+Edital 14/2026 - Intercambio de conhecimento entre equipes de pesquisa do Espirito Santo.
+Apoio financeiro para workshops locais. Inscricoes ate 30/09/2026.
+"""
+r = A.avaliar(t, fonte(), hoje=HOJE)
+ok(not r["relevante"], r)
+ok("mobilidade_estudantil" not in r["eixos"], r)
+
+# 15. A real international academic mobility call still passes.
+t = """
+Programa de mobilidade internacional para pesquisadores do Brasil realizarem research stay
+in Portugal. Fellowship funding. Application deadline 30 September 2026.
+"""
+r = A.avaliar(t, fonte(), hoje=HOJE)
+ok(r["relevante"] and r["ativo"], r)
+ok(r["sinal_internacional"], r)
+
+# 16. Social/share links are discarded before they can inherit the call title.
+from editais_scraper import link_e_ruido
+ok(link_e_ruido(
+    "https://www.linkedin.com/sharing/share-offsite/?url=https://x.test/call",
+    "https://www.linkedin.com/sharing/share-offsite/?url=https://x.test/call",
+), "LinkedIn share must be noise")
+html_social = """
+<article>
+  <h3>International Research Partnership Brazil UK 2026</h3>
+  <a href="/call">Ver chamada</a>
+  <a aria-label="Compartilhe no LinkedIn" href="https://www.linkedin.com/sharing/share-offsite/?url=x">Compartilhe no LinkedIn</a>
+  <a href="https://twitter.com/intent/tweet?url=x">Share on Twitter</a>
+</article>
+"""
+g = extrair_por_seletor(BeautifulSoup(html_social, "lxml"), {
+    "seletor": "article", "seletor_titulo": "h3", "seletor_link": "a",
+    "seletor_data": None, "agrupar_anexos": True,
+}, "https://x.test/lista")
+ok(len(g) == 1, g)
+ok(g[0]["url"] == "https://x.test/call", g)
+
+# 17. Regional international aggregators must not leak Chile-only/other-country calls.
+fonte_lac = fonte(fonte_curada_internacional=True, exigir_conexao_brasil=True)
+t_chile = """
+France-Chile collaborative research joint call. International partnership grant.
+Application deadline 30 September 2026.
+"""
+r = A.avaliar(t_chile, fonte_lac, hoje=HOJE)
+ok(not r["relevante"] and not r["conexao_brasil"], r)
+t_br = """
+Brazil-Norway international collaborative research call for Brazilian research institutions.
+Funding available. Application deadline 30 September 2026.
+"""
+r = A.avaliar(t_br, fonte_lac, hoje=HOJE)
+ok(r["relevante"] and r["conexao_brasil"], r)
+
+# 18. A forthcoming call with a future deadline is not treated as already open.
+t = """
+MSCA COFUND 2027. Status: forthcoming. Opening: 8 December 2026.
+Application deadline 6 April 2027. International doctoral programme funding.
+"""
+r = avaliar_status_prazo(t, fonte(), hoje=HOJE)
+ok(r["status"] == "futuro", r)
+
+# 19. Structured deadline metadata is read when the visible page omits the date.
+from oportunidades import texto_de_html
+html_ld = """
+<html><head><script type="application/ld+json">
+{"@type":"Event","applicationDeadline":"2026-10-15"}
+</script></head><body><h1>International research fellowship</h1></body></html>
+"""
+texto_ld = texto_de_html(html_ld)
+r = avaliar_status_prazo(texto_ld, fonte(), hoje=HOJE)
+ok(r["prazo_final"] == "2026-10-15" and r["status"] == "aberto", r)
+
+# 20. EURAXESS-type Brazil/Europe transnational call is retained.
+t = """
+Europe, Brazil and beyond: raw materials partnership opens first joint transnational call.
+Transnational research and innovation projects; Brazil is a participating country.
+Funding available. Pre-proposal deadline: 22 September 2026.
+"""
+r = A.avaliar(t, fonte_lac, hoje=HOJE)
+ok(r["relevante"] and r["prazo_final"] == "2026-09-22", r)
+
+# 21. Brazil-Norway EUREKA-style international R&D call is recognised as research cooperation.
+t = """
+EUREKA network projects: call for R&D projects between Brazil and Norway.
+Organisations collaborating on international R&D projects. The consortium must include
+a Brazilian research institution and a Norwegian research institution. Deadline: 9 September 2026.
+"""
+r = A.avaliar(t, fonte_lac, hoje=HOJE)
+ok(r["relevante"] and "cooperacao_pesquisa" in r["eixos"], r)
+
+# 22. MSCA postdoctoral call maps to researcher mobility, not a generic student exchange.
+t = """
+MSCA Postdoctoral Fellowships 2026. Postdoctoral fellowships enhance skills through
+international mobility. Open to excellent researchers of any nationality.
+Deadline for submitting proposals: 9 September 2026.
+"""
+r = A.avaliar(t, fonte(fonte_curada_internacional=True), hoje=HOJE)
+ok(r["relevante"] and "mobilidade_pesquisador_docente" in r["eixos"], r)
+
+print("OK - 22 quality checks passed")

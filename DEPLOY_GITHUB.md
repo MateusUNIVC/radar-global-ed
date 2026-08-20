@@ -1,113 +1,71 @@
 # Publicar o Radar Global Ed no GitHub Pages
 
-O projeto já vem preparado para duas coisas diferentes:
+## Ponto mais importante
 
-1. **GitHub Actions** executa o Python todos os dias, acessa as fontes e atualiza o histórico.
-2. **GitHub Pages** publica o `painel.html` gerado como um site estático.
+O GitHub só reconhece workflows se o arquivo estiver **na raiz do repositório** neste caminho exato:
 
-O Pages sozinho não executa Python. A verificação diária acontece no runner do GitHub Actions e o resultado é enviado ao Pages depois da coleta.
+`.github/workflows/atualizar-radar.yml`
 
-## Configuração inicial
+Se aparecer como `radar_global_ed_final/.github/workflows/atualizar-radar.yml`, o GitHub **não vai reconhecer** o workflow.
 
-### 1. Crie o repositório
+## Forma recomendada de enviar os arquivos
 
-No GitHub, crie um repositório, por exemplo:
+1. Descompacte `radar_global_ed_UNIVC_v3_1_repo_pronto.zip`.
+2. Abra a pasta extraída.
+3. Envie **todos os arquivos e pastas que estão dentro dela** para a raiz do repositório.
+4. No GitHub, confirme que você vê `.github` na página inicial do repositório.
+5. Abra `.github/workflows/atualizar-radar.yml` e confirme que o arquivo existe.
 
-`radar-global-ed`
+A estrutura correta começa assim:
 
-Para a configuração mais simples, use a branch padrão `main`.
-
-### 2. Envie os arquivos deste projeto
-
-A raiz do repositório deve conter diretamente:
-
-- `editais_scraper.py`
-- `editais_painel.py`
-- `requirements.txt`
-- os arquivos `.json`
-- a pasta `.github/workflows/`
-
-Evite colocar tudo dentro de uma segunda pasta no repositório.
-
-### 3. Ative o GitHub Pages por Actions
-
-No repositório:
-
-**Settings → Pages → Build and deployment → Source → GitHub Actions**
-
-Não selecione “Deploy from a branch”. Este projeto já possui o workflow de publicação.
-
-### 4. Rode a primeira coleta manualmente
-
-Abra:
-
-**Actions → Atualizar e publicar Radar Global Ed → Run workflow**
-
-A primeira execução instala o Python, roda os testes, faz a coleta, gera o painel e publica o site.
-
-Depois disso o endereço costuma seguir o formato:
-
-`https://SEU-USUARIO.github.io/radar-global-ed/`
-
-O endereço exato aparece no próprio job de deploy e em **Settings → Pages**.
-
-## Atualização automática diária
-
-O arquivo `.github/workflows/atualizar-radar.yml` está configurado para rodar **todos os dias às 06:17 no horário de Brasília**:
-
-```yaml
-schedule:
-  - cron: "17 6 * * *"
-    timezone: "America/Sao_Paulo"
+```
+.github/
+  workflows/
+    atualizar-radar.yml
+dados/
+editais_scraper.py
+editais_painel.py
+requirements.txt
+...
 ```
 
-Para mudar o horário, altere apenas esses campos. Exemplo: 08:30 todos os dias:
+## Se o workflow não aparecer na aba Actions
 
-```yaml
-schedule:
-  - cron: "30 8 * * *"
-    timezone: "America/Sao_Paulo"
-```
+Você pode criar o arquivo diretamente pelo GitHub:
 
-O workflow também aceita execução manual pela aba **Actions** e roda quando há `push` na branch `main`.
+1. Abra o repositório.
+2. Clique em **Add file > Create new file**.
+3. No nome do arquivo, digite exatamente:
+   `.github/workflows/atualizar-radar.yml`
+4. Cole o conteúdo do arquivo incluído neste projeto.
+5. Clique em **Commit changes** e salve no branch padrão.
 
-## Por que o workflow salva a pasta `dados/`
+Depois disso, abra **Actions**. O workflow deve aparecer com o nome:
 
-Os runners do GitHub são temporários. Se nada fosse salvo, cada execução começaria do zero e o radar perderia a noção de:
+**Atualizar e publicar Radar Global Ed**
 
-- oportunidades já conhecidas;
-- novas edições;
-- alterações detectadas;
-- última confirmação de uma chamada;
-- URLs de fontes que funcionaram anteriormente.
+## GitHub Pages
 
-Por isso o bot faz commit dos JSONs em `dados/` após a coleta. O arquivo de log não é versionado.
+1. Vá em **Settings > Pages**.
+2. Em **Build and deployment > Source**, selecione **GitHub Actions**.
+3. Volte para **Actions**.
+4. Abra **Atualizar e publicar Radar Global Ed**.
+5. Clique em **Run workflow** para a primeira execução.
 
-## Permissões necessárias
+## Execução diária
 
-O workflow usa:
+O workflow está programado para rodar todos os dias às **06:17 no horário de Brasília**, além de permitir execução manual por **Run workflow**.
 
-- `contents: write` para preservar os JSONs do histórico;
-- `pages: write` para publicar o site;
-- `id-token: write` para o deploy do GitHub Pages.
+## Histórico
 
-Se a branch `main` tiver proteção que bloqueie commits do `github-actions[bot]`, permita esse bot ou adapte a política da branch. Sem conseguir salvar `dados/`, o site ainda poderia ser gerado, mas o histórico não seria confiável entre execuções.
+A pasta `dados/` é atualizada automaticamente pelo workflow para preservar o estado entre execuções. Para isso, o workflow solicita `contents: write`.
 
-## Como confirmar que está funcionando
+Se houver erro de permissão ao salvar o histórico, verifique em:
 
-Na aba **Actions**, a execução deve concluir estas etapas:
+**Settings > Actions > General > Workflow permissions**
 
-1. Rodar testes de qualidade
-2. Verificar bolsas e gerar painel
-3. Salvar histórico da coleta
-4. Enviar site para Pages
-5. Publicar GitHub Pages
+que o repositório permite escrita pelo `GITHUB_TOKEN`, se a política da conta/organização permitir.
 
-No painel publicado, confira o bloco **Última verificação** e a seção **Saúde das fontes**.
+## Branch padrão
 
-## Observações importantes
-
-- Sites de agências podem bloquear IPs de datacenter ou mudar HTML/URL. Isso aparecerá em “Saúde das fontes”.
-- O GitHub pode atrasar workflows agendados em horários de pico; por isso o exemplo usa minuto `17`, não o início da hora.
-- Em repositórios públicos, workflows agendados podem ser desativados pelo GitHub após longos períodos sem atividade. Como este projeto normalmente grava estado diariamente, isso tende a não ocorrer enquanto as coletas estiverem funcionando.
-- GitHub Pages publica conteúdo na web. Não coloque senhas, tokens, dados pessoais ou configurações de proxy com credenciais nos arquivos do repositório.
+Esta versão não presume que o branch se chama `main`: ela usa automaticamente o branch padrão do repositório ao salvar o histórico.

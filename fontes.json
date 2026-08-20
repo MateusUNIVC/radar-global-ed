@@ -1,5 +1,5 @@
 {
-  "_leia": "Fontes revisadas em 20/08/2026 em modo quality-first. Ativas por padrao: paginas oficiais com alta aderencia ao Global Ed. Uma oportunidade so aparece como aberta quando o detalhe/card/PDF permite confirmar prazo final vigente.",
+  "_leia": "Fontes revisadas em 20/08/2026 em modo quality-first v4. Inclui fontes oficiais brasileiras e internacionais (EURAXESS LAC e MSCA). Links sociais/compartilhamento sao descartados e mobilidade generica nao prova internacionalidade.",
   "_campos": {
     "nome": "rótulo exibido no painel",
     "regiao": "es | nacional | internacional — alimenta o filtro geográfico do painel",
@@ -14,7 +14,8 @@
     "fonte_curada_oportunidades": "true quando a pagina e uma lista de chamadas/bolsas, usado apenas no pre-filtro",
     "fonte_curada_internacional": "true quando toda a fonte e internacional; ainda assim e exigido um eixo estrategico do Global Ed",
     "status_lista_confiavel": "use \"aberto\" somente em paginas oficiais filtradas para abertas/em andamento; o detalhe ainda pode derrubar um prazo vencido",
-    "max_detalhes": "limite de paginas/PDFs de detalhe lidos por fonte em cada execucao"
+    "max_detalhes": "limite de paginas/PDFs de detalhe lidos por fonte em cada execucao",
+    "exigir_conexao_brasil": "quando true, agregadores regionais so aceitam oportunidades cujo detalhe mencione Brasil/Brazil/FAPES/CONFAP/CNPq/CAPES; evita chamadas exclusivas de outros paises LAC"
   },
   "fontes": [
     {
@@ -197,6 +198,50 @@
         "max_paginas": 2
       },
       "_nota": "Fonte adicionada por forte aderencia a parcerias institucionais e pesquisa Brasil-Reino Unido. O detalhe decide se a chamada ainda esta aberta.",
+      "exigir_prazo_confirmado": true
+    },
+    {
+      "seletor": "article, .ecl-content-block, .views-row, .card, .ecl-card, .listing-item, .list-item, .result, .item, .entry, details, .accordion-item, .panel",
+      "seletor_titulo": "h1, h2, h3, h4, .ecl-content-block__title, .card-title, .title, a, summary, .accordion-header, .accordion-button, .card-header, .panel-heading",
+      "seletor_link": "a",
+      "seletor_data": "time, .date, .data, .ecl-date-block",
+      "agrupar_anexos": true,
+      "nome": "EURAXESS LAC — chamadas com conexao Brasil",
+      "regiao": "internacional",
+      "dominio_raiz": "https://euraxess.ec.europa.eu",
+      "urls_candidatos": [
+        "https://euraxess.ec.europa.eu/worldwide/lac/news"
+      ],
+      "sempre_internacional": true,
+      "fonte_curada_oportunidades": false,
+      "fonte_curada_internacional": true,
+      "exigir_conexao_brasil": true,
+      "max_detalhes": 55,
+      "paginacao": {
+        "tipo": "auto",
+        "inicio": 1,
+        "max_paginas": 4
+      },
+      "_nota": "Agregador oficial EURAXESS LAC. So entra item com eixo Global Ed, prazo vigente e conexao explicita com Brasil/FAPES/CONFAP/CNPq/CAPES; isso evita chamadas exclusivas de Chile, Argentina etc.",
+      "exigir_prazo_confirmado": true
+    },
+    {
+      "seletor": "article, .ecl-content-block, .views-row, .card, .ecl-card, .listing-item, .list-item, .result, .item, .entry, details, .accordion-item, .panel",
+      "seletor_titulo": "h1, h2, h3, h4, .ecl-content-block__title, .card-title, .title, a, summary, .accordion-header, .accordion-button, .card-header, .panel-heading",
+      "seletor_link": "a",
+      "seletor_data": "time, .date, .data, .ecl-date-block",
+      "agrupar_anexos": true,
+      "nome": "MSCA — Marie Sklodowska-Curie Actions",
+      "regiao": "internacional",
+      "dominio_raiz": "https://marie-sklodowska-curie-actions.ec.europa.eu",
+      "urls_candidatos": [
+        "https://marie-sklodowska-curie-actions.ec.europa.eu/funding"
+      ],
+      "sempre_internacional": true,
+      "fonte_curada_oportunidades": true,
+      "fonte_curada_internacional": true,
+      "max_detalhes": 30,
+      "_nota": "Lista oficial de funding MSCA. Captura Postdoctoral Fellowships, Doctoral Networks e futuras chamadas, mas cards 'forthcoming' nao entram como abertos antes da abertura.",
       "exigir_prazo_confirmado": true
     },
     {

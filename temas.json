@@ -29,11 +29,6 @@
       "cor": "teal",
       "prioridade": 1,
       "palavras": [
-        "mobilidade",
-        "mobility",
-        "intercambio",
-        "intercâmbio",
-        "exchange",
         "study abroad",
         "sanduiche",
         "sandwich",
@@ -48,7 +43,24 @@
         "missao de trabalho",
         "missao de estudo",
         "short term",
-        "curta duracao"
+        "curta duracao",
+        "mobilidade internacional",
+        "international mobility",
+        "mobilidade academica",
+        "academic mobility",
+        "mobilidade estudantil",
+        "student mobility",
+        "mobilidade de pesquisadores",
+        "researcher mobility",
+        "mobilidade docente",
+        "staff mobility",
+        "intercambio academico",
+        "intercâmbio acadêmico",
+        "intercambio estudantil",
+        "intercâmbio estudantil",
+        "programa de intercambio",
+        "exchange programme",
+        "exchange program"
       ]
     },
     "cotutela": {

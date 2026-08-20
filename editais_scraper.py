@@ -439,6 +439,59 @@ def normalizar_simples(texto):
     return re.sub(r"\s+", " ", t).strip()
     
 
+# Dominios e rotas de compartilhamento nunca sao oportunidades. Este filtro
+# roda ANTES de herdar o titulo do card; assim um botao "Compartilhe no
+# LinkedIn" nao vira acidentalmente um edital com o titulo do bloco.
+DOMINIOS_SOCIAIS_RUIDO = {
+    "linkedin.com", "www.linkedin.com", "facebook.com", "www.facebook.com",
+    "twitter.com", "www.twitter.com", "x.com", "www.x.com",
+    "instagram.com", "www.instagram.com", "youtube.com", "www.youtube.com",
+    "youtu.be", "wa.me", "api.whatsapp.com", "t.me", "telegram.me",
+    "pinterest.com", "www.pinterest.com", "addthis.com", "sharethis.com",
+}
+
+PADROES_URL_COMPARTILHAMENTO = [
+    r"/sharing/", r"/sharer", r"/intent/tweet",
+    r"sharearticle", r"share-offsite", r"[?&](?:share|sharing)=",
+    r"whatsapp://", r"mailto:",
+]
+
+PADROES_TEXTO_COMPARTILHAMENTO = [
+    r"^compartilh(?:e|ar|amento)", r"^share(?: this| on| via|$)",
+    r"^(?:facebook|linkedin|twitter|instagram|whatsapp|youtube)$",
+    r"^(?:compartilhe|share).*(?:facebook|linkedin|twitter|instagram|whatsapp)",
+]
+
+
+def link_e_ruido(href, url_completa, ancora=None):
+    """True para redes sociais, botoes de share e links utilitarios."""
+    href_l = (href or "").strip().lower()
+    url_l = (url_completa or "").strip().lower()
+    if href_l.startswith(("#", "mailto:", "tel:", "javascript:", "whatsapp:")):
+        return True
+
+    host = (urlparse(url_l).netloc or "").split(":")[0]
+    if any(host == d or host.endswith("." + d) for d in DOMINIOS_SOCIAIS_RUIDO):
+        return True
+    if any(re.search(p, url_l, re.I) for p in PADROES_URL_COMPARTILHAMENTO):
+        return True
+
+    if ancora is not None:
+        partes = [
+            limpar(ancora.get_text(" ", strip=True)),
+            limpar(ancora.get("title") or ""),
+            limpar(ancora.get("aria-label") or ""),
+            " ".join(ancora.get("class", []) or []),
+        ]
+        texto = normalizar_simples(" ".join(partes))
+        if any(re.search(p, texto, re.I) for p in PADROES_TEXTO_COMPARTILHAMENTO):
+            return True
+        # Classes comuns de widgets sociais, mesmo quando o icone nao tem texto.
+        if re.search(r"\b(?:social|share|sharing|linkedin|facebook|twitter|whatsapp)\b", texto):
+            return True
+    return False
+
+
 def titulo_do_bloco(no, seletor_titulo=None):
     """Acha o título de um bloco/accordion, para os anexos herdarem."""
     tentativas = []
@@ -491,9 +544,11 @@ def extrair_links_do_bloco(no, url_base, fonte):
     vistos = set()
     for a in ancoras:
         href = a.get("href", "")
-        if not href or href.startswith(("#", "mailto:", "tel:", "javascript:")):
+        if not href:
             continue
         url = urljoin(url_base, href)
+        if link_e_ruido(href, url, a):
+            continue
         if url in vistos:
             continue
         vistos.add(url)
@@ -663,9 +718,9 @@ def extrair_por_varredura(soup, url_base):
 
     for a in soup.find_all("a", href=True):
         href = a["href"]
-        if href.startswith(("#", "mailto:", "tel:", "javascript:")):
-            continue
         url_completa = urljoin(url_base, href)
+        if link_e_ruido(href, url_completa, a):
+            continue
         if url_completa in vistos:
             continue
         vistos.add(url_completa)
