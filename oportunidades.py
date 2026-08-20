@@ -70,12 +70,21 @@ ABERTO_CUES = [
     "inscricoes abertas", "submissoes abertas", "candidaturas abertas",
     "em andamento", "aberto para submissao", "prazo aberto", "apply now",
     "applications open", "open call", "call open", "status em andamento",
+    "status: open", "status open", "open for applications",
 ]
 
 FECHADO_CUES = [
     "inscricoes encerradas", "inscricoes fechadas", "candidaturas encerradas",
     "chamada encerrada", "edital encerrado", "status finalizado", "finalizado",
     "closed", "expired", "applications closed", "call closed", "deadline passed",
+]
+
+# Chamadas anunciadas, mas que ainda nao abriram. Uma data futura de deadline
+# nao deve transformar automaticamente um card "forthcoming" em aberto.
+FUTURO_CUES = [
+    "status: forthcoming", "status forthcoming", "forthcoming call",
+    "call forthcoming", "applications forthcoming", "opening soon",
+    "abre em", "abrira em", "abertura prevista", "chamada futura",
 ]
 
 RESULTADO_CUES = [
@@ -101,6 +110,18 @@ OUTBOUND_OR_PARTNERSHIP_CUES = [
     "do brasil para", "brasil para", "pesquisadores do brasil", "no exterior",
     "abroad", "outgoing", "from brazil", "brasil e", "brazil and", "brazil-",
     "parceria", "partnership", "cooperacao", "collaboration", "consorcio",
+]
+
+BRAZIL_CUES = [
+    "brasil", "brazil", "brasileir", "brazilian", "espirito santo",
+    "fapes", "confap", "cnpq", "capes",
+]
+
+# Termos que, sozinhos, NAO provam internacionalidade. Este conjunto existe
+# justamente para evitar falsos positivos como "intercambio de conhecimento".
+TERMOS_MOBILIDADE_GENERICOS = [
+    "intercambio", "exchange", "mobilidade", "mobility",
+    "intercambio de conhecimento", "knowledge exchange",
 ]
 
 
@@ -240,6 +261,7 @@ def avaliar_status_prazo(texto: str, fonte: dict, hoje: Optional[date] = None) -
     prazo, trecho, confianca = extrair_prazo_final(texto)
     fechado_explicito = _tem_algum(norm, FECHADO_CUES)
     aberto_explicito = _tem_algum(norm, ABERTO_CUES)
+    futuro_explicito = _tem_algum(norm, FUTURO_CUES)
     resultado_explicito = _tem_algum(norm, RESULTADO_CUES)
 
     if prazo is not None:
@@ -247,11 +269,14 @@ def avaliar_status_prazo(texto: str, fonte: dict, hoje: Optional[date] = None) -
             status = "encerrado"
             motivo = f"prazo encerrado em {prazo.strftime('%d/%m/%Y')}"
         else:
-            # Se o proprio texto diz claramente que fechou, nao confiar apenas em uma
-            # data futura possivelmente referente a outra fase.
+            # Se o proprio texto diz claramente que fechou ou ainda nao abriu,
+            # nao confiar apenas em uma data futura possivelmente de outra fase.
             if fechado_explicito and not aberto_explicito:
                 status = "encerrado"
                 motivo = "pagina informa inscricoes encerradas"
+            elif futuro_explicito and not aberto_explicito:
+                status = "futuro"
+                motivo = "chamada anunciada, mas ainda nao aberta"
             else:
                 status = "aberto"
                 motivo = f"prazo confirmado ate {prazo.strftime('%d/%m/%Y')}"
@@ -271,6 +296,13 @@ def avaliar_status_prazo(texto: str, fonte: dict, hoje: Optional[date] = None) -
             "status": "encerrado", "prazo_final": "", "prazo_texto": "",
             "dias_restantes": None, "confianca_prazo": 80,
             "motivo_status": "pagina indica resultado/encerramento", "trecho_prazo": "",
+        }
+
+    if futuro_explicito and not aberto_explicito:
+        return {
+            "status": "futuro", "prazo_final": "", "prazo_texto": "",
+            "dias_restantes": None, "confianca_prazo": 65,
+            "motivo_status": "pagina indica chamada futura/ainda nao aberta", "trecho_prazo": "",
         }
 
     if aberto_explicito:
@@ -298,10 +330,48 @@ def texto_de_html(html: str, limite: int = 120000) -> str:
     if not html:
         return ""
     soup = BeautifulSoup(html, "lxml")
+
+    # Alguns portais guardam o prazo apenas em JSON-LD/metadados. Extraimos
+    # somente campos semanticamente ligados a fechamento para nao confundir
+    # data de publicacao com deadline.
+    extras = []
+    chaves_prazo = {
+        "applicationdeadline", "submissiondeadline", "deadline",
+        "closingdate", "validthrough", "enddate",
+    }
+
+    def caminhar_json(obj):
+        if isinstance(obj, dict):
+            for k, v in obj.items():
+                nk = re.sub(r"[^a-z]", "", str(k).lower())
+                if nk in chaves_prazo and isinstance(v, (str, int, float)):
+                    extras.append(f"application deadline {v}")
+                else:
+                    caminhar_json(v)
+        elif isinstance(obj, list):
+            for v in obj:
+                caminhar_json(v)
+
+    for script in soup.find_all("script", attrs={"type": "application/ld+json"}):
+        bruto = script.string or script.get_text() or ""
+        try:
+            caminhar_json(json.loads(bruto))
+        except Exception:
+            pass
+
+    for meta in soup.find_all("meta"):
+        chave = normalizar(meta.get("name") or meta.get("property") or "")
+        if any(cue in chave for cue in ("deadline", "closing date", "valid through", "end date")):
+            valor = meta.get("content") or ""
+            if valor:
+                extras.append(f"application deadline {valor}")
+
     for no in soup(["script", "style", "noscript", "svg", "nav", "footer"]):
         no.decompose()
     # Titulos e corpo, mantendo espacos para o parser de datas.
     texto = " ".join(soup.stripped_strings)
+    if extras:
+        texto = texto + " " + " ".join(extras)
     return re.sub(r"\s+", " ", texto)[:limite]
 
 
@@ -346,6 +416,49 @@ class AnalisadorGlobalEd:
                     "temas": list(meta.get("temas", [])),
                 })
         return sorted(encontrados, key=lambda x: x["peso"], reverse=True)
+
+    def _evidencia_internacional(self, texto_norm: str, fonte: dict) -> tuple[bool, str]:
+        """Exige evidencia internacional independente do tema de mobilidade.
+
+        "Intercambio", "exchange" e "mobilidade" nunca bastam sozinhos.
+        Em fontes brasileiras amplas, a oportunidade precisa dizer explicitamente
+        internacional/exterior/bilateral/etc., ou citar um pais/bloco estrangeiro
+        perto de sinais de cooperacao, pesquisa, chamada ou financiamento.
+        """
+        if fonte.get("fonte_curada_internacional"):
+            return True, "fonte internacional curada"
+
+        fortes = [normalizar(x) for x in self.cfg.get("sinais_internacionais_fortes", [])]
+        fortes = [x for x in fortes if x]
+        for termo in fortes:
+            if termo in texto_norm:
+                return True, f"sinal internacional explicito: {termo}"
+
+        geograficos = [normalizar(x) for x in self.cfg.get("sinais_geograficos", [])]
+        ancora = [
+            "parceria", "partnership", "cooperacao", "collaboration",
+            "joint research", "research collaboration", "pesquisa", "research",
+            "grant", "funding", "bolsa", "fellowship", "chamada", "call for",
+            "edital", "university", "universidade", "higher education institution",
+            "researcher mobility", "student mobility", "study abroad",
+        ]
+        for termo in geograficos:
+            if not termo:
+                continue
+            inicio = 0
+            while True:
+                pos = texto_norm.find(termo, inicio)
+                if pos < 0:
+                    break
+                janela = texto_norm[max(0, pos - 450): min(len(texto_norm), pos + len(termo) + 450)]
+                if _tem_algum(janela, ancora):
+                    return True, f"pais/regiao estrangeira em contexto de oportunidade: {termo}"
+                inicio = pos + len(termo)
+
+        return False, "sem evidencia internacional independente"
+
+    def _conexao_brasil(self, texto_norm: str) -> bool:
+        return _tem_algum(texto_norm, BRAZIL_CUES)
 
     def pontuar_prequalificacao(self, texto: str, fonte: dict) -> int:
         """Pontua o candidato usando apenas titulo/card/URL.
@@ -403,9 +516,8 @@ class AnalisadorGlobalEd:
         norm = normalizar(texto)
         eixos = self._eixos_encontrados(norm)
 
-        intl = _tem_algum(norm, self.cfg.get("sinais_internacionais", []))
-        if fonte.get("fonte_curada_internacional"):
-            intl = True
+        intl, motivo_intl = self._evidencia_internacional(norm, fonte)
+        conexao_brasil = self._conexao_brasil(norm)
         fomento = _tem_algum(norm, self.cfg.get("sinais_fomento", []))
         oportunidade = _tem_algum(norm, self.cfg.get("sinais_oportunidade", []))
 
@@ -458,6 +570,9 @@ class AnalisadorGlobalEd:
         relevante = bool(eixos and intl and oportunidade and score >= self.limiar)
         if inbound and not tem_saida_ou_parceria:
             relevante = False
+        if fonte.get("exigir_conexao_brasil") and not conexao_brasil:
+            relevante = False
+            alertas.append("fonte regional: oportunidade sem conexao explicita com o Brasil")
 
         # Em modo estrito, vencido nunca entra como oportunidade ativa. O registro
         # pode continuar no historico, mas o painel o esconde por padrao.
@@ -491,6 +606,8 @@ class AnalisadorGlobalEd:
             "alertas_automaticos": alertas,
             "motivo_relevancia": " | ".join(motivos[:4]),
             "sinal_internacional": intl,
+            "motivo_internacional": motivo_intl,
+            "conexao_brasil": conexao_brasil,
             "sinal_fomento": fomento,
             "sinal_oportunidade": oportunidade,
             "inbound_only": inbound and not tem_saida_ou_parceria,
