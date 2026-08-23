@@ -255,3 +255,91 @@
 2026-08-22 07:01:00,872 [INFO]   -> 0 relevante(s), 0 novo(s), 0 atualizado(s) — 10s
 2026-08-22 07:01:02,378 [INFO] FIM: 7/10 fonte(s) com resultado, 0 edital(is) novo(s), 29 no histórico.
 2026-08-22 07:01:02,385 [INFO] Painel gravado em /home/runner/work/radar-global-ed/radar-global-ed/painel.html
+2026-08-23 06:58:20,779 [INFO]       GET https://teste.invalid/abertas  (conexão 10s, leitura 25s, resta 30s da fonte)
+2026-08-23 06:58:20,780 [INFO]       -> 200, 438 bytes em 0.0s
+2026-08-23 06:58:20,800 [INFO]       filtro Global Ed: 0 pre-filtro, 1 baixa aderencia, 1 prazo/status, 3 detalhe(s) lido(s)
+2026-08-23 06:58:20,975 [INFO] Execução nº 4
+2026-08-23 06:58:20,976 [INFO] Fonte: FAPES — Oportunidades abertas [es]
+2026-08-23 06:58:20,976 [INFO]       GET https://fapes.es.gov.br/chamadas-internacionais  (conexão 10s, leitura 25s, resta 120s da fonte)
+2026-08-23 06:58:22,435 [INFO]       -> 200, 345.727 bytes em 1.5s
+2026-08-23 06:58:45,407 [INFO]       filtro Global Ed: 0 pre-filtro, 1 baixa aderencia, 4 prazo/status, 7 detalhe(s) lido(s)
+2026-08-23 06:58:45,407 [INFO]     https://fapes.es.gov.br/chamadas-internacionais -> 7 link(s) brutos, 2 relevante(s) via seletor
+2026-08-23 06:58:45,407 [INFO]   -> 2 relevante(s), 0 novo(s), 0 atualizado(s) — 24s
+2026-08-23 06:58:46,971 [INFO] Fonte: FAPES — Difusão internacional [es]
+2026-08-23 06:58:46,971 [INFO]       GET https://fapes.es.gov.br/difusao-do-conhecimento  (conexão 10s, leitura 25s, resta 120s da fonte)
+2026-08-23 06:58:47,298 [INFO]       -> 200, 296.017 bytes em 0.3s
+2026-08-23 06:58:50,739 [INFO]       filtro Global Ed: 0 pre-filtro, 1 baixa aderencia, 2 prazo/status, 1 detalhe(s) lido(s)
+2026-08-23 06:58:50,739 [INFO]     https://fapes.es.gov.br/difusao-do-conhecimento -> 3 link(s) brutos, 0 relevante(s) via seletor
+2026-08-23 06:58:50,806 [INFO]   -> 0 relevante(s), 0 novo(s), 0 atualizado(s) — 4s
+2026-08-23 06:58:52,308 [INFO] Fonte: CONFAP — Em andamento [nacional]
+2026-08-23 06:58:52,308 [INFO]       GET https://confap.org.br/pt/editais/?status=em-andamento  (conexão 10s, leitura 25s, resta 120s da fonte)
+2026-08-23 06:58:53,262 [INFO]       -> 200, 36.214 bytes em 1.0s
+2026-08-23 06:58:58,454 [INFO]       9 link(s) descartado(s) como navegacao
+2026-08-23 06:58:58,454 [INFO]       filtro Global Ed: 9 pre-filtro, 1 baixa aderencia, 6 prazo/status, 12 detalhe(s) lido(s)
+2026-08-23 06:58:58,454 [INFO]       pág 1: 30 bruto(s), 5 novo(s)
+2026-08-23 06:58:59,455 [INFO]       GET https://confap.org.br/pt/editais/pagina=10  (conexão 10s, leitura 25s, resta 113s da fonte)
+2026-08-23 06:58:59,752 [INFO]       -> 200, 36.701 bytes em 0.3s
+2026-08-23 06:59:01,971 [INFO]       10 link(s) descartado(s) como navegacao
+2026-08-23 06:59:01,971 [INFO]       filtro Global Ed: 10 pre-filtro, 2 baixa aderencia, 8 prazo/status, 6 detalhe(s) lido(s)
+2026-08-23 06:59:01,971 [INFO]       pág 2: nada novo — fim da paginação
+2026-08-23 06:59:01,971 [INFO]   -> 5 relevante(s), 0 novo(s), 0 atualizado(s) — 10s
+2026-08-23 06:59:03,473 [INFO] Fonte: CNPq — Chamadas abertas [nacional]
+2026-08-23 06:59:03,473 [INFO]       GET https://www.gov.br/cnpq/pt-br/chamadas/abertas-para-submissao  (conexão 10s, leitura 25s, resta 120s da fonte)
+2026-08-23 06:59:04,531 [INFO]       -> 200, 175.253 bytes em 1.1s
+2026-08-23 06:59:21,178 [INFO]       filtro Global Ed: 0 pre-filtro, 22 baixa aderencia, 1 prazo/status, 25 detalhe(s) lido(s)
+2026-08-23 06:59:21,178 [INFO]       pág 1: 28 bruto(s), 5 novo(s)
+2026-08-23 06:59:22,181 [INFO]       GET https://www.gov.br/cnpq/pt-br/chamadas/Busca_abertas  (conexão 10s, leitura 25s, resta 101s da fonte)
+2026-08-23 06:59:22,348 [INFO]       -> 200, 131.917 bytes em 0.2s
+2026-08-23 06:59:22,637 [INFO]       filtro Global Ed: 0 pre-filtro, 4 baixa aderencia, 0 prazo/status, 6 detalhe(s) lido(s)
+2026-08-23 06:59:22,638 [INFO]       pág 2: nada novo — fim da paginação
+2026-08-23 06:59:22,638 [INFO]   -> 5 relevante(s), 0 novo(s), 0 atualizado(s) — 19s
+2026-08-23 06:59:24,140 [INFO] Fonte: CAPES — Editais e cooperacao [nacional]
+2026-08-23 06:59:24,140 [INFO]       GET https://www.gov.br/capes/pt-br/assuntos/editais-e-resultados-capes/  (conexão 10s, leitura 25s, resta 120s da fonte)
+2026-08-23 06:59:24,526 [INFO]       -> 200, 308.077 bytes em 0.4s
+2026-08-23 06:59:40,877 [INFO]       11 link(s) descartado(s) como navegacao
+2026-08-23 06:59:40,877 [INFO]       filtro Global Ed: 30 pre-filtro, 4 baixa aderencia, 13 prazo/status, 27 detalhe(s) lido(s)
+2026-08-23 06:59:40,877 [INFO]       pág 1: 68 bruto(s), 10 novo(s)
+2026-08-23 06:59:40,897 [INFO]       sem link de próxima página — fim (1 pág lidas)
+2026-08-23 06:59:40,897 [INFO]   -> 10 relevante(s), 0 novo(s), 0 atualizado(s) — 17s
+2026-08-23 06:59:42,399 [INFO] Fonte: DAAD Brasil [internacional]
+2026-08-23 06:59:42,400 [INFO]       GET https://www.daad-brasil.org/pt/bolsas/busca/?type=a&origin=48&target=48&status=4&intention=0&su…  (conexão 10s, leitura 25s, resta 120s da fonte)
+2026-08-23 06:59:43,050 [INFO]       -> HTTP 403 em 0.7s
+2026-08-23 06:59:43,051 [WARNING]   -> nenhum candidato funcionou para DAAD Brasil
+2026-08-23 06:59:43,051 [INFO]   -> 0 relevante(s), 0 novo(s), 0 atualizado(s) — 1s
+2026-08-23 06:59:44,554 [INFO] Fonte: Fulbright Brasil [internacional]
+2026-08-23 06:59:44,554 [INFO]       GET https://fulbright.org.br/bolsas-para-brasileiros/  (conexão 10s, leitura 25s, resta 120s da fonte)
+2026-08-23 06:59:45,104 [INFO]       -> 200, 62.292 bytes em 0.5s
+2026-08-23 06:59:50,441 [INFO]       filtro Global Ed: 0 pre-filtro, 15 baixa aderencia, 11 prazo/status, 25 detalhe(s) lido(s)
+2026-08-23 06:59:50,442 [INFO]       pág 1 respondeu, mas sem oportunidade ativa; continuando a paginação
+2026-08-23 06:59:50,442 [INFO]       pág 1: 26 bruto(s), 0 novo(s)
+2026-08-23 06:59:51,443 [INFO]       GET https://fulbright.org.br/bolsas-para-brasileiros/page/2/  (conexão 10s, leitura 25s, resta 113s da fonte)
+2026-08-23 06:59:51,698 [INFO]       -> 200, 62.546 bytes em 0.3s
+2026-08-23 06:59:51,799 [INFO]       filtro Global Ed: 0 pre-filtro, 22 baixa aderencia, 4 prazo/status, 5 detalhe(s) lido(s)
+2026-08-23 06:59:51,799 [INFO]       pág 2: nada novo — fim da paginação
+2026-08-23 06:59:51,799 [INFO]   -> 0 relevante(s), 0 novo(s), 0 atualizado(s) — 7s
+2026-08-23 06:59:53,301 [INFO] Fonte: British Council — Ensino Superior [internacional]
+2026-08-23 06:59:53,301 [INFO]       GET https://www.britishcouncil.org.br/en/programmes/education  (conexão 10s, leitura 25s, resta 120s da fonte)
+2026-08-23 07:00:18,599 [INFO]       -> leitura excedeu 25s
+2026-08-23 07:00:20,099 [INFO]       GET https://www.britishcouncil.org.br/en/programmes/education  (conexão 10s, leitura 25s, resta 93s da fonte)
+2026-08-23 07:00:45,398 [INFO]       -> leitura excedeu 25s
+2026-08-23 07:00:45,398 [WARNING]   -> nenhum candidato funcionou para British Council — Ensino Superior
+2026-08-23 07:00:45,398 [INFO]   -> 0 relevante(s), 0 novo(s), 0 atualizado(s) — 52s
+2026-08-23 07:00:46,900 [INFO] Fonte: EURAXESS LAC — chamadas com conexao Brasil [internacional]
+2026-08-23 07:00:46,900 [INFO]       GET https://euraxess.ec.europa.eu/worldwide/lac/news  (conexão 10s, leitura 25s, resta 120s da fonte)
+2026-08-23 07:00:47,183 [INFO]       -> 200, 67.332 bytes em 0.3s
+2026-08-23 07:00:51,373 [INFO]       filtro Global Ed: 0 pre-filtro, 0 baixa aderencia, 16 prazo/status, 19 detalhe(s) lido(s)
+2026-08-23 07:00:51,373 [INFO]       pág 1: 19 bruto(s), 3 novo(s)
+2026-08-23 07:00:52,375 [INFO]       GET https://euraxess.ec.europa.eu/worldwide/lac/news?page=1  (conexão 10s, leitura 25s, resta 115s da fonte)
+2026-08-23 07:00:52,397 [INFO]       -> 200, 67.332 bytes em 0.0s
+2026-08-23 07:00:52,702 [INFO]       filtro Global Ed: 0 pre-filtro, 0 baixa aderencia, 16 prazo/status, 19 detalhe(s) lido(s)
+2026-08-23 07:00:52,703 [INFO]       pág 2: nada novo — fim da paginação
+2026-08-23 07:00:52,703 [INFO]   -> 3 relevante(s), 0 novo(s), 0 atualizado(s) — 6s
+2026-08-23 07:00:54,205 [INFO] Fonte: MSCA — Marie Sklodowska-Curie Actions [internacional]
+2026-08-23 07:00:54,205 [INFO]       GET https://marie-sklodowska-curie-actions.ec.europa.eu/funding  (conexão 10s, leitura 25s, resta 120s da fonte)
+2026-08-23 07:00:54,964 [INFO]       -> 200, 116.632 bytes em 0.8s
+2026-08-23 07:01:01,928 [INFO]       1 link(s) descartado(s) como navegacao
+2026-08-23 07:01:01,928 [INFO]       filtro Global Ed: 0 pre-filtro, 13 baixa aderencia, 8 prazo/status, 20 detalhe(s) lido(s)
+2026-08-23 07:01:01,928 [INFO]     https://marie-sklodowska-curie-actions.ec.europa.eu/funding -> 22 link(s) brutos, 0 relevante(s) via varredura
+2026-08-23 07:01:01,928 [INFO]   -> 0 relevante(s), 0 novo(s), 0 atualizado(s) — 8s
+2026-08-23 07:01:03,432 [INFO] FIM: 8/10 fonte(s) com resultado, 0 edital(is) novo(s), 29 no histórico.
+2026-08-23 07:01:03,438 [INFO] Painel gravado em /home/runner/work/radar-global-ed/radar-global-ed/painel.html
