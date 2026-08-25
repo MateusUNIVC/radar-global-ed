@@ -1,6 +1,6 @@
 {
-  "execucao": "2026-08-24T08:02:16",
-  "numero": 5,
+  "execucao": "2026-08-25T07:57:32",
+  "numero": 6,
   "fontes": [
     {
       "fonte": "FAPES — Oportunidades abertas",
@@ -10,7 +10,7 @@
       "relevantes": 2,
       "novos": 0,
       "atualizados": 0,
-      "segundos": 38.5,
+      "segundos": 24.6,
       "tentativas": [
         "https://fapes.es.gov.br/chamadas-internacionais -> OK, 7 links, 2 relevantes (seletor)"
       ]
@@ -23,7 +23,7 @@
       "relevantes": 0,
       "novos": 0,
       "atualizados": 0,
-      "segundos": 5.3,
+      "segundos": 11.1,
       "tentativas": [
         "https://fapes.es.gov.br/difusao-do-conhecimento -> OK, 3 links, 0 relevantes (seletor)"
       ]
@@ -36,7 +36,7 @@
       "relevantes": 5,
       "novos": 0,
       "atualizados": 0,
-      "segundos": 9.9,
+      "segundos": 9.1,
       "tentativas": [
         "https://confap.org.br/pt/editais/?status=em-andamento -> OK, 5 relevantes em 2 página(s) (varredura)"
       ]
@@ -49,7 +49,7 @@
       "relevantes": 5,
       "novos": 0,
       "atualizados": 0,
-      "segundos": 22.0,
+      "segundos": 20.2,
       "tentativas": [
         "https://www.gov.br/cnpq/pt-br/chamadas/abertas-para-submissao -> OK, 5 relevantes em 2 página(s) (seletor)"
       ]
@@ -62,7 +62,7 @@
       "relevantes": 10,
       "novos": 0,
       "atualizados": 0,
-      "segundos": 21.4,
+      "segundos": 18.8,
       "tentativas": [
         "https://www.gov.br/capes/pt-br/assuntos/editais-e-resultados-capes/ -> OK, 10 relevantes em 1 página(s) (varredura)"
       ]
@@ -88,7 +88,7 @@
       "relevantes": 0,
       "novos": 0,
       "atualizados": 0,
-      "segundos": 8.8,
+      "segundos": 8.3,
       "tentativas": [
         "https://fulbright.org.br/bolsas-para-brasileiros/ -> OK, 26 links, 0 relevantes (varredura)",
         "https://fulbright.org.br/bolsas-para-brasileiros/ -> OK, 0 relevantes em 2 página(s) (varredura)"
@@ -102,7 +102,7 @@
       "relevantes": 0,
       "novos": 0,
       "atualizados": 0,
-      "segundos": 51.9,
+      "segundos": 52.0,
       "tentativas": [
         "https://www.britishcouncil.org.br/en/programmes/education -> leitura excedeu 25s"
       ]
@@ -112,12 +112,12 @@
       "regiao": "internacional",
       "situacao": "ok",
       "url_usada": "https://euraxess.ec.europa.eu/worldwide/lac/news",
-      "relevantes": 11,
-      "novos": 8,
-      "atualizados": 0,
-      "segundos": 51.4,
+      "relevantes": 3,
+      "novos": 0,
+      "atualizados": 8,
+      "segundos": 15.7,
       "tentativas": [
-        "https://euraxess.ec.europa.eu/worldwide/lac/news -> OK, 11 relevantes em 4 página(s) (seletor)"
+        "https://euraxess.ec.europa.eu/worldwide/lac/news -> OK, 3 relevantes em 2 página(s) (seletor)"
       ]
     },
     {
@@ -128,7 +128,7 @@
       "relevantes": 0,
       "novos": 0,
       "atualizados": 0,
-      "segundos": 10.6,
+      "segundos": 9.2,
       "tentativas": [
         "https://marie-sklodowska-curie-actions.ec.europa.eu/funding -> OK, 22 links, 0 relevantes (varredura)"
       ]
