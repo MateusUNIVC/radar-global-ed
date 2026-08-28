@@ -1,5 +1,5 @@
 {
-  "execucao": 7,
+  "execucao": 8,
   "execucoes": [
     {
       "numero": 1,
@@ -40,6 +40,12 @@
     {
       "numero": 7,
       "quando": "2026-08-26T08:01:01",
+      "novos": 0,
+      "total": 37
+    },
+    {
+      "numero": 8,
+      "quando": "2026-08-28T18:48:46",
       "novos": 0,
       "total": 37
     }

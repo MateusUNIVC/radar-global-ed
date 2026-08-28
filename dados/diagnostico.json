@@ -1,6 +1,6 @@
 {
-  "execucao": "2026-08-26T08:01:01",
-  "numero": 7,
+  "execucao": "2026-08-28T18:48:46",
+  "numero": 8,
   "fontes": [
     {
       "fonte": "FAPES — Oportunidades abertas",
@@ -10,7 +10,7 @@
       "relevantes": 2,
       "novos": 0,
       "atualizados": 0,
-      "segundos": 24.7,
+      "segundos": 27.1,
       "tentativas": [
         "https://fapes.es.gov.br/chamadas-internacionais -> OK, 7 links, 2 relevantes (seletor)"
       ]
@@ -36,7 +36,7 @@
       "relevantes": 5,
       "novos": 0,
       "atualizados": 0,
-      "segundos": 10.9,
+      "segundos": 8.8,
       "tentativas": [
         "https://confap.org.br/pt/editais/?status=em-andamento -> OK, 5 relevantes em 2 página(s) (varredura)"
       ]
@@ -49,7 +49,7 @@
       "relevantes": 5,
       "novos": 0,
       "atualizados": 0,
-      "segundos": 17.0,
+      "segundos": 17.9,
       "tentativas": [
         "https://www.gov.br/cnpq/pt-br/chamadas/abertas-para-submissao -> OK, 5 relevantes em 2 página(s) (seletor)"
       ]
@@ -59,12 +59,12 @@
       "regiao": "nacional",
       "situacao": "ok",
       "url_usada": "https://www.gov.br/capes/pt-br/assuntos/editais-e-resultados-capes/",
-      "relevantes": 10,
+      "relevantes": 9,
       "novos": 0,
-      "atualizados": 0,
-      "segundos": 18.1,
+      "atualizados": 1,
+      "segundos": 10.7,
       "tentativas": [
-        "https://www.gov.br/capes/pt-br/assuntos/editais-e-resultados-capes/ -> OK, 10 relevantes em 1 página(s) (varredura)"
+        "https://www.gov.br/capes/pt-br/assuntos/editais-e-resultados-capes/ -> OK, 9 relevantes em 1 página(s) (varredura)"
       ]
     },
     {
@@ -75,7 +75,7 @@
       "relevantes": 0,
       "novos": 0,
       "atualizados": 0,
-      "segundos": 2.4,
+      "segundos": 0.5,
       "tentativas": [
         "https://www.daad-brasil.org/pt/bolsas/busca/?type=a&origin=48&target=48&status=4&intention=0&subject=0&onlydaad=1&q=&pg=1 -> HTTP 403"
       ]
@@ -88,7 +88,7 @@
       "relevantes": 0,
       "novos": 0,
       "atualizados": 0,
-      "segundos": 7.0,
+      "segundos": 6.2,
       "tentativas": [
         "https://fulbright.org.br/bolsas-para-brasileiros/ -> OK, 26 links, 0 relevantes (varredura)",
         "https://fulbright.org.br/bolsas-para-brasileiros/ -> OK, 0 relevantes em 2 página(s) (varredura)"
@@ -102,7 +102,7 @@
       "relevantes": 0,
       "novos": 0,
       "atualizados": 0,
-      "segundos": 51.7,
+      "segundos": 52.0,
       "tentativas": [
         "https://www.britishcouncil.org.br/en/programmes/education -> leitura excedeu 25s"
       ]
@@ -114,8 +114,8 @@
       "url_usada": "https://euraxess.ec.europa.eu/worldwide/lac/news",
       "relevantes": 2,
       "novos": 0,
-      "atualizados": 1,
-      "segundos": 11.8,
+      "atualizados": 0,
+      "segundos": 6.6,
       "tentativas": [
         "https://euraxess.ec.europa.eu/worldwide/lac/news -> OK, 2 relevantes em 2 página(s) (seletor)"
       ]
@@ -128,7 +128,7 @@
       "relevantes": 0,
       "novos": 0,
       "atualizados": 0,
-      "segundos": 7.4,
+      "segundos": 9.7,
       "tentativas": [
         "https://marie-sklodowska-curie-actions.ec.europa.eu/funding -> OK, 22 links, 0 relevantes (varredura)"
       ]
