@@ -9,8 +9,8 @@
     "regiao": "nacional",
     "temas": [
       "internacional",
-      "bolsas",
       "pesquisa",
+      "bolsas",
       "inovacao"
     ],
     "status": "aberto",
@@ -51,7 +51,7 @@
     "situacao_elegibilidade": "verificar",
     "prazo_final": "2026-10-08",
     "prazo_texto": "08/10/2026",
-    "dias_restantes": 35,
+    "dias_restantes": 34,
     "confianca_prazo": 100,
     "motivo_status": "prazo confirmado ate 08/10/2026",
     "aderencia": 62,
@@ -72,9 +72,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": 2027,
     "visto_primeiro": "2026-08-21T11:04:16",
-    "visto_por_ultimo": "2026-09-03T06:25:34",
+    "visto_por_ultimo": "2026-09-04T06:25:12",
     "execucao_primeira": 1,
-    "execucao_ultima": 14,
+    "execucao_ultima": 15,
     "novidade": "inicial"
   },
   "https://confap.org.br/pt/editais/111/chamada-confap-wbi-belgica-2026": {
@@ -87,8 +87,8 @@
     "regiao": "nacional",
     "temas": [
       "internacional",
-      "bolsas",
       "pesquisa",
+      "bolsas",
       "inovacao"
     ],
     "status": "aberto",
@@ -114,7 +114,7 @@
     "situacao_elegibilidade": "verificar",
     "prazo_final": "2026-09-30",
     "prazo_texto": "30/09/2026",
-    "dias_restantes": 27,
+    "dias_restantes": 26,
     "confianca_prazo": 100,
     "motivo_status": "prazo confirmado ate 30/09/2026",
     "aderencia": 69,
@@ -135,9 +135,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": 2026,
     "visto_primeiro": "2026-08-21T11:04:16",
-    "visto_por_ultimo": "2026-09-03T06:25:34",
+    "visto_por_ultimo": "2026-09-04T06:25:12",
     "execucao_primeira": 1,
-    "execucao_ultima": 14,
+    "execucao_ultima": 15,
     "novidade": "inicial"
   },
   "https://confap.org.br/pt/editais/110/chamada-mci-mobility-confap-italy-2026": {
@@ -149,12 +149,12 @@
     "fonte": "CONFAP — Em andamento",
     "regiao": "nacional",
     "temas": [
-      "internacional",
       "mobilidade",
-      "bolsas",
+      "internacional",
       "pesquisa",
-      "inovacao",
-      "pos_graduacao"
+      "bolsas",
+      "pos_graduacao",
+      "inovacao"
     ],
     "status": "aberto",
     "pontos": 72,
@@ -174,7 +174,7 @@
     "situacao_elegibilidade": "verificar",
     "prazo_final": "2026-09-04",
     "prazo_texto": "04/09/2026",
-    "dias_restantes": 1,
+    "dias_restantes": 0,
     "confianca_prazo": 100,
     "motivo_status": "prazo confirmado ate 04/09/2026",
     "aderencia": 72,
@@ -198,9 +198,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": 2026,
     "visto_primeiro": "2026-08-21T11:04:16",
-    "visto_por_ultimo": "2026-09-03T06:25:34",
+    "visto_por_ultimo": "2026-09-04T06:25:12",
     "execucao_primeira": 1,
-    "execucao_ultima": 14,
+    "execucao_ultima": 15,
     "novidade": "inicial"
   },
   "https://confap.org.br/pt/editais/113/daad-programa-de-auxilio-para-doutorandos-com-bolsa-nacional-2026": {
@@ -218,7 +218,7 @@
       "pesquisa",
       "pos_graduacao"
     ],
-    "status": "aberto",
+    "status": "verificar",
     "pontos": 54,
     "prioridade": 56.0,
     "restricoes": [
@@ -233,7 +233,7 @@
     "prazo_texto": "03/09/2026",
     "dias_restantes": 0,
     "confianca_prazo": 100,
-    "motivo_status": "prazo confirmado ate 03/09/2026",
+    "motivo_status": "nao localizado na listagem oficial na ultima coleta; confirmar antes de usar",
     "aderencia": 54,
     "eixos": [
       "mobilidade_estudantil"
@@ -247,7 +247,9 @@
       "pos_graduando",
       "estudante"
     ],
-    "alertas_automaticos": [],
+    "alertas_automaticos": [
+      "nao localizado na ultima coleta"
+    ],
     "motivo_relevancia": "Mobilidade estudantil internacional | componente internacional | financiamento/bolsa | prazo 03/09/2026",
     "detalhe_lido": true,
     "detalhe_tipo": "html",
@@ -256,7 +258,11 @@
     "visto_por_ultimo": "2026-09-03T06:25:34",
     "execucao_primeira": 1,
     "execucao_ultima": 14,
-    "novidade": "inicial"
+    "novidade": "atualizado",
+    "alterado_na_execucao": 15,
+    "mudancas": [
+      "aberto -> verificar (nao localizado)"
+    ]
   },
   "https://confap.org.br/pt/editais/112/1-chamada-da-parceria-de-materias-primas-para-a-transicao-verde-e-digital-ramp-": {
     "titulo": "1ª chamada da Parceria de Matérias-Primas para a Transição Verde e Digital (RAMP)",
@@ -268,8 +274,8 @@
     "regiao": "nacional",
     "temas": [
       "internacional",
-      "bolsas",
       "pesquisa",
+      "bolsas",
       "inovacao"
     ],
     "status": "aberto",
@@ -295,7 +301,7 @@
     "situacao_elegibilidade": "verificar",
     "prazo_final": "2026-09-22",
     "prazo_texto": "22/09/2026",
-    "dias_restantes": 19,
+    "dias_restantes": 18,
     "confianca_prazo": 100,
     "motivo_status": "prazo confirmado ate 22/09/2026",
     "aderencia": 62,
@@ -314,9 +320,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": null,
     "visto_primeiro": "2026-08-21T11:04:16",
-    "visto_por_ultimo": "2026-09-03T06:25:34",
+    "visto_por_ultimo": "2026-09-04T06:25:12",
     "execucao_primeira": 1,
-    "execucao_ultima": 14,
+    "execucao_ultima": 15,
     "novidade": "inicial"
   },
   "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-15-2026/chamada-publica-cnpq-N-15-2026": {
@@ -458,7 +464,7 @@
     "situacao_elegibilidade": "verificar",
     "prazo_final": "2026-09-30",
     "prazo_texto": "30/09/2026",
-    "dias_restantes": 27,
+    "dias_restantes": 26,
     "confianca_prazo": 100,
     "motivo_status": "prazo confirmado ate 30/09/2026",
     "aderencia": 54,
@@ -477,9 +483,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": 2026,
     "visto_primeiro": "2026-08-21T11:04:16",
-    "visto_por_ultimo": "2026-09-03T06:25:34",
+    "visto_por_ultimo": "2026-09-04T06:25:12",
     "execucao_primeira": 1,
-    "execucao_ultima": 14,
+    "execucao_ultima": 15,
     "novidade": "inicial"
   },
   "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-21-2026/ChamadaPblicaERC_21_2026_2717210.pdf": {
@@ -491,14 +497,14 @@
     "fonte": "CNPq — Chamadas abertas",
     "regiao": "nacional",
     "temas": [
-      "internacional",
       "mobilidade",
+      "internacional",
+      "pesquisa",
       "bolsas",
       "eventos_e_visitas",
-      "pesquisa",
-      "idiomas",
       "inovacao",
-      "extensao"
+      "extensao",
+      "idiomas"
     ],
     "status": "aberto",
     "pontos": 69,
@@ -513,7 +519,7 @@
     "situacao_elegibilidade": "verificar",
     "prazo_final": "2027-12-31",
     "prazo_texto": "31/12/2027",
-    "dias_restantes": 484,
+    "dias_restantes": 483,
     "confianca_prazo": 100,
     "motivo_status": "prazo confirmado ate 31/12/2027",
     "aderencia": 69,
@@ -534,9 +540,9 @@
     "detalhe_tipo": "pdf",
     "ano_edicao": 2026,
     "visto_primeiro": "2026-08-21T11:04:16",
-    "visto_por_ultimo": "2026-09-03T06:25:34",
+    "visto_por_ultimo": "2026-09-04T06:25:12",
     "execucao_primeira": 1,
-    "execucao_ultima": 14,
+    "execucao_ultima": 15,
     "novidade": "inicial"
   },
   "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/programa-catedra-jorge-amado": {
@@ -548,14 +554,14 @@
     "fonte": "CAPES — Editais e cooperacao",
     "regiao": "nacional",
     "temas": [
-      "internacional",
       "mobilidade",
+      "internacional",
+      "pesquisa",
       "bolsas",
       "eventos_e_visitas",
-      "pesquisa",
-      "idiomas",
+      "pos_graduacao",
       "inovacao",
-      "pos_graduacao"
+      "idiomas"
     ],
     "status": "aberto",
     "pontos": 74,
@@ -600,7 +606,7 @@
     "situacao_elegibilidade": "restricao_conhecida",
     "prazo_final": "2026-12-28",
     "prazo_texto": "28/12/2026",
-    "dias_restantes": 116,
+    "dias_restantes": 115,
     "confianca_prazo": 100,
     "motivo_status": "prazo confirmado ate 28/12/2026",
     "aderencia": 74,
@@ -627,9 +633,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": null,
     "visto_primeiro": "2026-08-21T11:04:16",
-    "visto_por_ultimo": "2026-09-03T06:25:34",
+    "visto_por_ultimo": "2026-09-04T06:25:12",
     "execucao_primeira": 1,
-    "execucao_ultima": 14,
+    "execucao_ultima": 15,
     "novidade": "inicial"
   },
   "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/educacao-basica/pe-de-meia-licenciaturas": {
@@ -641,11 +647,11 @@
     "fonte": "CAPES — Editais e cooperacao",
     "regiao": "nacional",
     "temas": [
-      "internacional",
       "mobilidade",
+      "internacional",
+      "pesquisa",
       "bolsas",
       "eventos_e_visitas",
-      "pesquisa",
       "pos_graduacao"
     ],
     "status": "aberto",
@@ -691,7 +697,7 @@
     "situacao_elegibilidade": "restricao_conhecida",
     "prazo_final": "2026-12-19",
     "prazo_texto": "19/12/2026",
-    "dias_restantes": 107,
+    "dias_restantes": 106,
     "confianca_prazo": 100,
     "motivo_status": "prazo confirmado ate 19/12/2026",
     "aderencia": 72,
@@ -717,9 +723,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": null,
     "visto_primeiro": "2026-08-21T11:04:16",
-    "visto_por_ultimo": "2026-09-03T06:25:34",
+    "visto_por_ultimo": "2026-09-04T06:25:12",
     "execucao_primeira": 1,
-    "execucao_ultima": 14,
+    "execucao_ultima": 15,
     "novidade": "inicial"
   },
   "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/alemanha/programa-bolsas-para-pesquisa-capeshumboldt": {
@@ -731,13 +737,13 @@
     "fonte": "CAPES — Editais e cooperacao",
     "regiao": "nacional",
     "temas": [
-      "internacional",
       "mobilidade",
+      "internacional",
+      "pesquisa",
       "bolsas",
       "eventos_e_visitas",
-      "pesquisa",
-      "idiomas",
-      "pos_graduacao"
+      "pos_graduacao",
+      "idiomas"
     ],
     "status": "aberto",
     "pontos": 74,
@@ -782,7 +788,7 @@
     "situacao_elegibilidade": "restricao_conhecida",
     "prazo_final": "2026-11-19",
     "prazo_texto": "19/11/2026",
-    "dias_restantes": 77,
+    "dias_restantes": 76,
     "confianca_prazo": 100,
     "motivo_status": "prazo confirmado ate 19/11/2026",
     "aderencia": 74,
@@ -807,9 +813,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": null,
     "visto_primeiro": "2026-08-21T11:04:16",
-    "visto_por_ultimo": "2026-09-03T06:25:34",
+    "visto_por_ultimo": "2026-09-04T06:25:12",
     "execucao_primeira": 1,
-    "execucao_ultima": 14,
+    "execucao_ultima": 15,
     "novidade": "inicial"
   },
   "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/multinacional/programa-capes-augm": {
@@ -821,13 +827,13 @@
     "fonte": "CAPES — Editais e cooperacao",
     "regiao": "nacional",
     "temas": [
-      "internacional",
       "mobilidade",
+      "internacional",
+      "pesquisa",
       "bolsas",
       "eventos_e_visitas",
-      "pesquisa",
-      "idiomas",
-      "pos_graduacao"
+      "pos_graduacao",
+      "idiomas"
     ],
     "status": "aberto",
     "pontos": 74,
@@ -877,7 +883,7 @@
     "situacao_elegibilidade": "restricao_conhecida",
     "prazo_final": "2027-06-25",
     "prazo_texto": "25/06/2027",
-    "dias_restantes": 295,
+    "dias_restantes": 294,
     "confianca_prazo": 100,
     "motivo_status": "prazo confirmado ate 25/06/2027",
     "aderencia": 74,
@@ -905,9 +911,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": null,
     "visto_primeiro": "2026-08-21T11:04:16",
-    "visto_por_ultimo": "2026-09-03T06:25:34",
+    "visto_por_ultimo": "2026-09-04T06:25:12",
     "execucao_primeira": 1,
-    "execucao_ultima": 14,
+    "execucao_ultima": 15,
     "novidade": "inicial"
   },
   "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/multinacional/programa-de-doutorado-sanduiche-no-exterior-pdse": {
@@ -919,13 +925,13 @@
     "fonte": "CAPES — Editais e cooperacao",
     "regiao": "nacional",
     "temas": [
-      "internacional",
       "mobilidade",
+      "internacional",
+      "pesquisa",
       "bolsas",
       "eventos_e_visitas",
-      "pesquisa",
-      "idiomas",
-      "pos_graduacao"
+      "pos_graduacao",
+      "idiomas"
     ],
     "status": "aberto",
     "pontos": 74,
@@ -970,7 +976,7 @@
     "situacao_elegibilidade": "restricao_conhecida",
     "prazo_final": "2026-09-30",
     "prazo_texto": "30/09/2026",
-    "dias_restantes": 27,
+    "dias_restantes": 26,
     "confianca_prazo": 100,
     "motivo_status": "prazo confirmado ate 30/09/2026",
     "aderencia": 74,
@@ -1000,9 +1006,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": null,
     "visto_primeiro": "2026-08-21T11:04:16",
-    "visto_por_ultimo": "2026-09-03T06:25:34",
+    "visto_por_ultimo": "2026-09-04T06:25:12",
     "execucao_primeira": 1,
-    "execucao_ultima": 14,
+    "execucao_ultima": 15,
     "novidade": "inicial"
   },
   "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/programas-estrategicos/formacao-de-recursos-humanos-em-areas-estrategicas/capes-cnj-apoio-a-pesquisas-judiciarias-constitucionais": {
@@ -1014,13 +1020,13 @@
     "fonte": "CAPES — Editais e cooperacao",
     "regiao": "nacional",
     "temas": [
-      "internacional",
       "mobilidade",
+      "internacional",
+      "pesquisa",
       "bolsas",
       "eventos_e_visitas",
-      "pesquisa",
-      "inovacao",
-      "pos_graduacao"
+      "pos_graduacao",
+      "inovacao"
     ],
     "status": "aberto",
     "pontos": 72,
@@ -1070,7 +1076,7 @@
     "situacao_elegibilidade": "restricao_conhecida",
     "prazo_final": "2026-10-02",
     "prazo_texto": "02/10/2026",
-    "dias_restantes": 29,
+    "dias_restantes": 28,
     "confianca_prazo": 100,
     "motivo_status": "prazo confirmado ate 02/10/2026",
     "aderencia": 72,
@@ -1095,9 +1101,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": null,
     "visto_primeiro": "2026-08-21T11:04:16",
-    "visto_por_ultimo": "2026-09-03T06:25:34",
+    "visto_por_ultimo": "2026-09-04T06:25:12",
     "execucao_primeira": 1,
-    "execucao_ultima": 14,
+    "execucao_ultima": 15,
     "novidade": "inicial"
   },
   "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/estados-unidos/programa-capes-universidade-em-buffalo-capes-ub-professor-visitante": {
@@ -1176,10 +1182,10 @@
     "fonte": "CAPES — Editais e cooperacao",
     "regiao": "nacional",
     "temas": [
-      "internacional",
       "mobilidade",
-      "bolsas",
+      "internacional",
       "pesquisa",
+      "bolsas",
       "inovacao"
     ],
     "status": "aberto",
@@ -1189,7 +1195,7 @@
     "situacao_elegibilidade": "sem_catalogo",
     "prazo_final": "2026-10-14",
     "prazo_texto": "14/10/2026",
-    "dias_restantes": 41,
+    "dias_restantes": 40,
     "confianca_prazo": 100,
     "motivo_status": "prazo confirmado ate 14/10/2026",
     "aderencia": 52,
@@ -1209,9 +1215,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": null,
     "visto_primeiro": "2026-08-21T11:04:16",
-    "visto_por_ultimo": "2026-09-03T06:25:34",
+    "visto_por_ultimo": "2026-09-04T06:25:12",
     "execucao_primeira": 1,
-    "execucao_ultima": 14,
+    "execucao_ultima": 15,
     "novidade": "inicial"
   },
   "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/programas-estrategicos/desenvolvimento-regional/redes-de-pesquisa-e-desenvolvimento/programa-rede-de-pesquisa-e-desenvolvimento-da-amazonia-legal": {
@@ -1223,14 +1229,14 @@
     "fonte": "CAPES — Editais e cooperacao",
     "regiao": "nacional",
     "temas": [
-      "internacional",
       "mobilidade",
+      "internacional",
+      "pesquisa",
       "bolsas",
       "eventos_e_visitas",
-      "pesquisa",
+      "pos_graduacao",
       "inovacao",
-      "extensao",
-      "pos_graduacao"
+      "extensao"
     ],
     "status": "aberto",
     "pontos": 73,
@@ -1250,7 +1256,7 @@
     "situacao_elegibilidade": "verificar",
     "prazo_final": "2026-11-06",
     "prazo_texto": "06/11/2026",
-    "dias_restantes": 64,
+    "dias_restantes": 63,
     "confianca_prazo": 100,
     "motivo_status": "prazo confirmado ate 06/11/2026",
     "aderencia": 73,
@@ -1276,9 +1282,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": null,
     "visto_primeiro": "2026-08-21T11:04:16",
-    "visto_por_ultimo": "2026-09-03T06:25:34",
+    "visto_por_ultimo": "2026-09-04T06:25:12",
     "execucao_primeira": 1,
-    "execucao_ultima": 14,
+    "execucao_ultima": 15,
     "novidade": "inicial",
     "alterado_na_execucao": 12,
     "mudancas": [
@@ -1294,14 +1300,14 @@
     "fonte": "CAPES — Editais e cooperacao",
     "regiao": "nacional",
     "temas": [
-      "internacional",
       "mobilidade",
+      "internacional",
+      "pesquisa",
       "bolsas",
       "eventos_e_visitas",
-      "pesquisa",
+      "pos_graduacao",
       "inovacao",
-      "extensao",
-      "pos_graduacao"
+      "extensao"
     ],
     "status": "aberto",
     "pontos": 73,
@@ -1316,7 +1322,7 @@
     "situacao_elegibilidade": "verificar",
     "prazo_final": "2026-11-30",
     "prazo_texto": "30/11/2026",
-    "dias_restantes": 88,
+    "dias_restantes": 87,
     "confianca_prazo": 100,
     "motivo_status": "prazo confirmado ate 30/11/2026",
     "aderencia": 73,
@@ -1342,9 +1348,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": null,
     "visto_primeiro": "2026-08-21T11:04:16",
-    "visto_por_ultimo": "2026-09-03T06:25:34",
+    "visto_por_ultimo": "2026-09-04T06:25:12",
     "execucao_primeira": 1,
-    "execucao_ultima": 14,
+    "execucao_ultima": 15,
     "novidade": "inicial"
   },
   "https://euraxess.ec.europa.eu/worldwide/lac/news/cnpq-call-brazilian-researchers-collaborate-erc-principal-investigators": {
@@ -1356,12 +1362,12 @@
     "fonte": "EURAXESS LAC — chamadas com conexao Brasil",
     "regiao": "internacional",
     "temas": [
-      "internacional",
       "mobilidade",
-      "bolsas",
+      "internacional",
       "pesquisa",
-      "inovacao",
-      "pos_graduacao"
+      "bolsas",
+      "pos_graduacao",
+      "inovacao"
     ],
     "status": "aberto",
     "pontos": 67,
@@ -1391,7 +1397,7 @@
     "situacao_elegibilidade": "verificar",
     "prazo_final": "2026-09-30",
     "prazo_texto": "30/09/2026",
-    "dias_restantes": 27,
+    "dias_restantes": 26,
     "confianca_prazo": 100,
     "motivo_status": "prazo confirmado ate 30/09/2026",
     "aderencia": 67,
@@ -1405,7 +1411,6 @@
     ],
     "publico_alvo": [
       "docente_pesquisador",
-      "pos_graduando",
       "estudante"
     ],
     "alertas_automaticos": [],
@@ -1414,9 +1419,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": null,
     "visto_primeiro": "2026-08-21T11:04:16",
-    "visto_por_ultimo": "2026-09-03T06:25:34",
+    "visto_por_ultimo": "2026-09-04T06:25:12",
     "execucao_primeira": 1,
-    "execucao_ultima": 14,
+    "execucao_ultima": 15,
     "novidade": "inicial"
   },
   "https://euraxess.ec.europa.eu/worldwide/lac/spain-brazil-call-funding-collaborative-research-technological-innovation": {
@@ -1428,12 +1433,12 @@
     "fonte": "EURAXESS LAC — chamadas com conexao Brasil",
     "regiao": "internacional",
     "temas": [
-      "internacional",
       "mobilidade",
-      "bolsas",
+      "internacional",
       "pesquisa",
-      "inovacao",
-      "pos_graduacao"
+      "bolsas",
+      "pos_graduacao",
+      "inovacao"
     ],
     "status": "aberto",
     "pontos": 67,
@@ -1463,7 +1468,7 @@
     "situacao_elegibilidade": "verificar",
     "prazo_final": "2026-10-08",
     "prazo_texto": "08/10/2026",
-    "dias_restantes": 35,
+    "dias_restantes": 34,
     "confianca_prazo": 100,
     "motivo_status": "prazo confirmado ate 08/10/2026",
     "aderencia": 67,
@@ -1477,7 +1482,6 @@
     ],
     "publico_alvo": [
       "docente_pesquisador",
-      "pos_graduando",
       "estudante"
     ],
     "alertas_automaticos": [],
@@ -1486,9 +1490,9 @@
     "detalhe_tipo": "html",
     "ano_edicao": 2027,
     "visto_primeiro": "2026-08-21T11:04:16",
-    "visto_por_ultimo": "2026-09-03T06:25:34",
+    "visto_por_ultimo": "2026-09-04T06:25:12",
     "execucao_primeira": 1,
-    "execucao_ultima": 14,
+    "execucao_ultima": 15,
     "novidade": "inicial"
   },
   "https://euraxess.ec.europa.eu/worldwide/lac/news/argentina-calls-bilateral-research-cooperation-italy-and-germany": {
@@ -1625,7 +1629,7 @@
     "situacao_elegibilidade": "verificar",
     "prazo_final": "2027-12-31",
     "prazo_texto": "31/12/2027",
-    "dias_restantes": 484,
+    "dias_restantes": 483,
     "confianca_prazo": 100,
     "motivo_status": "prazo confirmado ate 31/12/2027",
     "aderencia": 59,
@@ -1646,9 +1650,9 @@
     "detalhe_tipo": "pdf",
     "ano_edicao": null,
     "visto_primeiro": "2026-08-21T08:55:05",
-    "visto_por_ultimo": "2026-09-03T06:25:34",
+    "visto_por_ultimo": "2026-09-04T06:25:12",
     "execucao_primeira": 2,
-    "execucao_ultima": 14,
+    "execucao_ultima": 15,
     "novidade": "conhecido"
   },
   "https://fapes.es.gov.br/Media/fapes/Editais/Chamada%20CONFAP%20-%20WBI%202026.pdf": {
@@ -1681,12 +1685,12 @@
     "fonte": "FAPES — Oportunidades abertas",
     "regiao": "es",
     "temas": [
-      "internacional",
       "mobilidade",
-      "bolsas",
+      "internacional",
       "pesquisa",
-      "inovacao",
-      "pos_graduacao"
+      "bolsas",
+      "pos_graduacao",
+      "inovacao"
     ],
     "status": "aberto",
     "pontos": 64,
@@ -1706,7 +1710,7 @@
     "situacao_elegibilidade": "verificar",
     "prazo_final": "2026-11-30",
     "prazo_texto": "30/11/2026",
-    "dias_restantes": 88,
+    "dias_restantes": 87,
     "confianca_prazo": 100,
     "motivo_status": "prazo confirmado ate 30/11/2026",
     "aderencia": 64,
@@ -1725,9 +1729,9 @@
     "detalhe_tipo": "pdf",
     "ano_edicao": 2026,
     "visto_primeiro": "2026-08-21T08:55:05",
-    "visto_por_ultimo": "2026-09-03T06:25:34",
+    "visto_por_ultimo": "2026-09-04T06:25:12",
     "execucao_primeira": 2,
-    "execucao_ultima": 14,
+    "execucao_ultima": 15,
     "novidade": "conhecido"
   },
   "https://fapes.es.gov.br/Media/fapes/Editais/Edital_Fapes_02-2026-Participação_Evento_Técnico_Científico.pdf": {
@@ -1993,15 +1997,15 @@
     "fonte": "CNPq — Chamadas abertas",
     "regiao": "nacional",
     "temas": [
-      "internacional",
       "mobilidade",
+      "internacional",
+      "pesquisa",
       "bolsas",
       "eventos_e_visitas",
-      "pesquisa",
-      "idiomas",
+      "pos_graduacao",
       "inovacao",
       "extensao",
-      "pos_graduacao"
+      "idiomas"
     ],
     "status": "aberto",
     "pontos": 68,
@@ -2021,7 +2025,7 @@
     "situacao_elegibilidade": "verificar",
     "prazo_final": "2026-09-30",
     "prazo_texto": "30/09/2026",
-    "dias_restantes": 27,
+    "dias_restantes": 26,
     "confianca_prazo": 100,
     "motivo_status": "prazo confirmado ate 30/09/2026",
     "aderencia": 68,
@@ -2043,9 +2047,9 @@
     "detalhe_tipo": "pdf",
     "ano_edicao": 2026,
     "visto_primeiro": "2026-08-21T08:55:05",
-    "visto_por_ultimo": "2026-09-03T06:25:34",
+    "visto_por_ultimo": "2026-09-04T06:25:12",
     "execucao_primeira": 2,
-    "execucao_ultima": 14,
+    "execucao_ultima": 15,
     "novidade": "conhecido"
   },
   "https://euraxess.ec.europa.eu/worldwide/lac/news/argentine-researcher-among-erc-advanced-grants-2025-awardees": {
@@ -2725,5 +2729,133 @@
     "mudancas": [
       "aberto -> verificar (nao localizado)"
     ]
+  },
+  "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-32-2026/ChamadaPblicaANR322026_2766435.pdf": {
+    "titulo": "Chamada Pública MCTI/CNPq/ANR N° 32/2026",
+    "url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-32-2026/ChamadaPblicaANR322026_2766435.pdf",
+    "data_texto": "",
+    "arquivo": "PDF",
+    "anexos": [],
+    "fonte": "CNPq — Chamadas abertas",
+    "regiao": "nacional",
+    "temas": [
+      "mobilidade",
+      "internacional",
+      "pesquisa",
+      "bolsas",
+      "eventos_e_visitas",
+      "inovacao",
+      "extensao",
+      "idiomas"
+    ],
+    "status": "aberto",
+    "pontos": 69,
+    "prioridade": 64.5,
+    "restricoes": [
+      {
+        "programa": "CAPES/Purdue e similares",
+        "exige": "programa de pós-graduação stricto sensu proponente",
+        "impacto": "atencao"
+      }
+    ],
+    "situacao_elegibilidade": "verificar",
+    "prazo_final": "2027-03-31",
+    "prazo_texto": "31/03/2027",
+    "dias_restantes": 208,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 31/03/2027",
+    "aderencia": 69,
+    "eixos": [
+      "cooperacao_pesquisa",
+      "internacionalizacao_institucional"
+    ],
+    "eixos_rotulos": [
+      "Cooperacao internacional em pesquisa",
+      "Parceria / internacionalizacao institucional"
+    ],
+    "publico_alvo": [
+      "docente_pesquisador"
+    ],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Cooperacao internacional em pesquisa / Parceria / internacionalizacao institucional | componente internacional | financiamento/bolsa | prazo 31/03/2027",
+    "detalhe_lido": true,
+    "detalhe_tipo": "pdf",
+    "ano_edicao": 2026,
+    "visto_primeiro": "2026-09-04T06:25:12",
+    "visto_por_ultimo": "2026-09-04T06:25:12",
+    "execucao_primeira": 15,
+    "execucao_ultima": 15,
+    "novidade": "novo"
+  },
+  "https://euraxess.ec.europa.eu/worldwide/lac/news/nine-researchers-lac-awarded-erc-starting-grants-202": {
+    "titulo": "Nine researchers from LAC awarded ERC Starting Grants 202",
+    "url": "https://euraxess.ec.europa.eu/worldwide/lac/news/nine-researchers-lac-awarded-erc-starting-grants-202",
+    "data_texto": "3 Sep 2026",
+    "arquivo": "",
+    "anexos": [],
+    "fonte": "EURAXESS LAC — chamadas com conexao Brasil",
+    "regiao": "internacional",
+    "temas": [
+      "mobilidade",
+      "internacional",
+      "pesquisa",
+      "bolsas",
+      "pos_graduacao",
+      "inovacao"
+    ],
+    "status": "aberto",
+    "pontos": 69,
+    "prioridade": 58.6,
+    "restricoes": [
+      {
+        "programa": "Chamadas transnacionais (Biodiversa+, Water, Economia Azul, ERA)",
+        "exige": "consórcio com parceiros europeus e grupo de pesquisa consolidado",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "Chamadas CONFAP via FAPES (Itália, Bélgica, RAMP)",
+        "exige": "verificar as diretrizes específicas da FAPES, que definem quem pode concorrer no ES",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "CNPq/ERC",
+        "exige": "pesquisador brasileiro doutor em colaboracao cientifica com projeto apoiado pelo ERC; conferir requisitos da chamada vigente",
+        "impacto": "atencao"
+      },
+      {
+        "programa": "Horizon Europe via FAPES",
+        "exige": "consulta previa de elegibilidade a FAPES e participacao em consorcio internacional conforme a chamada Horizon Europe aplicavel",
+        "impacto": "atencao"
+      }
+    ],
+    "situacao_elegibilidade": "verificar",
+    "prazo_final": "2026-10-14",
+    "prazo_texto": "14/10/2026",
+    "dias_restantes": 40,
+    "confianca_prazo": 100,
+    "motivo_status": "prazo confirmado ate 14/10/2026",
+    "aderencia": 69,
+    "eixos": [
+      "cooperacao_pesquisa",
+      "mobilidade_pesquisador_docente"
+    ],
+    "eixos_rotulos": [
+      "Cooperacao internacional em pesquisa",
+      "Mobilidade de docente/pesquisador"
+    ],
+    "publico_alvo": [
+      "docente_pesquisador",
+      "estudante"
+    ],
+    "alertas_automaticos": [],
+    "motivo_relevancia": "Cooperacao internacional em pesquisa / Mobilidade de docente/pesquisador | componente internacional | financiamento/bolsa | prazo 14/10/2026",
+    "detalhe_lido": true,
+    "detalhe_tipo": "html",
+    "ano_edicao": null,
+    "visto_primeiro": "2026-09-04T06:25:12",
+    "visto_por_ultimo": "2026-09-04T06:25:12",
+    "execucao_primeira": 15,
+    "execucao_ultima": 15,
+    "novidade": "novo"
   }
 }
