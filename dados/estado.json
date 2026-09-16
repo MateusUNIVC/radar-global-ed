@@ -1,5 +1,5 @@
 {
-  "execucao": 26,
+  "execucao": 27,
   "execucoes": [
     {
       "numero": 1,
@@ -156,6 +156,12 @@
       "quando": "2026-09-15T11:19:04",
       "novos": 2,
       "total": 48
+    },
+    {
+      "numero": 27,
+      "quando": "2026-09-16T11:10:57",
+      "novos": 2,
+      "total": 50
     }
   ]
 }
