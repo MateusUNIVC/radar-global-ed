@@ -1,12 +1,6 @@
 {
-  "execucao": 38,
+  "execucao": 39,
   "execucoes": [
-    {
-      "numero": 9,
-      "quando": "2026-08-29T06:18:50",
-      "novos": 0,
-      "total": 37
-    },
     {
       "numero": 10,
       "quando": "2026-08-30T06:18:27",
@@ -178,6 +172,12 @@
     {
       "numero": 38,
       "quando": "2026-09-27T11:41:04",
+      "novos": 0,
+      "total": 58
+    },
+    {
+      "numero": 39,
+      "quando": "2026-09-28T14:38:03",
       "novos": 0,
       "total": 58
     }
